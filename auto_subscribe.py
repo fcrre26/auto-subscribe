@@ -10,10 +10,11 @@ def fetch_latest_token():
     print(resp.text)
     print("--- End of GitHub Page Full Content ---")
 
-    # 使用正则表达式查找 "统一为" 后面的字母数字串来提取token
-    # \s* 匹配零个或多个空格
-    # ([a-z0-9]+) 捕获一个或多个小写字母或数字
-    match = re.search(r'统一为\s*([a-z0-9]+)', resp.text)
+    # 尝试使用更宽松的正则表达式查找 "统一为" 后面的至少15个字母数字串
+    # .*? 匹配零个或多个任意字符 (非贪婪)
+    # ([a-z0-9]{15,}) 捕获至少15个小写字母或数字
+    # 这个正则表达式尝试在获取到的页面文本中查找 "统一为" 后面跟着的看起来像 token 的字符串
+    match = re.search(r'统一为.*?([a-z0-9]{15,})', resp.text)
 
     # 如果找到匹配项，则提取捕获组 (即token)
     extracted_token = match.group(1) if match else None
