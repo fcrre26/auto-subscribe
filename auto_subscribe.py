@@ -25,8 +25,10 @@ def fetch_latest_token():
     return extracted_token
 
 # 2. 获取订阅内容
-def fetch_subscribe(token):
-    url = f"https://ohayoo-pm.hf.space/api/v1/subscribe?token={token}&target=clash&list=true"
+# 修改函数，接受一个 list_param 参数来控制 list 的值
+def fetch_subscribe(token, list_param):
+    # 根据 list_param 构建 URL
+    url = f"https://ohayoo-pm.hf.space/api/v1/subscribe?token={token}&target=clash&list={list_param}"
     resp = requests.get(url)
     # 也可以在这里添加打印状态码和响应内容的语句，以便进一步排查
     # print(f"--- Subscribe API Status Code: {resp.status_code} ---")
@@ -40,8 +42,17 @@ if __name__ == "__main__":
     if not token:
         print("No valid token found.")
         exit(1)
-    content = fetch_subscribe(token)
-    # 3. 保存为本地文件（比如 aggregator.yaml）
-    with open("aggregator.yaml", "w", encoding="utf-8") as f:
-        f.write(content)
-    print("Subscribe updated.")
+
+    # 获取 list=true 的内容并保存到 aggregator-true.yaml
+    print("\nFetching subscribe content with list=true...")
+    content_true = fetch_subscribe(token, "true")
+    with open("aggregator-true.yaml", "w", encoding="utf-8") as f:
+        f.write(content_true)
+    print("Subscribe with list=true updated in aggregator-true.yaml.")
+
+    # 获取 list=false 的内容并保存到 aggregator-false.yaml
+    print("\nFetching subscribe content with list=false...")
+    content_false = fetch_subscribe(token, "false")
+    with open("aggregator-false.yaml", "w", encoding="utf-8") as f:
+        f.write(content_false)
+    print("Subscribe with list=false updated in aggregator-false.yaml.")
