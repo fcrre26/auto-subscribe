@@ -10,8 +10,13 @@ def fetch_latest_token():
     print(resp.text)
     print("--- End of GitHub Page Full Content ---")
 
-    match = re.search(r'[a-z0-9]{15,}', resp.text)
-    extracted_token = match.group(0) if match else None
+    # 使用正则表达式查找 "统一为" 后面的字母数字串来提取token
+    # \s* 匹配零个或多个空格
+    # ([a-z0-9]+) 捕获一个或多个小写字母或数字
+    match = re.search(r'统一为\s*([a-z0-9]+)', resp.text)
+
+    # 如果找到匹配项，则提取捕获组 (即token)
+    extracted_token = match.group(1) if match else None
 
     # 新增：打印脚本提取到的 token
     print(f"--- Extracted Token: {extracted_token} ---")
