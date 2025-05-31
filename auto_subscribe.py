@@ -41,7 +41,7 @@ if __name__ == "__main__":
         print("No valid token found.")
         exit(1)
     content = fetch_subscribe(token)
-    # 3. 保存为本地文件（比如 clash.yaml）
-    with open("clash.yaml", "w", encoding="utf-8") as f:
+    # 3. 保存为本地文件（比如 aggregator.yaml）
+    with open("aggregator.yaml", "w", encoding="utf-8") as f:
         f.write(content)
     print("Subscribe updated.")
