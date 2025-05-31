@@ -46,13 +46,13 @@ if __name__ == "__main__":
     # 获取 list=true 的内容并保存到 aggregator-true.yaml
     print("\nFetching subscribe content with list=true...")
     content_true = fetch_subscribe(token, "true")
-    with open("aggregator-true.yaml", "w", encoding="utf-8") as f:
+    with open("aggregatortrue.yaml", "w", encoding="utf-8") as f:
         f.write(content_true)
-    print("Subscribe with list=true updated in aggregator-true.yaml.")
+    print("Subscribe with list=true updated in aggregatortrue.yaml.")
 
     # 获取 list=false 的内容并保存到 aggregator-false.yaml
     print("\nFetching subscribe content with list=false...")
     content_false = fetch_subscribe(token, "false")
-    with open("aggregator-false.yaml", "w", encoding="utf-8") as f:
+    with open("aggregatorfalse.yaml", "w", encoding="utf-8") as f:
         f.write(content_false)
-    print("Subscribe with list=false updated in aggregator-false.yaml.")
+    print("Subscribe with list=false updated in aggregatorfalse.yaml.")
