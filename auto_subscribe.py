@@ -5,6 +5,11 @@ import re
 def fetch_latest_token():
     url = "https://github.com/wzdnzd/aggregator/issues/91"
     resp = requests.get(url)
+    # 打印整个页面内容
+    print("--- GitHub Page Full Content ---")
+    print(resp.text)
+    print("--- End of GitHub Page Full Content ---")
+
     match = re.search(r'[a-z0-9]{15,}', resp.text)
     return match.group(0) if match else None
 
