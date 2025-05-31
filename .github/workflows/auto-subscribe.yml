@@ -2,8 +2,8 @@ name: Auto Subscribe
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
-  workflow_dispatch:
+    - cron: '0 */4 * * *'  # 每4小时自动运行一次
+  workflow_dispatch:        # 支持手动触发
 
 jobs:
   build:
@@ -22,6 +22,10 @@ jobs:
 
       - name: Run auto subscribe script
         run: python auto_subscribe.py
+
+      - name: Set up authentication
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
       - name: Commit and push
         run: |
