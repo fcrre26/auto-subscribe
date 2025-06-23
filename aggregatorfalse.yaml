@@ -6,46 +6,106 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇹🇼 台湾 06, server: tw.xiao666666.site, port: 26900, type: hysteria2, password: b18c5b59-574b-48c0-ac90-8280414908b1, auth: b18c5b59-574b-48c0-ac90-8280414908b1, sni: tw.xiao666666.site, up: 150, down: 150, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国 04, server: de1.vip.edu.kg, port: 443, type: hysteria2, password: b2ff2f25-43d8-4c7b-94ef-df3d3ef01241, auth: b2ff2f25-43d8-4c7b-94ef-df3d3ef01241, skip-cert-verify: false, obfs: salamander, obfs-password: iFtJGgYHs8fWP5mg, udp: true}
-  - {name: 🇺🇸 美国 193, server: 45.147.201.231, port: 23107, type: vmess, uuid: 24ccf89f-3e32-4dce-af30-85c42e10b433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇰🇷 韩国 13, server: ztcloudkr.ztcloud.xyz, port: 18540, type: hysteria2, password: 961994e0-a204-497d-9d64-4fb2202e6f3f, auth: 961994e0-a204-497d-9d64-4fb2202e6f3f, sni: ztcloudkr.ztcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 87, server: 172.67.22.14, port: 80, type: vmess, uuid: e5b0b085-6235-42c4-a608-b1c41c3eee50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q4.19kAla.co}}, udp: true}
-  - {name: 🇸🇬 新加坡 25, server: relay002.xiaoniuyun.cc, port: 53001, type: ss, cipher: chacha20-ietf-poly1305, password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, udp: true}
-  - {name: 🇸🇬 新加坡 04, server: tianmao-zz.legeth.xyz, port: 26104, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWY5MzI2Y2Q3NDM5OTM5Mw==:MjEyNWUxNjQtMWE4OS00OA==, udp: true}
-  - {name: 🇹🇼 台湾 17, server: pop.air.3278.0tk8a3a1q4t94dler.com, port: 2052, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 182039459a34f64238143cd31ddebbc914362.taobao.com}, udp: true}
-  - {name: 🇺🇸 美国 067, server: 45.147.201.231, port: 33079, type: hysteria2, password: 1f928664-d458-4c03-b578-2873371dd10f, auth: 1f928664-d458-4c03-b578-2873371dd10f, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国 159, server: 45.147.201.231, port: 23107, type: vmess, uuid: 6508cf93-c8ef-4dac-992f-a5c062f5c5e6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇻🇳 越南 06, server: 160.250.65.124, port: 34045, type: vless, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, tls: true, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: "e8ab71d0" }, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 日本 12, server: relay002.xiaoniuyun.cc, port: 38029, type: trojan, password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, sni: jp004.xiaoniuyun.cc, udp: true}
-  - {name: 🇳🇱 荷兰 11, server: 104.21.114.48, port: 80, type: vless, uuid: 1f431db3-1918-4e7b-a855-c93485e11694, tls: false, servername: pari.parinazz.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: pari.parinazz.dpdns.org}}, udp: true}
-  - {name: 🇦🇷 阿根廷 01, server: 31.40.212.221, port: 20006, type: ss, cipher: aes-256-gcm, password: YOIL05FKZIUB8TU4, udp: true}
-  - {name: 🇨🇦 加拿大 06, server: v25.heduian.link, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v25.heduian.link}}, udp: true}
-  - {name: 🇰🇷 韩国 07, server: pop.air.1432.0tk8a3a1q4t94dler.com, port: 5052, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 0445dfbd1887ef01316815802200b51e70987.taobao.com}, udp: true}
-  - {name: 🇩🇪 德国 75, server: jiangzhidg.54264944.xyz, port: 43989, type: hysteria2, password: 2409256b-ae2e-4858-90c0-344936ba6344, auth: 2409256b-ae2e-4858-90c0-344936ba6344, sni: jiangzhidg.54264944.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 86, server: ztcloudde.ztcloud.xyz, port: 18550, type: hysteria2, password: 96e55eb7-9a34-468a-af66-1fa6b1c27251, auth: 96e55eb7-9a34-468a-af66-1fa6b1c27251, sni: ztcloudde.ztcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 61, server: iepl.plus.6676.0tk8a3a1q4t94dler.com, port: 20659, type: ss, cipher: aes-256-gcm, password: teLxg65m4v0zQPpSOM, udp: true}
-  - {name: 🇻🇳 越南 02, server: 59.153.217.144, port: 34045, type: vless, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, tls: true, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: "e8ab71d0" }, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇫🇷 法国 06, server: 1af859d1-sydb40-tgzvop-hns7.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, udp: true}
-  - {name: 🇺🇸 美国 102, server: 156.238.18.196, port: 2083, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubdns.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 美国 012, server: 45.147.201.231, port: 33079, type: hysteria2, password: 2cd27953-a204-48a9-a987-2cd1f70eb08c, auth: 2cd27953-a204-48a9-a987-2cd1f70eb08c, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇫🇮 芬兰 04, server: 102.132.188.2, port: 443, type: vmess, uuid: 1eb86cc8-0302-4349-98be-dc621356fdce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: q7.19kAla.co, network: ws, ws-opts: {path: /, headers: {Host: q7.19kAla.co}}, udp: true}
-  - {name: 🇸🇬 新加坡 12, server: 183.36.41.75, port: 33201, type: ss, cipher: chacha20-ietf-poly1305, password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, udp: true}
-  - {name: 🇰🇷 韩国 02, server: 13.125.235.34, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
-  - {name: 🇹🇼 台湾 14, server: iepl.ultra.7683.0tk8a3a1q4t94dler.com, port: 20659, type: ss, cipher: aes-256-gcm, password: teLxg65m4v0zQPpSOM, udp: true}
-  - {name: 🇫🇷 法国 10, server: f85102ab-syf5s0-szvfpn-laev.cm5.cnkuaishou.com, port: 27235, type: trojan, password: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9, udp: true}
-  - {name: 🇨🇦 加拿大 05, server: 129.153.59.124, port: 59303, type: vless, uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: FHm9vc9hi1aK9jz8CqCjhJvT0bxzsD470FvOyubB6EA, short-id: "bbe06294" }, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾 10, server: tw.xiao666666.site, port: 26900, type: hysteria2, password: 492ce977-f4d1-4099-a881-6f20992a1c3c, auth: 492ce977-f4d1-4099-a881-6f20992a1c3c, sni: tw.xiao666666.site, up: 150, down: 150, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 19, server: diwu18.di5ji.lat, port: 26800, type: hysteria2, password: 8d81f06c-d73c-4e39-91f5-6d502500e003, auth: 8d81f06c-d73c-4e39-91f5-6d502500e003, sni: diwu18.di5ji.lat, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 085, server: 45.147.201.231, port: 23107, type: vmess, uuid: 34749201-3631-4749-8531-ce1822549f01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国 112, server: 45.147.201.231, port: 23107, type: vmess, uuid: 816de5ca-ab3a-4c48-a27c-28c963915158, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 日本 34, server: tianmao-zz.legeth.xyz, port: 26102, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWY5MzI2Y2Q3NDM5OTM5Mw==:OTcxZTM2OWQtMWQyNi00OA==, udp: true}
-  - {name: 🇺🇸 美国 042, server: 104.21.68.76, port: 443, type: trojan, password: 2e65577e-8fdb-4bb1-a495-96f3122099a7, sni: zzzZZZZz.222769.XYZ, skip-cert-verify: true, network: ws, ws-opts: {path: /Ws1FkyQlT190JQOSZb9TPR, headers: {Host: zzzZZZZz.222769.XYZ}}, udp: true}
-  - {name: 🇰🇷 韩国 17, server: ztcloudkr.ztcloud.xyz, port: 18540, type: hysteria2, password: c0ed527d-829b-4694-bb7d-eb9bfcfa940a, auth: c0ed527d-829b-4694-bb7d-eb9bfcfa940a, sni: ztcloudkr.ztcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇷 阿根廷 05, server: pop.air.1432.0tk8a3a1q4t94dler.com, port: 4072, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 0445dfbd1887ef01316815802200b51e70987.taobao.com}, udp: true}
-  - {name: 🇳🇱 荷兰 05, server: free.cfdns.online, port: 2096, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: true, alpn: [http%2F1.1], servername: fREE.CFDNs.oNLiNE, client-fingerprint: randomized, network: ws, ws-opts: {path: /LEAHKkh1VHphBTvi, headers: {Host: fREE.CFDNs.oNLiNE}}, udp: true}
-  - {name: 🇬🇧 英国 15, server: hk-pop-1.ac.0tk8a3a1q4t94dler.com, port: 7052, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 0445dfbd1887ef01316815802200b51e70987.taobao.com}, udp: true}
-  - {name: 🇬🇧 英国 10, server: ztcloudgb.ztcloud.xyz, port: 18580, type: hysteria2, password: 02d694fa-0b16-49f3-bbd6-5f4d6c0c6538, auth: 02d694fa-0b16-49f3-bbd6-5f4d6c0c6538, sni: ztcloudgb.ztcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 257, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
+  - {name: 🇳🇱 荷兰 07, server: 172.67.128.105, port: 80, type: vless, uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc, tls: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: di.dibdibini.dpdns.org}}, udp: true}
+  - {name: 🇬🇧 英国 19, server: relay002.xiaoniuyun.cc, port: 20131, type: vless, uuid: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, tls: true, servername: uk001.xiaoniuyun.cc, network: ws, ws-opts: {path: /, headers: {Host: uk001.xiaoniuyun.cc}}, udp: true}
+  - {name: 🇰🇷 韩国家宽 06, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 🇭🇰 香港 05, server: iepl.pro.8775.0tk8a3a1q4t94dler.com, port: 20659, type: ss, cipher: aes-256-gcm, password: teLxg65m4v0zQPpSOM, udp: true}
+  - {name: 🇺🇸 美国 075, server: 104.21.88.226, port: 443, type: trojan, password: 357b1bba-6400-4944-baff-1b933311ff28, sni: XxxxxXXXXXXxXf.wwW890604.Dpdns.orG, alpn: [http%2F1.1], network: ws, ws-opts: {path: /HbjLgzKC7MBYIsgt, headers: {Host: XxxxxXXXXXXxXf.wwW890604.Dpdns.orG}}, udp: true}
+  - {name: 🇮🇳 印度 21, server: in1.vip.edu.kg, port: 443, type: hysteria2, password: a9fdc6d4-3657-4bf8-b515-dd28bbce1886, auth: a9fdc6d4-3657-4bf8-b515-dd28bbce1886, skip-cert-verify: false, obfs: salamander, obfs-password: ML59VrE5sRxb22pS, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 87, server: 45.147.201.231, port: 30076, type: hysteria2, password: 41e346f5-56c8-4786-b11f-6e86462800f2, auth: 41e346f5-56c8-4786-b11f-6e86462800f2, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 146, server: 172.67.138.187, port: 443, type: trojan, password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391, sni: CdVftY.7282728.xYz, skip-cert-verify: true, network: ws, ws-opts: {path: /ptGwaGzcA4KNAXX, headers: {Host: CdVftY.7282728.xYz}}, udp: true}
+  - {name: 🇩🇪 德国 25, server: 172.66.168.210, port: 443, type: vless, uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9, tls: true, alpn: [h2%2Chttp%2F1.1], servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ, client-fingerprint: randomized, network: ws, ws-opts: {path: "/egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560", headers: {Host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ}}, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 37, server: 45.147.201.231, port: 30076, type: hysteria2, password: 5746c072-d9c0-430d-b3da-ca5dff0f0686, auth: 5746c072-d9c0-430d-b3da-ca5dff0f0686, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 73, server: 45.147.201.231, port: 30076, type: hysteria2, password: b62dcd04-f068-445d-80d6-c2cb4043265f, auth: b62dcd04-f068-445d-80d6-c2cb4043265f, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇮🇳 印度 10, server: in1.vip.edu.kg, port: 443, type: hysteria2, password: 469a17b9-f5f3-46ac-aeb1-de60ef7cc0fc, auth: 469a17b9-f5f3-46ac-aeb1-de60ef7cc0fc, skip-cert-verify: false, obfs: salamander, obfs-password: ML59VrE5sRxb22pS, udp: true}
+  - {name: 🇬🇧 英国 20, server: hsyg.huasuan666.top, port: 22156, type: hysteria2, password: 5fc8b420-1547-44ee-9ffe-a07e82c85120, auth: 5fc8b420-1547-44ee-9ffe-a07e82c85120, sni: hsyg.huasuan666.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 176, server: 45.147.201.231, port: 23107, type: vmess, uuid: 69ba7433-4c22-4733-ad19-ae900db60bf9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 284, server: xcvbnnmklo.00890604.xyz, port: 443, type: vless, uuid: a7c9c017-db10-4d15-b01b-0634db498b57, tls: true, alpn: [http/1.1], servername: xCVbNNMklo.00890604.xyZ, client-fingerprint: chrome, network: ws, ws-opts: {path: /xZjr7v1DqrYyamxeTh7sLJtI1, headers: {Host: xcvbnnmklo.00890604.xyz}}, udp: true}
+  - {name: 🇭🇰 香港 31, server: iepl.ultra.1634.0tk8a3a1q4t94dler.com, port: 20659, type: ss, cipher: aes-256-gcm, password: teLxg65m4v0zQPpSOM, udp: true}
+  - {name: 🇯🇵 日本 26, server: ztcloudjp.ztcloud.xyz, port: 18530, type: hysteria2, password: daffbe0c-d2a0-47f3-a634-ae198f9216b8, auth: daffbe0c-d2a0-47f3-a634-ae198f9216b8, sni: ztcloudjp.ztcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 105, server: 45.147.201.231, port: 30076, type: hysteria2, password: 70db5133-b3a7-49e9-bb67-1f7ec1118817, auth: 70db5133-b3a7-49e9-bb67-1f7ec1118817, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 029, server: us1.vip.edu.kg, port: 443, type: hysteria2, password: 5249bd3c-25fb-4e96-a557-5fe2e93f8e2d, auth: 5249bd3c-25fb-4e96-a557-5fe2e93f8e2d, skip-cert-verify: false, obfs: salamander, obfs-password: yw3WPVnZYdiqCT1n, udp: true}
+  - {name: 🇰🇷 韩国 28, server: tianmao-zz.legeth.xyz, port: 26103, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWY5MzI2Y2Q3NDM5OTM5Mw==:NTJiMjc5YjAtMjllMS00ZQ==, udp: true}
+  - {name: 🔔 关注https://github.com/wzdnzd不迷路 01, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
+  - {name: 🇷🇺 俄罗斯联邦 52, server: 45.147.201.231, port: 20065, type: vmess, uuid: ce0886f0-4e22-4e6f-892c-9607613ebb89, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 日本 57, server: wb.kaiqsz.com, port: 49921, type: trojan, password: a25ed269-105b-4f15-bee2-bc2785d38912, sni: wb.kaiqsz.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 296, server: 45.147.201.231, port: 22069, type: vmess, uuid: a0934f30-5acf-4255-a9ec-decf758a5273, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 日本 02, server: diwu18.di5ji.lat, port: 26800, type: hysteria2, password: 6d379500-bf16-452f-b00e-70090809f383, auth: 6d379500-bf16-452f-b00e-70090809f383, sni: diwu18.di5ji.lat, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 110, server: 104.21.16.1, port: 443, type: trojan, password: e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c, sni: ttYUi.7777198.xYZ, alpn: [http%2F1.1], skip-cert-verify: true, network: ws, ws-opts: {path: /s1XRkMWuneQkqtp5KKSues, headers: {Host: ttYUi.7777198.xYZ}}, udp: true}
+  - {name: 🇧🇷 巴西 02, server: 42.240.152.238, port: 8842, type: trojan, password: 1b4c16925f934c57b954a9f0f23dea33, sni: brwx.spvpv.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 17, server: ztcloudgb.ztcloud.xyz, port: 18580, type: hysteria2, password: 5ce83070-e344-49fb-bb69-cd39ea51325d, auth: 5ce83070-e344-49fb-bb69-cd39ea51325d, sni: ztcloudgb.ztcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 81, server: 45.147.201.231, port: 31007, type: hysteria2, password: 4f450011-b6b8-41dd-a8f1-5cca6d5f6dfb, auth: 4f450011-b6b8-41dd-a8f1-5cca6d5f6dfb, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 211, server: iiiiop0.444752.xyz, port: 443, type: trojan, password: 0f7070cd-c91d-4532-a51f-56da4f0e94be, sni: iiiiop0.444752.xyz, alpn: [http/1.1], skip-cert-verify: false, network: ws, ws-opts: {path: /ctHoQlqeZn8pbEUSLppj7jCmY, headers: {Host: iiiiop0.444752.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 264, server: 45.147.201.231, port: 33079, type: hysteria2, password: fbe86511-2bf9-4b61-b27d-640bb6e2e92b, auth: fbe86511-2bf9-4b61-b27d-640bb6e2e92b, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 10, server: hsfg.huasuan666.top, port: 22158, type: hysteria2, password: ba0efe44-c571-4dae-a5e8-adc81acd5055, auth: ba0efe44-c571-4dae-a5e8-adc81acd5055, sni: hsfg.huasuan666.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 044, server: 45.147.201.231, port: 23107, type: vmess, uuid: 05b968bc-bab2-4282-bd52-09422a5b4e0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港 27, server: 111.45.33.5, port: 30017, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
+  - {name: 🇳🇱 荷兰 31, server: 109.104.154.131, port: 20000, type: ss, cipher: aes-256-gcm, password: 5WQDGCD9YN9UNX72, udp: true}
+  - {name: 🇺🇸 美国 162, server: 45.147.201.231, port: 23107, type: vmess, uuid: 9483ca67-6c69-4b03-8daa-4cbde18cb926, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 新加坡 01, server: jiangzhixjp.54264944.xyz, port: 33999, type: hysteria2, password: af80749e-9283-48b6-be14-6fd6a20b1bcc, auth: af80749e-9283-48b6-be14-6fd6a20b1bcc, sni: jiangzhixjp.54264944.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 231, server: 45.147.201.231, port: 23107, type: vmess, uuid: b689430e-450e-4823-8e88-1af8f3729324, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国家宽 01, server: relay001.xiaoniuyun.cc, port: 38011, type: trojan, password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, sni: us003.xiaoniuyun.cc, udp: true}
+  - {name: 🇯🇵 日本 09, server: ztcloudjp.ztcloud.xyz, port: 18530, type: hysteria2, password: ecff3f29-8f7a-45a9-a5fe-ce49210de15d, auth: ecff3f29-8f7a-45a9-a5fe-ce49210de15d, sni: ztcloudjp.ztcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 70, server: diwu94.di5ji.lat, port: 26900, type: hysteria2, password: b2c1fa85-7dcf-40dd-bec7-87140bd06d2d, auth: b2c1fa85-7dcf-40dd-bec7-87140bd06d2d, sni: diwu94.di5ji.lat, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 49, server: pop.air.1432.0tk8a3a1q4t94dler.com, port: 7052, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 0445dfbd1887ef01316815802200b51e70987.taobao.com}, udp: true}
+  - {name: 🇺🇸 美国 153, server: 64.181.193.89, port: 30158, type: vless, uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: n7Ptb-3f4pw0D-hG-UP8Dp5Gf8J8Uxn029JMwdTyEFc, short-id: "ee9e2505" }, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 12, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇪 阿联酋 03, server: 120.198.71.135, port: 46924, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 51, server: 45.147.201.231, port: 30076, type: hysteria2, password: 85e11295-c8d5-4d39-8486-3af0e31241a0, auth: 85e11295-c8d5-4d39-8486-3af0e31241a0, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 156, server: 45.147.201.231, port: 33079, type: hysteria2, password: 41e346f5-56c8-4786-b11f-6e86462800f2, auth: 41e346f5-56c8-4786-b11f-6e86462800f2, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇨🇦 加拿大 12, server: 104.21.16.1, port: 443, type: trojan, password: 288124da-0d68-42f4-9f48-70dc4dcc55a6, sni: eEEDFRT567u.890614.XYZ, alpn: [http%2F1.1], skip-cert-verify: true, network: ws, ws-opts: {path: /raChT39pjLFYRA5HdHEIupMZeK, headers: {Host: eEEDFRT567u.890614.XYZ}}, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 25, server: 45.147.201.231, port: 31007, type: hysteria2, password: 09e5ddb6-c5e6-4aab-8960-998dbad691e2, auth: 09e5ddb6-c5e6-4aab-8960-998dbad691e2, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 79, server: jiangzhidg.54264944.xyz, port: 43989, type: hysteria2, password: d95750f9-bc4e-4406-8438-a35baced97cd, auth: d95750f9-bc4e-4406-8438-a35baced97cd, sni: jiangzhidg.54264944.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 52, server: ztcloudjp.ztcloud.xyz, port: 18530, type: hysteria2, password: 74f8f377-a481-4da5-a798-41d737ce7b28, auth: 74f8f377-a481-4da5-a798-41d737ce7b28, sni: ztcloudjp.ztcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 107, server: 45.147.201.231, port: 22069, type: vmess, uuid: d222115e-de12-4a69-949a-7009f617c587, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 130, server: us3655.aeccssssss.xyz, port: 6398, type: hysteria2, password: 0991bb00-5a25-4c42-8205-153787512b5b, auth: 0991bb00-5a25-4c42-8205-153787512b5b, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
+  - {name: 🇺🇸 美国 289, server: 45.147.201.231, port: 33079, type: hysteria2, password: 2b708f0c-3f6b-4ecd-a032-24e6bf1cf015, auth: 2b708f0c-3f6b-4ecd-a032-24e6bf1cf015, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 51, server: 162.159.133.85, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubdns.dpdns.org}}, udp: true}
+  - {name: 🇬🇧 英国 01, server: gb1.vip.edu.kg, port: 443, type: hysteria2, password: 3d0056b6-998d-49d8-80e2-d1ed8443d9c2, auth: 3d0056b6-998d-49d8-80e2-d1ed8443d9c2, skip-cert-verify: false, obfs: salamander, obfs-password: uEpX5JRpjcSyUrjR, udp: true}
+  - {name: 🇸🇬 新加坡 38, server: iepl.ultra.6981.0tk8a3a1q4t94dler.com, port: 20659, type: ss, cipher: aes-256-gcm, password: teLxg65m4v0zQPpSOM, udp: true}
+  - {name: 🇸🇬 新加坡 03, server: sg2-b2.oraclenat.cc, port: 13145, type: vless, uuid: 65f3443e-4056-4b51-8203-efd6a33aeafa, tls: false, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 068, server: 103.160.204.59, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubdns.dpdns.org}}, udp: true}
+  - {name: 🇺🇸 美国 136, server: 36.151.251.62, port: 23770, type: trojan, password: VdWBGFmg, sni: TG.WangCai2, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 230, server: 104.21.32.242, port: 443, type: trojan, password: 4b33b482-25bc-49e4-b866-878c914d945a, sni: xXxXxxx.890604.dPDNs.org, alpn: [http%2F1.1], skip-cert-verify: true, network: ws, ws-opts: {path: /kzefUfBUzMsQY6zyyQCjn8kmnN0ehd, headers: {Host: xXxXxxx.890604.dPDNs.org}}, udp: true}
+  - {name: 🇰🇷 韩国 09, server: ztcloudkr.ztcloud.xyz, port: 18540, type: hysteria2, password: c8330a7d-140a-4e11-a958-29b9304c6c93, auth: c8330a7d-140a-4e11-a958-29b9304c6c93, sni: ztcloudkr.ztcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 33, server: 120.241.158.59, port: 41117, type: ss, cipher: chacha20-ietf-poly1305, password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, udp: true}
+  - {name: 🇮🇳 印度 26, server: pop.air.1432.0tk8a3a1q4t94dler.com, port: 4062, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 0445dfbd1887ef01316815802200b51e70987.taobao.com}, udp: true}
+  - {name: 🇩🇪 德国 56, server: jiangzhidg.54264944.xyz, port: 43989, type: hysteria2, password: af80749e-9283-48b6-be14-6fd6a20b1bcc, auth: af80749e-9283-48b6-be14-6fd6a20b1bcc, sni: jiangzhidg.54264944.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 069, server: 104.21.22.211, port: 443, type: trojan, password: 5a5d1112-4ae7-431f-bdde-0d008fb473dd, sni: 90.tAIpEI108.dpDnS.orG, alpn: [http%2F1.1], skip-cert-verify: true, network: ws, ws-opts: {path: /685uFbiRrgAsHzTP8d, headers: {Host: 90.tAIpEI108.dpDnS.orG}}, udp: true}
+  - {name: 🇺🇸 美国 138, server: 45.147.201.231, port: 23107, type: vmess, uuid: 040aa18b-c663-44c4-be10-5ad5428fbfa9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇩🇪 德国 90, server: de1.vip.edu.kg, port: 443, type: hysteria2, password: a5c08fc2-425a-44f4-9d5c-9b59540f204a, auth: a5c08fc2-425a-44f4-9d5c-9b59540f204a, skip-cert-verify: false, obfs: salamander, obfs-password: iFtJGgYHs8fWP5mg, udp: true}
+  - {name: 🇺🇸 美国 237, server: 45.147.201.231, port: 33079, type: hysteria2, password: 54acd506-b44a-483c-8cdc-fc460da42c9f, auth: 54acd506-b44a-483c-8cdc-fc460da42c9f, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇰🇷 韩国 11, server: 120.233.44.201, port: 21003, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k15.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 23, server: diwu18.di5ji.lat, port: 26800, type: hysteria2, password: 63bcccf7-9c85-4619-b5a6-df69f3e5c216, auth: 63bcccf7-9c85-4619-b5a6-df69f3e5c216, sni: diwu18.di5ji.lat, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 308, server: by.xiaoqi666.xyz, port: 443, type: hysteria2, password: 64049fa0-0018-427c-9062-6eba2df3df35, auth: 64049fa0-0018-427c-9062-6eba2df3df35, sni: by.xiaoqi666.xyz, up: 150, down: 150, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 05, server: 45.147.201.231, port: 30076, type: hysteria2, password: 3bf7da8c-9b56-4758-8e58-108c7ea1547c, auth: 3bf7da8c-9b56-4758-8e58-108c7ea1547c, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 16, server: ztcloudde.ztcloud.xyz, port: 18550, type: hysteria2, password: daffbe0c-d2a0-47f3-a634-ae198f9216b8, auth: daffbe0c-d2a0-47f3-a634-ae198f9216b8, sni: ztcloudde.ztcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 04, server: 383dc598-symkg0-szvj4s-4lg6.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇫🇷 法国 02, server: pop.air.1432.0tk8a3a1q4t94dler.com, port: 7062, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 0445dfbd1887ef01316815802200b51e70987.taobao.com}, udp: true}
+  - {name: 🇻🇳 越南 05, server: 160.250.65.132, port: 34045, type: vless, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, tls: true, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: "e8ab71d0" }, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 304, server: 172.67.149.239, port: 443, type: vless, uuid: 3ed60fc0-f13d-490a-a244-c827a8a8b1e5, tls: true, alpn: [http%2F1.1], servername: WwwWWwS.4444926.xyZ, client-fingerprint: chrome, network: ws, ws-opts: {path: /j4Wxk3KUHJho91NIJLrX, headers: {Host: WwwWWwS.4444926.xyZ}}, udp: true}
+  - {name: 🇸🇪 瑞典 01, server: 185.186.78.220, port: 20035, type: ss, cipher: aes-256-gcm, password: I0N0GFMPQ9PBB5XA, udp: true}
+  - {name: 🇺🇸 美国 199, server: 104.16.21.197, port: 443, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: true, servername: yg.bantony199.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: yg.bantony199.top}}, udp: true}
+  - {name: 🇺🇸 美国 108, server: us1.vip.edu.kg, port: 443, type: hysteria2, password: 4f462a24-b3cb-4f8e-b6b7-1d3373f6955f, auth: 4f462a24-b3cb-4f8e-b6b7-1d3373f6955f, skip-cert-verify: false, obfs: salamander, obfs-password: yw3WPVnZYdiqCT1n, udp: true}
+  - {name: 🇩🇪 德国 47, server: de1.vip.edu.kg, port: 443, type: hysteria2, password: 8f77fc40-0408-47ba-80f5-232b5d71715d, auth: 8f77fc40-0408-47ba-80f5-232b5d71715d, skip-cert-verify: false, obfs: salamander, obfs-password: iFtJGgYHs8fWP5mg, udp: true}
+  - {name: 🇻🇳 越南 08, server: 59.153.217.57, port: 34045, type: vless, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, tls: true, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: "e8ab71d0" }, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇮🇳 印度 09, server: in1.vip.edu.kg, port: 443, type: hysteria2, password: 4f462a24-b3cb-4f8e-b6b7-1d3373f6955f, auth: 4f462a24-b3cb-4f8e-b6b7-1d3373f6955f, skip-cert-verify: false, obfs: salamander, obfs-password: ML59VrE5sRxb22pS, udp: true}
+  - {name: 🇺🇸 美国 081, server: 45.147.201.231, port: 33079, type: hysteria2, password: e92108cd-9dfb-480b-9534-b0c84f896526, auth: e92108cd-9dfb-480b-9534-b0c84f896526, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 15, server: 45.147.201.231, port: 20065, type: vmess, uuid: 0175fc3c-7c4c-420a-8e07-af7d2106547f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇳🇱 荷兰 25, server: 51.159.226.1, port: 50066, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, up: 100 Mbps, down: 100 Mbps, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 220, server: 45.147.201.231, port: 33079, type: hysteria2, password: d1037421-3977-4cae-8462-0c7d22745e84, auth: d1037421-3977-4cae-8462-0c7d22745e84, up: 10, down: 10, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇻🇳 越南 03, server: 59.153.218.59, port: 34045, type: vless, uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a, tls: true, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA, short-id: "e8ab71d0" }, servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 092, server: 104.21.65.31, port: 443, type: vless, uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be, tls: true, alpn: [http/1.1], servername: SssXzAw.444652.XYZ, client-fingerprint: chrome, network: ws, ws-opts: {path: /nSABZLQbEUSLppj7jCmY, headers: {Host: SssXzAw.444652.XYZ}}, udp: true}
+  - {name: 🇩🇪 德国 31, server: gz.pddwdf.store, port: 22455, type: ss, cipher: chacha20-ietf-poly1305, password: 85aa21f5-8504-4664-9fbb-246202d30588, udp: true}
+  - {name: 🇩🇪 德国 66, server: diwu94.di5ji.lat, port: 26900, type: hysteria2, password: fbeeb445-ea8e-4519-8b0e-edb67ff75ad4, auth: fbeeb445-ea8e-4519-8b0e-edb67ff75ad4, sni: diwu94.di5ji.lat, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 043, server: by.xiaoqi666.xyz, port: 443, type: hysteria2, password: b4c10020-a87f-4808-b8f4-9a25b651ce56, auth: b4c10020-a87f-4808-b8f4-9a25b651ce56, sni: by.xiaoqi666.xyz, up: 150, down: 150, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度 20, server: in1.vip.edu.kg, port: 443, type: hysteria2, password: 27b9ee26-0843-4a77-9a0f-451f7a3ed54e, auth: 27b9ee26-0843-4a77-9a0f-451f7a3ed54e, skip-cert-verify: false, obfs: salamander, obfs-password: ML59VrE5sRxb22pS, udp: true}
+  - {name: 🇯🇵 日本 33, server: diwu18.di5ji.lat, port: 26800, type: hysteria2, password: 21d9b6a9-bd15-4ed6-ae3b-07f45e20b8ff, auth: 21d9b6a9-bd15-4ed6-ae3b-07f45e20b8ff, sni: diwu18.di5ji.lat, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 55, server: 45.147.201.231, port: 30076, type: hysteria2, password: 22821161-c520-4419-bd8a-fa68f2573587, auth: 22821161-c520-4419-bd8a-fa68f2573587, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 75, server: 45.147.201.231, port: 30076, type: hysteria2, password: 6508cf93-c8ef-4dac-992f-a5c062f5c5e6, auth: 6508cf93-c8ef-4dac-992f-a5c062f5c5e6, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇸🇬 新加坡 32, server: relay001.xiaoniuyun.cc, port: 53002, type: ss, cipher: chacha20-ietf-poly1305, password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, udp: true}
+  - {name: 🇺🇸 美国 175, server: 104.16.100.188, port: 80, type: vless, uuid: 148709e4-402b-48dd-8892-ed39b55ea45c, tls: false, servername: entezar.loseyourself.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: entezar.loseyourself.dpdns.org}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -53,92 +113,212 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇹🇼 台湾 06
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 193
-      - 🇰🇷 韩国 13
-      - 🇩🇪 德国 87
-      - 🇸🇬 新加坡 25
-      - 🇸🇬 新加坡 04
-      - 🇹🇼 台湾 17
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 159
-      - 🇻🇳 越南 06
-      - 🇯🇵 日本 12
-      - 🇳🇱 荷兰 11
-      - 🇦🇷 阿根廷 01
-      - 🇨🇦 加拿大 06
-      - 🇰🇷 韩国 07
-      - 🇩🇪 德国 75
-      - 🇩🇪 德国 86
-      - 🇯🇵 日本 61
-      - 🇻🇳 越南 02
-      - 🇫🇷 法国 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 012
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 12
-      - 🇰🇷 韩国 02
-      - 🇹🇼 台湾 14
-      - 🇫🇷 法国 10
-      - 🇨🇦 加拿大 05
-      - 🇹🇼 台湾 10
-      - 🇯🇵 日本 19
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 112
-      - 🇯🇵 日本 34
-      - 🇺🇸 美国 042
-      - 🇰🇷 韩国 17
-      - 🇦🇷 阿根廷 05
-      - 🇳🇱 荷兰 05
-      - 🇬🇧 英国 15
-      - 🇬🇧 英国 10
+      - 🇺🇸 美国 257
+      - 🇳🇱 荷兰 07
+      - 🇬🇧 英国 19
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港 05
+      - 🇺🇸 美国 075
+      - 🇮🇳 印度 21
+      - 🇷🇺 俄罗斯联邦 87
+      - 🇺🇸 美国 146
+      - 🇩🇪 德国 25
+      - 🇷🇺 俄罗斯联邦 37
+      - 🇷🇺 俄罗斯联邦 73
+      - 🇮🇳 印度 10
+      - 🇬🇧 英国 20
+      - 🇺🇸 美国 176
+      - 🇺🇸 美国 284
+      - 🇭🇰 香港 31
+      - 🇯🇵 日本 26
+      - 🇺🇸 美国 105
+      - 🇺🇸 美国 029
+      - 🇰🇷 韩国 28
+      - 🔔 关注https://github.com/wzdnzd不迷路 01
+      - 🇷🇺 俄罗斯联邦 52
+      - 🇯🇵 日本 57
+      - 🇺🇸 美国 296
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 110
+      - 🇧🇷 巴西 02
+      - 🇬🇧 英国 17
+      - 🇷🇺 俄罗斯联邦 81
+      - 🇺🇸 美国 211
+      - 🇺🇸 美国 264
+      - 🇩🇪 德国 10
+      - 🇺🇸 美国 044
+      - 🇭🇰 香港 27
+      - 🇳🇱 荷兰 31
+      - 🇺🇸 美国 162
+      - 🇸🇬 新加坡 01
+      - 🇺🇸 美国 231
+      - 🇺🇸 美国家宽 01
+      - 🇯🇵 日本 09
+      - 🇩🇪 德国 70
+      - 🇩🇪 德国 49
+      - 🇺🇸 美国 153
+      - 🇭🇰 香港 12
+      - 🇦🇪 阿联酋 03
+      - 🇷🇺 俄罗斯联邦 51
+      - 🇺🇸 美国 156
+      - 🇨🇦 加拿大 12
+      - 🇷🇺 俄罗斯联邦 25
+      - 🇩🇪 德国 79
+      - 🇯🇵 日本 52
+      - 🇺🇸 美国 107
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 289
+      - 🇩🇪 德国 51
+      - 🇬🇧 英国 01
+      - 🇸🇬 新加坡 38
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 136
+      - 🇺🇸 美国 230
+      - 🇰🇷 韩国 09
+      - 🇭🇰 香港 33
+      - 🇮🇳 印度 26
+      - 🇩🇪 德国 56
+      - 🇺🇸 美国 069
+      - 🇺🇸 美国 138
+      - 🇩🇪 德国 90
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 11
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 308
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇩🇪 德国 16
+      - 🇭🇰 香港家宽 04
+      - 🇫🇷 法国 02
+      - 🇻🇳 越南 05
+      - 🇺🇸 美国 304
+      - 🇸🇪 瑞典 01
+      - 🇺🇸 美国 199
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 47
+      - 🇻🇳 越南 08
+      - 🇮🇳 印度 09
+      - 🇺🇸 美国 081
+      - 🇷🇺 俄罗斯联邦 15
+      - 🇳🇱 荷兰 25
+      - 🇺🇸 美国 220
+      - 🇻🇳 越南 03
+      - 🇺🇸 美国 092
+      - 🇩🇪 德国 31
+      - 🇩🇪 德国 66
+      - 🇺🇸 美国 043
+      - 🇮🇳 印度 20
+      - 🇯🇵 日本 33
+      - 🇷🇺 俄罗斯联邦 55
+      - 🇷🇺 俄罗斯联邦 75
+      - 🇸🇬 新加坡 32
+      - 🇺🇸 美国 175
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇹🇼 台湾 06
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 193
-      - 🇰🇷 韩国 13
-      - 🇩🇪 德国 87
-      - 🇸🇬 新加坡 25
-      - 🇸🇬 新加坡 04
-      - 🇹🇼 台湾 17
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 159
-      - 🇻🇳 越南 06
-      - 🇯🇵 日本 12
-      - 🇳🇱 荷兰 11
-      - 🇦🇷 阿根廷 01
-      - 🇨🇦 加拿大 06
-      - 🇰🇷 韩国 07
-      - 🇩🇪 德国 75
-      - 🇩🇪 德国 86
-      - 🇯🇵 日本 61
-      - 🇻🇳 越南 02
-      - 🇫🇷 法国 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 012
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 12
-      - 🇰🇷 韩国 02
-      - 🇹🇼 台湾 14
-      - 🇫🇷 法国 10
-      - 🇨🇦 加拿大 05
-      - 🇹🇼 台湾 10
-      - 🇯🇵 日本 19
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 112
-      - 🇯🇵 日本 34
-      - 🇺🇸 美国 042
-      - 🇰🇷 韩国 17
-      - 🇦🇷 阿根廷 05
-      - 🇳🇱 荷兰 05
-      - 🇬🇧 英国 15
-      - 🇬🇧 英国 10
+      - 🇺🇸 美国 257
+      - 🇳🇱 荷兰 07
+      - 🇬🇧 英国 19
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港 05
+      - 🇺🇸 美国 075
+      - 🇮🇳 印度 21
+      - 🇷🇺 俄罗斯联邦 87
+      - 🇺🇸 美国 146
+      - 🇩🇪 德国 25
+      - 🇷🇺 俄罗斯联邦 37
+      - 🇷🇺 俄罗斯联邦 73
+      - 🇮🇳 印度 10
+      - 🇬🇧 英国 20
+      - 🇺🇸 美国 176
+      - 🇺🇸 美国 284
+      - 🇭🇰 香港 31
+      - 🇯🇵 日本 26
+      - 🇺🇸 美国 105
+      - 🇺🇸 美国 029
+      - 🇰🇷 韩国 28
+      - 🔔 关注https://github.com/wzdnzd不迷路 01
+      - 🇷🇺 俄罗斯联邦 52
+      - 🇯🇵 日本 57
+      - 🇺🇸 美国 296
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 110
+      - 🇧🇷 巴西 02
+      - 🇬🇧 英国 17
+      - 🇷🇺 俄罗斯联邦 81
+      - 🇺🇸 美国 211
+      - 🇺🇸 美国 264
+      - 🇩🇪 德国 10
+      - 🇺🇸 美国 044
+      - 🇭🇰 香港 27
+      - 🇳🇱 荷兰 31
+      - 🇺🇸 美国 162
+      - 🇸🇬 新加坡 01
+      - 🇺🇸 美国 231
+      - 🇺🇸 美国家宽 01
+      - 🇯🇵 日本 09
+      - 🇩🇪 德国 70
+      - 🇩🇪 德国 49
+      - 🇺🇸 美国 153
+      - 🇭🇰 香港 12
+      - 🇦🇪 阿联酋 03
+      - 🇷🇺 俄罗斯联邦 51
+      - 🇺🇸 美国 156
+      - 🇨🇦 加拿大 12
+      - 🇷🇺 俄罗斯联邦 25
+      - 🇩🇪 德国 79
+      - 🇯🇵 日本 52
+      - 🇺🇸 美国 107
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 289
+      - 🇩🇪 德国 51
+      - 🇬🇧 英国 01
+      - 🇸🇬 新加坡 38
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 136
+      - 🇺🇸 美国 230
+      - 🇰🇷 韩国 09
+      - 🇭🇰 香港 33
+      - 🇮🇳 印度 26
+      - 🇩🇪 德国 56
+      - 🇺🇸 美国 069
+      - 🇺🇸 美国 138
+      - 🇩🇪 德国 90
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 11
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 308
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇩🇪 德国 16
+      - 🇭🇰 香港家宽 04
+      - 🇫🇷 法国 02
+      - 🇻🇳 越南 05
+      - 🇺🇸 美国 304
+      - 🇸🇪 瑞典 01
+      - 🇺🇸 美国 199
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 47
+      - 🇻🇳 越南 08
+      - 🇮🇳 印度 09
+      - 🇺🇸 美国 081
+      - 🇷🇺 俄罗斯联邦 15
+      - 🇳🇱 荷兰 25
+      - 🇺🇸 美国 220
+      - 🇻🇳 越南 03
+      - 🇺🇸 美国 092
+      - 🇩🇪 德国 31
+      - 🇩🇪 德国 66
+      - 🇺🇸 美国 043
+      - 🇮🇳 印度 20
+      - 🇯🇵 日本 33
+      - 🇷🇺 俄罗斯联邦 55
+      - 🇷🇺 俄罗斯联邦 75
+      - 🇸🇬 新加坡 32
+      - 🇺🇸 美国 175
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -146,46 +326,106 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇹🇼 台湾 06
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 193
-      - 🇰🇷 韩国 13
-      - 🇩🇪 德国 87
-      - 🇸🇬 新加坡 25
-      - 🇸🇬 新加坡 04
-      - 🇹🇼 台湾 17
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 159
-      - 🇻🇳 越南 06
-      - 🇯🇵 日本 12
-      - 🇳🇱 荷兰 11
-      - 🇦🇷 阿根廷 01
-      - 🇨🇦 加拿大 06
-      - 🇰🇷 韩国 07
-      - 🇩🇪 德国 75
-      - 🇩🇪 德国 86
-      - 🇯🇵 日本 61
-      - 🇻🇳 越南 02
-      - 🇫🇷 法国 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 012
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 12
-      - 🇰🇷 韩国 02
-      - 🇹🇼 台湾 14
-      - 🇫🇷 法国 10
-      - 🇨🇦 加拿大 05
-      - 🇹🇼 台湾 10
-      - 🇯🇵 日本 19
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 112
-      - 🇯🇵 日本 34
-      - 🇺🇸 美国 042
-      - 🇰🇷 韩国 17
-      - 🇦🇷 阿根廷 05
-      - 🇳🇱 荷兰 05
-      - 🇬🇧 英国 15
-      - 🇬🇧 英国 10
+      - 🇺🇸 美国 257
+      - 🇳🇱 荷兰 07
+      - 🇬🇧 英国 19
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港 05
+      - 🇺🇸 美国 075
+      - 🇮🇳 印度 21
+      - 🇷🇺 俄罗斯联邦 87
+      - 🇺🇸 美国 146
+      - 🇩🇪 德国 25
+      - 🇷🇺 俄罗斯联邦 37
+      - 🇷🇺 俄罗斯联邦 73
+      - 🇮🇳 印度 10
+      - 🇬🇧 英国 20
+      - 🇺🇸 美国 176
+      - 🇺🇸 美国 284
+      - 🇭🇰 香港 31
+      - 🇯🇵 日本 26
+      - 🇺🇸 美国 105
+      - 🇺🇸 美国 029
+      - 🇰🇷 韩国 28
+      - 🔔 关注https://github.com/wzdnzd不迷路 01
+      - 🇷🇺 俄罗斯联邦 52
+      - 🇯🇵 日本 57
+      - 🇺🇸 美国 296
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 110
+      - 🇧🇷 巴西 02
+      - 🇬🇧 英国 17
+      - 🇷🇺 俄罗斯联邦 81
+      - 🇺🇸 美国 211
+      - 🇺🇸 美国 264
+      - 🇩🇪 德国 10
+      - 🇺🇸 美国 044
+      - 🇭🇰 香港 27
+      - 🇳🇱 荷兰 31
+      - 🇺🇸 美国 162
+      - 🇸🇬 新加坡 01
+      - 🇺🇸 美国 231
+      - 🇺🇸 美国家宽 01
+      - 🇯🇵 日本 09
+      - 🇩🇪 德国 70
+      - 🇩🇪 德国 49
+      - 🇺🇸 美国 153
+      - 🇭🇰 香港 12
+      - 🇦🇪 阿联酋 03
+      - 🇷🇺 俄罗斯联邦 51
+      - 🇺🇸 美国 156
+      - 🇨🇦 加拿大 12
+      - 🇷🇺 俄罗斯联邦 25
+      - 🇩🇪 德国 79
+      - 🇯🇵 日本 52
+      - 🇺🇸 美国 107
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 289
+      - 🇩🇪 德国 51
+      - 🇬🇧 英国 01
+      - 🇸🇬 新加坡 38
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 136
+      - 🇺🇸 美国 230
+      - 🇰🇷 韩国 09
+      - 🇭🇰 香港 33
+      - 🇮🇳 印度 26
+      - 🇩🇪 德国 56
+      - 🇺🇸 美国 069
+      - 🇺🇸 美国 138
+      - 🇩🇪 德国 90
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 11
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 308
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇩🇪 德国 16
+      - 🇭🇰 香港家宽 04
+      - 🇫🇷 法国 02
+      - 🇻🇳 越南 05
+      - 🇺🇸 美国 304
+      - 🇸🇪 瑞典 01
+      - 🇺🇸 美国 199
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 47
+      - 🇻🇳 越南 08
+      - 🇮🇳 印度 09
+      - 🇺🇸 美国 081
+      - 🇷🇺 俄罗斯联邦 15
+      - 🇳🇱 荷兰 25
+      - 🇺🇸 美国 220
+      - 🇻🇳 越南 03
+      - 🇺🇸 美国 092
+      - 🇩🇪 德国 31
+      - 🇩🇪 德国 66
+      - 🇺🇸 美国 043
+      - 🇮🇳 印度 20
+      - 🇯🇵 日本 33
+      - 🇷🇺 俄罗斯联邦 55
+      - 🇷🇺 俄罗斯联邦 75
+      - 🇸🇬 新加坡 32
+      - 🇺🇸 美国 175
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -205,54 +445,116 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇹🇼 台湾 06
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 193
-      - 🇰🇷 韩国 13
-      - 🇩🇪 德国 87
-      - 🇸🇬 新加坡 25
-      - 🇸🇬 新加坡 04
-      - 🇹🇼 台湾 17
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 159
-      - 🇻🇳 越南 06
-      - 🇯🇵 日本 12
-      - 🇳🇱 荷兰 11
-      - 🇦🇷 阿根廷 01
-      - 🇨🇦 加拿大 06
-      - 🇰🇷 韩国 07
-      - 🇩🇪 德国 75
-      - 🇩🇪 德国 86
-      - 🇯🇵 日本 61
-      - 🇻🇳 越南 02
-      - 🇫🇷 法国 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 012
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 12
-      - 🇰🇷 韩国 02
-      - 🇹🇼 台湾 14
-      - 🇫🇷 法国 10
-      - 🇨🇦 加拿大 05
-      - 🇹🇼 台湾 10
-      - 🇯🇵 日本 19
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 112
-      - 🇯🇵 日本 34
-      - 🇺🇸 美国 042
-      - 🇰🇷 韩国 17
-      - 🇦🇷 阿根廷 05
-      - 🇳🇱 荷兰 05
-      - 🇬🇧 英国 15
-      - 🇬🇧 英国 10
+      - 🇺🇸 美国 257
+      - 🇳🇱 荷兰 07
+      - 🇬🇧 英国 19
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港 05
+      - 🇺🇸 美国 075
+      - 🇮🇳 印度 21
+      - 🇷🇺 俄罗斯联邦 87
+      - 🇺🇸 美国 146
+      - 🇩🇪 德国 25
+      - 🇷🇺 俄罗斯联邦 37
+      - 🇷🇺 俄罗斯联邦 73
+      - 🇮🇳 印度 10
+      - 🇬🇧 英国 20
+      - 🇺🇸 美国 176
+      - 🇺🇸 美国 284
+      - 🇭🇰 香港 31
+      - 🇯🇵 日本 26
+      - 🇺🇸 美国 105
+      - 🇺🇸 美国 029
+      - 🇰🇷 韩国 28
+      - 🔔 关注https://github.com/wzdnzd不迷路 01
+      - 🇷🇺 俄罗斯联邦 52
+      - 🇯🇵 日本 57
+      - 🇺🇸 美国 296
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 110
+      - 🇧🇷 巴西 02
+      - 🇬🇧 英国 17
+      - 🇷🇺 俄罗斯联邦 81
+      - 🇺🇸 美国 211
+      - 🇺🇸 美国 264
+      - 🇩🇪 德国 10
+      - 🇺🇸 美国 044
+      - 🇭🇰 香港 27
+      - 🇳🇱 荷兰 31
+      - 🇺🇸 美国 162
+      - 🇸🇬 新加坡 01
+      - 🇺🇸 美国 231
+      - 🇺🇸 美国家宽 01
+      - 🇯🇵 日本 09
+      - 🇩🇪 德国 70
+      - 🇩🇪 德国 49
+      - 🇺🇸 美国 153
+      - 🇭🇰 香港 12
+      - 🇦🇪 阿联酋 03
+      - 🇷🇺 俄罗斯联邦 51
+      - 🇺🇸 美国 156
+      - 🇨🇦 加拿大 12
+      - 🇷🇺 俄罗斯联邦 25
+      - 🇩🇪 德国 79
+      - 🇯🇵 日本 52
+      - 🇺🇸 美国 107
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 289
+      - 🇩🇪 德国 51
+      - 🇬🇧 英国 01
+      - 🇸🇬 新加坡 38
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 136
+      - 🇺🇸 美国 230
+      - 🇰🇷 韩国 09
+      - 🇭🇰 香港 33
+      - 🇮🇳 印度 26
+      - 🇩🇪 德国 56
+      - 🇺🇸 美国 069
+      - 🇺🇸 美国 138
+      - 🇩🇪 德国 90
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 11
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 308
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇩🇪 德国 16
+      - 🇭🇰 香港家宽 04
+      - 🇫🇷 法国 02
+      - 🇻🇳 越南 05
+      - 🇺🇸 美国 304
+      - 🇸🇪 瑞典 01
+      - 🇺🇸 美国 199
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 47
+      - 🇻🇳 越南 08
+      - 🇮🇳 印度 09
+      - 🇺🇸 美国 081
+      - 🇷🇺 俄罗斯联邦 15
+      - 🇳🇱 荷兰 25
+      - 🇺🇸 美国 220
+      - 🇻🇳 越南 03
+      - 🇺🇸 美国 092
+      - 🇩🇪 德国 31
+      - 🇩🇪 德国 66
+      - 🇺🇸 美国 043
+      - 🇮🇳 印度 20
+      - 🇯🇵 日本 33
+      - 🇷🇺 俄罗斯联邦 55
+      - 🇷🇺 俄罗斯联邦 75
+      - 🇸🇬 新加坡 32
+      - 🇺🇸 美国 175
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇹🇼 台湾 06
-      - 🇹🇼 台湾 17
-      - 🇹🇼 台湾 14
-      - 🇹🇼 台湾 10
+      - 🇭🇰 香港 05
+      - 🇭🇰 香港 31
+      - 🇭🇰 香港 27
+      - 🇭🇰 香港 12
+      - 🇭🇰 香港 33
+      - 🇭🇰 香港家宽 04
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -260,92 +562,212 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇹🇼 台湾 06
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 193
-      - 🇰🇷 韩国 13
-      - 🇩🇪 德国 87
-      - 🇸🇬 新加坡 25
-      - 🇸🇬 新加坡 04
-      - 🇹🇼 台湾 17
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 159
-      - 🇻🇳 越南 06
-      - 🇯🇵 日本 12
-      - 🇳🇱 荷兰 11
-      - 🇦🇷 阿根廷 01
-      - 🇨🇦 加拿大 06
-      - 🇰🇷 韩国 07
-      - 🇩🇪 德国 75
-      - 🇩🇪 德国 86
-      - 🇯🇵 日本 61
-      - 🇻🇳 越南 02
-      - 🇫🇷 法国 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 012
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 12
-      - 🇰🇷 韩国 02
-      - 🇹🇼 台湾 14
-      - 🇫🇷 法国 10
-      - 🇨🇦 加拿大 05
-      - 🇹🇼 台湾 10
-      - 🇯🇵 日本 19
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 112
-      - 🇯🇵 日本 34
-      - 🇺🇸 美国 042
-      - 🇰🇷 韩国 17
-      - 🇦🇷 阿根廷 05
-      - 🇳🇱 荷兰 05
-      - 🇬🇧 英国 15
-      - 🇬🇧 英国 10
+      - 🇺🇸 美国 257
+      - 🇳🇱 荷兰 07
+      - 🇬🇧 英国 19
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港 05
+      - 🇺🇸 美国 075
+      - 🇮🇳 印度 21
+      - 🇷🇺 俄罗斯联邦 87
+      - 🇺🇸 美国 146
+      - 🇩🇪 德国 25
+      - 🇷🇺 俄罗斯联邦 37
+      - 🇷🇺 俄罗斯联邦 73
+      - 🇮🇳 印度 10
+      - 🇬🇧 英国 20
+      - 🇺🇸 美国 176
+      - 🇺🇸 美国 284
+      - 🇭🇰 香港 31
+      - 🇯🇵 日本 26
+      - 🇺🇸 美国 105
+      - 🇺🇸 美国 029
+      - 🇰🇷 韩国 28
+      - 🔔 关注https://github.com/wzdnzd不迷路 01
+      - 🇷🇺 俄罗斯联邦 52
+      - 🇯🇵 日本 57
+      - 🇺🇸 美国 296
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 110
+      - 🇧🇷 巴西 02
+      - 🇬🇧 英国 17
+      - 🇷🇺 俄罗斯联邦 81
+      - 🇺🇸 美国 211
+      - 🇺🇸 美国 264
+      - 🇩🇪 德国 10
+      - 🇺🇸 美国 044
+      - 🇭🇰 香港 27
+      - 🇳🇱 荷兰 31
+      - 🇺🇸 美国 162
+      - 🇸🇬 新加坡 01
+      - 🇺🇸 美国 231
+      - 🇺🇸 美国家宽 01
+      - 🇯🇵 日本 09
+      - 🇩🇪 德国 70
+      - 🇩🇪 德国 49
+      - 🇺🇸 美国 153
+      - 🇭🇰 香港 12
+      - 🇦🇪 阿联酋 03
+      - 🇷🇺 俄罗斯联邦 51
+      - 🇺🇸 美国 156
+      - 🇨🇦 加拿大 12
+      - 🇷🇺 俄罗斯联邦 25
+      - 🇩🇪 德国 79
+      - 🇯🇵 日本 52
+      - 🇺🇸 美国 107
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 289
+      - 🇩🇪 德国 51
+      - 🇬🇧 英国 01
+      - 🇸🇬 新加坡 38
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 136
+      - 🇺🇸 美国 230
+      - 🇰🇷 韩国 09
+      - 🇭🇰 香港 33
+      - 🇮🇳 印度 26
+      - 🇩🇪 德国 56
+      - 🇺🇸 美国 069
+      - 🇺🇸 美国 138
+      - 🇩🇪 德国 90
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 11
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 308
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇩🇪 德国 16
+      - 🇭🇰 香港家宽 04
+      - 🇫🇷 法国 02
+      - 🇻🇳 越南 05
+      - 🇺🇸 美国 304
+      - 🇸🇪 瑞典 01
+      - 🇺🇸 美国 199
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 47
+      - 🇻🇳 越南 08
+      - 🇮🇳 印度 09
+      - 🇺🇸 美国 081
+      - 🇷🇺 俄罗斯联邦 15
+      - 🇳🇱 荷兰 25
+      - 🇺🇸 美国 220
+      - 🇻🇳 越南 03
+      - 🇺🇸 美国 092
+      - 🇩🇪 德国 31
+      - 🇩🇪 德国 66
+      - 🇺🇸 美国 043
+      - 🇮🇳 印度 20
+      - 🇯🇵 日本 33
+      - 🇷🇺 俄罗斯联邦 55
+      - 🇷🇺 俄罗斯联邦 75
+      - 🇸🇬 新加坡 32
+      - 🇺🇸 美国 175
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇹🇼 台湾 06
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 193
-      - 🇰🇷 韩国 13
-      - 🇩🇪 德国 87
-      - 🇸🇬 新加坡 25
-      - 🇸🇬 新加坡 04
-      - 🇹🇼 台湾 17
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 159
-      - 🇻🇳 越南 06
-      - 🇯🇵 日本 12
-      - 🇳🇱 荷兰 11
-      - 🇦🇷 阿根廷 01
-      - 🇨🇦 加拿大 06
-      - 🇰🇷 韩国 07
-      - 🇩🇪 德国 75
-      - 🇩🇪 德国 86
-      - 🇯🇵 日本 61
-      - 🇻🇳 越南 02
-      - 🇫🇷 法国 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 012
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 12
-      - 🇰🇷 韩国 02
-      - 🇹🇼 台湾 14
-      - 🇫🇷 法国 10
-      - 🇨🇦 加拿大 05
-      - 🇹🇼 台湾 10
-      - 🇯🇵 日本 19
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 112
-      - 🇯🇵 日本 34
-      - 🇺🇸 美国 042
-      - 🇰🇷 韩国 17
-      - 🇦🇷 阿根廷 05
-      - 🇳🇱 荷兰 05
-      - 🇬🇧 英国 15
-      - 🇬🇧 英国 10
+      - 🇺🇸 美国 257
+      - 🇳🇱 荷兰 07
+      - 🇬🇧 英国 19
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港 05
+      - 🇺🇸 美国 075
+      - 🇮🇳 印度 21
+      - 🇷🇺 俄罗斯联邦 87
+      - 🇺🇸 美国 146
+      - 🇩🇪 德国 25
+      - 🇷🇺 俄罗斯联邦 37
+      - 🇷🇺 俄罗斯联邦 73
+      - 🇮🇳 印度 10
+      - 🇬🇧 英国 20
+      - 🇺🇸 美国 176
+      - 🇺🇸 美国 284
+      - 🇭🇰 香港 31
+      - 🇯🇵 日本 26
+      - 🇺🇸 美国 105
+      - 🇺🇸 美国 029
+      - 🇰🇷 韩国 28
+      - 🔔 关注https://github.com/wzdnzd不迷路 01
+      - 🇷🇺 俄罗斯联邦 52
+      - 🇯🇵 日本 57
+      - 🇺🇸 美国 296
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 110
+      - 🇧🇷 巴西 02
+      - 🇬🇧 英国 17
+      - 🇷🇺 俄罗斯联邦 81
+      - 🇺🇸 美国 211
+      - 🇺🇸 美国 264
+      - 🇩🇪 德国 10
+      - 🇺🇸 美国 044
+      - 🇭🇰 香港 27
+      - 🇳🇱 荷兰 31
+      - 🇺🇸 美国 162
+      - 🇸🇬 新加坡 01
+      - 🇺🇸 美国 231
+      - 🇺🇸 美国家宽 01
+      - 🇯🇵 日本 09
+      - 🇩🇪 德国 70
+      - 🇩🇪 德国 49
+      - 🇺🇸 美国 153
+      - 🇭🇰 香港 12
+      - 🇦🇪 阿联酋 03
+      - 🇷🇺 俄罗斯联邦 51
+      - 🇺🇸 美国 156
+      - 🇨🇦 加拿大 12
+      - 🇷🇺 俄罗斯联邦 25
+      - 🇩🇪 德国 79
+      - 🇯🇵 日本 52
+      - 🇺🇸 美国 107
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 289
+      - 🇩🇪 德国 51
+      - 🇬🇧 英国 01
+      - 🇸🇬 新加坡 38
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 136
+      - 🇺🇸 美国 230
+      - 🇰🇷 韩国 09
+      - 🇭🇰 香港 33
+      - 🇮🇳 印度 26
+      - 🇩🇪 德国 56
+      - 🇺🇸 美国 069
+      - 🇺🇸 美国 138
+      - 🇩🇪 德国 90
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 11
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 308
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇩🇪 德国 16
+      - 🇭🇰 香港家宽 04
+      - 🇫🇷 法国 02
+      - 🇻🇳 越南 05
+      - 🇺🇸 美国 304
+      - 🇸🇪 瑞典 01
+      - 🇺🇸 美国 199
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 47
+      - 🇻🇳 越南 08
+      - 🇮🇳 印度 09
+      - 🇺🇸 美国 081
+      - 🇷🇺 俄罗斯联邦 15
+      - 🇳🇱 荷兰 25
+      - 🇺🇸 美国 220
+      - 🇻🇳 越南 03
+      - 🇺🇸 美国 092
+      - 🇩🇪 德国 31
+      - 🇩🇪 德国 66
+      - 🇺🇸 美国 043
+      - 🇮🇳 印度 20
+      - 🇯🇵 日本 33
+      - 🇷🇺 俄罗斯联邦 55
+      - 🇷🇺 俄罗斯联邦 75
+      - 🇸🇬 新加坡 32
+      - 🇺🇸 美国 175
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -353,46 +775,106 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇹🇼 台湾 06
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 193
-      - 🇰🇷 韩国 13
-      - 🇩🇪 德国 87
-      - 🇸🇬 新加坡 25
-      - 🇸🇬 新加坡 04
-      - 🇹🇼 台湾 17
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 159
-      - 🇻🇳 越南 06
-      - 🇯🇵 日本 12
-      - 🇳🇱 荷兰 11
-      - 🇦🇷 阿根廷 01
-      - 🇨🇦 加拿大 06
-      - 🇰🇷 韩国 07
-      - 🇩🇪 德国 75
-      - 🇩🇪 德国 86
-      - 🇯🇵 日本 61
-      - 🇻🇳 越南 02
-      - 🇫🇷 法国 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 012
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 12
-      - 🇰🇷 韩国 02
-      - 🇹🇼 台湾 14
-      - 🇫🇷 法国 10
-      - 🇨🇦 加拿大 05
-      - 🇹🇼 台湾 10
-      - 🇯🇵 日本 19
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 112
-      - 🇯🇵 日本 34
-      - 🇺🇸 美国 042
-      - 🇰🇷 韩国 17
-      - 🇦🇷 阿根廷 05
-      - 🇳🇱 荷兰 05
-      - 🇬🇧 英国 15
-      - 🇬🇧 英国 10
+      - 🇺🇸 美国 257
+      - 🇳🇱 荷兰 07
+      - 🇬🇧 英国 19
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港 05
+      - 🇺🇸 美国 075
+      - 🇮🇳 印度 21
+      - 🇷🇺 俄罗斯联邦 87
+      - 🇺🇸 美国 146
+      - 🇩🇪 德国 25
+      - 🇷🇺 俄罗斯联邦 37
+      - 🇷🇺 俄罗斯联邦 73
+      - 🇮🇳 印度 10
+      - 🇬🇧 英国 20
+      - 🇺🇸 美国 176
+      - 🇺🇸 美国 284
+      - 🇭🇰 香港 31
+      - 🇯🇵 日本 26
+      - 🇺🇸 美国 105
+      - 🇺🇸 美国 029
+      - 🇰🇷 韩国 28
+      - 🔔 关注https://github.com/wzdnzd不迷路 01
+      - 🇷🇺 俄罗斯联邦 52
+      - 🇯🇵 日本 57
+      - 🇺🇸 美国 296
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 110
+      - 🇧🇷 巴西 02
+      - 🇬🇧 英国 17
+      - 🇷🇺 俄罗斯联邦 81
+      - 🇺🇸 美国 211
+      - 🇺🇸 美国 264
+      - 🇩🇪 德国 10
+      - 🇺🇸 美国 044
+      - 🇭🇰 香港 27
+      - 🇳🇱 荷兰 31
+      - 🇺🇸 美国 162
+      - 🇸🇬 新加坡 01
+      - 🇺🇸 美国 231
+      - 🇺🇸 美国家宽 01
+      - 🇯🇵 日本 09
+      - 🇩🇪 德国 70
+      - 🇩🇪 德国 49
+      - 🇺🇸 美国 153
+      - 🇭🇰 香港 12
+      - 🇦🇪 阿联酋 03
+      - 🇷🇺 俄罗斯联邦 51
+      - 🇺🇸 美国 156
+      - 🇨🇦 加拿大 12
+      - 🇷🇺 俄罗斯联邦 25
+      - 🇩🇪 德国 79
+      - 🇯🇵 日本 52
+      - 🇺🇸 美国 107
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 289
+      - 🇩🇪 德国 51
+      - 🇬🇧 英国 01
+      - 🇸🇬 新加坡 38
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 136
+      - 🇺🇸 美国 230
+      - 🇰🇷 韩国 09
+      - 🇭🇰 香港 33
+      - 🇮🇳 印度 26
+      - 🇩🇪 德国 56
+      - 🇺🇸 美国 069
+      - 🇺🇸 美国 138
+      - 🇩🇪 德国 90
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 11
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 308
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇩🇪 德国 16
+      - 🇭🇰 香港家宽 04
+      - 🇫🇷 法国 02
+      - 🇻🇳 越南 05
+      - 🇺🇸 美国 304
+      - 🇸🇪 瑞典 01
+      - 🇺🇸 美国 199
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 47
+      - 🇻🇳 越南 08
+      - 🇮🇳 印度 09
+      - 🇺🇸 美国 081
+      - 🇷🇺 俄罗斯联邦 15
+      - 🇳🇱 荷兰 25
+      - 🇺🇸 美国 220
+      - 🇻🇳 越南 03
+      - 🇺🇸 美国 092
+      - 🇩🇪 德国 31
+      - 🇩🇪 德国 66
+      - 🇺🇸 美国 043
+      - 🇮🇳 印度 20
+      - 🇯🇵 日本 33
+      - 🇷🇺 俄罗斯联邦 55
+      - 🇷🇺 俄罗斯联邦 75
+      - 🇸🇬 新加坡 32
+      - 🇺🇸 美国 175
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -409,46 +891,106 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇹🇼 台湾 06
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 193
-      - 🇰🇷 韩国 13
-      - 🇩🇪 德国 87
-      - 🇸🇬 新加坡 25
-      - 🇸🇬 新加坡 04
-      - 🇹🇼 台湾 17
-      - 🇺🇸 美国 067
-      - 🇺🇸 美国 159
-      - 🇻🇳 越南 06
-      - 🇯🇵 日本 12
-      - 🇳🇱 荷兰 11
-      - 🇦🇷 阿根廷 01
-      - 🇨🇦 加拿大 06
-      - 🇰🇷 韩国 07
-      - 🇩🇪 德国 75
-      - 🇩🇪 德国 86
-      - 🇯🇵 日本 61
-      - 🇻🇳 越南 02
-      - 🇫🇷 法国 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 012
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 12
-      - 🇰🇷 韩国 02
-      - 🇹🇼 台湾 14
-      - 🇫🇷 法国 10
-      - 🇨🇦 加拿大 05
-      - 🇹🇼 台湾 10
-      - 🇯🇵 日本 19
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 112
-      - 🇯🇵 日本 34
-      - 🇺🇸 美国 042
-      - 🇰🇷 韩国 17
-      - 🇦🇷 阿根廷 05
-      - 🇳🇱 荷兰 05
-      - 🇬🇧 英国 15
-      - 🇬🇧 英国 10
+      - 🇺🇸 美国 257
+      - 🇳🇱 荷兰 07
+      - 🇬🇧 英国 19
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港 05
+      - 🇺🇸 美国 075
+      - 🇮🇳 印度 21
+      - 🇷🇺 俄罗斯联邦 87
+      - 🇺🇸 美国 146
+      - 🇩🇪 德国 25
+      - 🇷🇺 俄罗斯联邦 37
+      - 🇷🇺 俄罗斯联邦 73
+      - 🇮🇳 印度 10
+      - 🇬🇧 英国 20
+      - 🇺🇸 美国 176
+      - 🇺🇸 美国 284
+      - 🇭🇰 香港 31
+      - 🇯🇵 日本 26
+      - 🇺🇸 美国 105
+      - 🇺🇸 美国 029
+      - 🇰🇷 韩国 28
+      - 🔔 关注https://github.com/wzdnzd不迷路 01
+      - 🇷🇺 俄罗斯联邦 52
+      - 🇯🇵 日本 57
+      - 🇺🇸 美国 296
+      - 🇯🇵 日本 02
+      - 🇺🇸 美国 110
+      - 🇧🇷 巴西 02
+      - 🇬🇧 英国 17
+      - 🇷🇺 俄罗斯联邦 81
+      - 🇺🇸 美国 211
+      - 🇺🇸 美国 264
+      - 🇩🇪 德国 10
+      - 🇺🇸 美国 044
+      - 🇭🇰 香港 27
+      - 🇳🇱 荷兰 31
+      - 🇺🇸 美国 162
+      - 🇸🇬 新加坡 01
+      - 🇺🇸 美国 231
+      - 🇺🇸 美国家宽 01
+      - 🇯🇵 日本 09
+      - 🇩🇪 德国 70
+      - 🇩🇪 德国 49
+      - 🇺🇸 美国 153
+      - 🇭🇰 香港 12
+      - 🇦🇪 阿联酋 03
+      - 🇷🇺 俄罗斯联邦 51
+      - 🇺🇸 美国 156
+      - 🇨🇦 加拿大 12
+      - 🇷🇺 俄罗斯联邦 25
+      - 🇩🇪 德国 79
+      - 🇯🇵 日本 52
+      - 🇺🇸 美国 107
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 289
+      - 🇩🇪 德国 51
+      - 🇬🇧 英国 01
+      - 🇸🇬 新加坡 38
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 136
+      - 🇺🇸 美国 230
+      - 🇰🇷 韩国 09
+      - 🇭🇰 香港 33
+      - 🇮🇳 印度 26
+      - 🇩🇪 德国 56
+      - 🇺🇸 美国 069
+      - 🇺🇸 美国 138
+      - 🇩🇪 德国 90
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 11
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 308
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇩🇪 德国 16
+      - 🇭🇰 香港家宽 04
+      - 🇫🇷 法国 02
+      - 🇻🇳 越南 05
+      - 🇺🇸 美国 304
+      - 🇸🇪 瑞典 01
+      - 🇺🇸 美国 199
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 47
+      - 🇻🇳 越南 08
+      - 🇮🇳 印度 09
+      - 🇺🇸 美国 081
+      - 🇷🇺 俄罗斯联邦 15
+      - 🇳🇱 荷兰 25
+      - 🇺🇸 美国 220
+      - 🇻🇳 越南 03
+      - 🇺🇸 美国 092
+      - 🇩🇪 德国 31
+      - 🇩🇪 德国 66
+      - 🇺🇸 美国 043
+      - 🇮🇳 印度 20
+      - 🇯🇵 日本 33
+      - 🇷🇺 俄罗斯联邦 55
+      - 🇷🇺 俄罗斯联邦 75
+      - 🇸🇬 新加坡 32
+      - 🇺🇸 美国 175
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
