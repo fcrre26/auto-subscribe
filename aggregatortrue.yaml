@@ -27,7 +27,7 @@
 
         main {
             background-color: white;
-            height: 100vh;
+            min-height: 100vh;
             text-align: center;
             font-family: Source Sans Pro, ui-sans-serif, system-ui, -apple-system,
             BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
@@ -59,36 +59,6 @@
             margin: 0 auto;
         }
 
-        .spinner-wrapper {
-            position: absolute;
-            left: 50%;
-            margin-left: -15px;
-        }
-
-        .spinner-text {
-            margin-bottom: 20px;
-        }
-
-        .spinner {
-            margin: 0;
-            height: 22px;
-            width: 22px;
-            animation: rotateSpinner 0.8s infinite linear;
-            color: black;
-            border: 2px solid black;
-            border-right-color: transparent;
-            border-radius: 50%;
-        }
-
-        @keyframes rotateSpinner {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-
         .dark main {
             background-color: rgb(11, 15, 25);
         }
@@ -97,15 +67,8 @@
             color: rgb(209, 213, 219);
         }
 
-        .dark p,
-        .dark .spinner-text,
-        .dark .spinner {
+        .dark p {
             color: rgb(156, 163, 175);
-        }
-
-        .dark .spinner {
-            border-color: rgb(209, 213, 219);
-            border-right-color: rgb(11, 15, 25);
         }
     </style>
     <script>
@@ -135,25 +98,10 @@
             src="https://huggingface.co/front/assets/huggingface_logo.svg"
             alt=""
     />
-    <div class="spinner-text">
-        Preparing Space
-    </div>
-    <div class="spinner-wrapper">
-        <div class="spinner"></div>
+    <div>
+        <h1>404</h1>
+        <p>Sorry, we can’t find the page you are looking for.</p>
     </div>
 </main>
 </body>
-
-<script>
-    setInterval(function () {
-        let oReq = new XMLHttpRequest();
-        oReq.open("GET", location.href);
-        oReq.send();
-        oReq.onload = function () {
-            if (oReq.status === 200) {
-                window.location.reload();
-            }
-        };
-    }, 1000);
-</script>
 </html>
