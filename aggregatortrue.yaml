@@ -1,107 +1,55 @@
-<!DOCTYPE html>
-<html class="">
-<head>
-    <meta charset="utf-8"/>
-    <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-    <meta
-            name="description"
-            content="We’re on a journey to advance and democratize artificial intelligence through open source and open science."
-    />
-    <meta property="fb:app_id" content="1321688464574422"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:site" content="@huggingface"/>
-    <meta
-            property="og:title"
-            content="Hugging Face – The AI community building the future."
-    />
-    <meta property="og:type" content="website"/>
-
-    <title>Hugging Face – The AI community building the future.</title>
-    <style>
-        body {
-            margin: 0;
-        }
-
-        main {
-            background-color: white;
-            min-height: 100vh;
-            text-align: center;
-            font-family: Source Sans Pro, ui-sans-serif, system-ui, -apple-system,
-            BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
-            sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-            Noto Color Emoji;
-        }
-
-        img {
-            width: 6rem;
-            height: 6rem;
-            margin: 7rem 1rem 1rem;
-        }
-
-        h1 {
-            font-size: 3.75rem;
-            line-height: 1;
-            color: rgba(31, 41, 55, 1);
-            font-weight: 700;
-            box-sizing: border-box;
-            margin: 0 auto;
-        }
-
-        p {
-            color: rgba(107, 114, 128, 1);
-            font-size: 1.125rem;
-            line-height: 1.75rem;
-            max-width: 28rem;
-            box-sizing: border-box;
-            margin: 0 auto;
-        }
-
-        .dark main {
-            background-color: rgb(11, 15, 25);
-        }
-
-        .dark h1 {
-            color: rgb(209, 213, 219);
-        }
-
-        .dark p {
-            color: rgb(156, 163, 175);
-        }
-    </style>
-    <script>
-        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-        const key = "_tb_global_settings";
-        let theme = window.matchMedia("(prefers-color-scheme: dark)").matches
-            ? "dark"
-            : "light";
-        try {
-            const storageTheme = JSON.parse(window.localStorage.getItem(key)).theme;
-            if (storageTheme) {
-                theme = storageTheme === "dark" ? "dark" : "light";
-            }
-        } catch (e) {
-        }
-        if (theme === "dark") {
-            document.documentElement.classList.add("dark");
-        } else {
-            document.documentElement.classList.remove("dark");
-        }
-    </script>
-</head>
-
-<body>
-<main>
-    <img
-            src="https://huggingface.co/front/assets/huggingface_logo.svg"
-            alt=""
-    />
-    <div>
-        <h1>404</h1>
-        <p>Sorry, we can’t find the page you are looking for.</p>
-    </div>
-</main>
-</body>
-</html>
+proxies:
+  - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
+  - {name: 🇻🇳 越南 118, server: vnvn-u-do-vn1.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: vnvn-u-do-vn1.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇵🇱 波兰 12, server: 217.30.10.70, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 🇻🇳 越南 044, server: 103.186.154.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇵🇱 波兰 19, server: 217.30.10.70, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 🇺🇸 美国 144, server: 89.117.112.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
+  - {name: 🇺🇸 美国 040, server: 102.177.176.32, port: 2096, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 267, server: 212.192.15.176, port: 23185, type: vmess, uuid: 01f61774-f8ac-46b0-ab05-484e35c50214, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 427, server: 185.159.247.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
+  - {name: 🇰🇷 韩国 01, server: 210.183.11.2, port: 50001, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epge.muarua.filegear-sg.me}}, udp: true}
+  - {name: 🇸🇬 新加坡 14, server: 3bd9.55dca.e048.f8-fef1f.yfjcs.com, port: 443, type: vless, uuid: ae60d7ab-9efc-4116-a47b-cb2078d70240, tls: true, flow: xtls-rprx-vision, servername: yfsg-1.xn--4gq62f52gppi29k.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇩🇪 德国 11, server: 199.181.197.32, port: 2096, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 020, server: 50.62.172.43, port: 2096, type: vless, uuid: 01997b9d-a1f7-e188-981a-c665b723cfef, tls: true, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇻🇳 越南 039, server: 103.186.154.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 099, server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 014, server: 188.244.122.44, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets&freecodes @节点狂魔 /", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇻🇳 越南 088, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港家宽 01, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v10.heduian.link}}, udp: true}
+  - {name: 🇮🇸 冰岛 01, server: ua3.9966662.xyz, port: 22113, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: zeVXU0KXZBUg3s85TKNCOmHEOOW9l-2NF2HyEXFmLi8, short-id: c9f3b16b}, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇫🇷 法国 04, server: 62.210.127.217, port: 35511, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 🇺🇸 美国 340, server: 185.158.133.44, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇻🇳 越南 056, server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 084, server: 155.248.214.92, port: 52580, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /snippets/ip=proxyip.fxxk.dedyn.io:443, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 361, server: 03e37e-330-co-4.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: 03e37e-330-co.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 136, server: 181.214.1.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
+  - {name: 🇺🇸 美国 208, server: 198.71.191.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
+  - {name: 🇺🇸 美国 079, server: 188.164.248.32, port: 2096, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 027, server: 185.176.26.44, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇻🇳 越南 094, server: 103.186.154.197, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 150, server: 156.225.72.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
+  - {name: 🇻🇳 越南 093, server: 103.186.154.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 063, server: 166.62.115.32, port: 2096, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇰🇷 韩国 04, server: 152.70.234.101, port: 20000, type: hysteria2, password: ae60d7ab-9efc-4116-a47b-cb2078d70240, auth: ae60d7ab-9efc-4116-a47b-cb2078d70240, sni: www.bing.com, skip-cert-verify: true, ports: 20000-55000, udp: true}
+  - {name: 🇺🇸 美国 054, server: 154.197.121.44, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets&freecodes @节点狂魔 /", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 425, server: 170.114.45.44, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippetsfp=chrome, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 356, server: 74c5a9-20-5.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 74c5a9-20.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 311, server: 185.221.160.44, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets&freecodes @节点狂魔 /", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇻🇳 越南 037, server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇬🇧 英国 06, server: 83.147.17.147, port: 22156, type: hysteria2, password: 571ec94e-613c-430a-93de-397d3d237475, auth: 571ec94e-613c-430a-93de-397d3d237475, sni: hsyg.huasuan666.top, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 116, server: 103.186.154.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 149, server: 198.177.57.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
+  - {name: 🇭🇰 香港 30, server: 212.192.15.176, port: 31008, type: hysteria2, password: 7921a413-a5fc-4acb-9978-f846c054967f, auth: 7921a413-a5fc-4acb-9978-f846c054967f, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇸🇬 新加坡 03, server: digitalocean.com, port: 443, type: vmess, uuid: 621514d0-46de-47ea-9063-21eaea0999c7, alterId: 0, cipher: auto, tls: true, servername: iicduazc1nh3jt0t.sgtimecsgo.xyz, network: ws, ws-opts: {path: /bpjc/sg1, headers: {Host: iicduazc1nh3jt0t.sgtimecsgo.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 065, server: 199.68.156.44, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇻🇳 越南 095, server: 103.186.155.211, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇿🇦 南非 02, server: c20d8f-20-2.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: c20d8f-20.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 383, server: 836902-20-3.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 836902-20.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 14, server: dv-jp-3.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: dv-jp.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇧🇪 比利时 02, server: be1.9966662.xyz, port: 51423, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ap2XpFpMyx6_hqvV23QfwgTmilHoYeBiKRkMRrFSKTA, short-id: 003e496b}, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 257, server: 167.68.42.32, port: 2096, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
+  - {name: 🇸🇬 新加坡 22, server: sg005.421421.xyz, port: 20230, type: trojan, password: 813e7fc5-2c9a-4967-802b-6443930ecb7e, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true}
+  - {name: 🇯🇵 日本 04, server: nrt.xxxxxxxx.nyc.mn, port: 443, type: vless, uuid: dea991b4-696f-4e9e-9761-1e1b31bb02de, tls: true, servername: 2.294294.xyz, network: ws, ws-opts: {path: /snippets, headers: {Host: 2.294294.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 139, server: 185.221.160.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
+  - {name: 🇺🇸 美国 288, server: 212.192.15.176, port: 22123, type: vmess, uuid: f98049dc-fb09-4c3e-bd02-a31716b95c64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
