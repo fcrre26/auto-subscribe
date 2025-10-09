@@ -28,7 +28,7 @@ def fetch_latest_token():
 # 修改函数，接受一个 list_param 参数来控制 list 的值
 def fetch_subscribe(token, list_param):
     # 根据 list_param 构建 URL
-    url = f"https://ohayoo-pm.hf.space/api/v1/subscribe?token={token}&target=clash&list={list_param}"
+    url = f"https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token={token}&target=clash&list={list_param}"
     resp = requests.get(url)
     # 也可以在这里添加打印状态码和响应内容的语句，以便进一步排查
     # print(f"--- Subscribe API Status Code: {resp.status_code} ---")
