@@ -6,148 +6,156 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇺🇸 美国 027, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 1c4a05b0-f6bc-4256-98a4-79a2db4056d2, auth: 1c4a05b0-f6bc-4256-98a4-79a2db4056d2, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 30, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: dcc70d73-98d6-444d-b1dc-e8ecd05cc0a6, auth: dcc70d73-98d6-444d-b1dc-e8ecd05cc0a6, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 38, server: 212.192.15.176, port: 27123, type: vmess, uuid: fb240b16-18d7-43af-8c54-7efd0d7eb8d7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇹🇼 台湾 066, server: 118.170.245.3, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: fc278668-11a9-435a-b025-0bcee442deb5, udp: true}
-  - {name: 🇭🇰 香港家宽 03, server: da906f37-t4dz40-tcq5zn-19qpt.hk1.hyhuawei.com, port: 443, type: hysteria2, password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d, auth: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d, udp: true}
-  - {name: 🇹🇼 台湾家宽 022, server: 1.170.27.29, port: 10100, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇭🇰 香港 06, server: zx888vip.xyz, port: 26780, type: vmess, uuid: 7abd8432-49a4-427b-a60f-d70b8544a320, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 002, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 9753590f-5720-4977-8592-2c8d64755228, auth: 9753590f-5720-4977-8592-2c8d64755228, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 75, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇩🇪 德国 12, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: a9feb139-7578-49c7-abe7-509dadc71dc3, auth: a9feb139-7578-49c7-abe7-509dadc71dc3, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 11, server: 121.145.201.24, port: 50004, type: vless, uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd, tls: true, servername: vless.pengjiajin.sbs, network: ws, ws-opts: {path: "freecodes@节点狂魔/?ed=2560", headers: {Host: vless.pengjiajin.sbs}}, udp: true}
-  - {name: 🇭🇰 香港 23, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
-  - {name: 🇹🇼 台湾家宽 014, server: 125.230.15.197, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇯🇵 日本 29, server: 121.183.90.210, port: 12159, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "x @节点狂魔 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇭🇰 香港 21, server: cdnfire.xiaomispeed.com, port: 21104, type: trojan, password: c253e9f7-3209-4a78-8e8f-8f5ca362b020, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾家宽 036, server: 1.170.2.230, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
-  - {name: 🇹🇼 台湾 094, server: 36.234.65.154, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
-  - {name: 🇹🇼 台湾 154, server: 36.235.11.59, port: 10117, type: ss, cipher: chacha20-ietf-poly1305, password: fc278668-11a9-435a-b025-0bcee442deb5, udp: true}
-  - {name: 🇺🇸 美国 042, server: 212.192.15.176, port: 80, type: hysteria2, password: c9e9f64d-19c9-462c-9a1b-a06cd51f6f43, auth: c9e9f64d-19c9-462c-9a1b-a06cd51f6f43, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
-  - {name: 🇹🇼 台湾 069, server: 118.170.245.3, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
-  - {name: 🇹🇼 台湾家宽 143, server: 1.170.1.14, port: 10107, type: ss, cipher: chacha20-ietf-poly1305, password: 8d5c4680-9dd0-43d4-9ea1-2b0e3dbb4684, udp: true}
-  - {name: 🇹🇼 台湾 152, server: 36.234.93.10, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
-  - {name: 🇺🇸 美国 024, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: ddd79b7e-819c-4f06-aef7-d4a13eb1df2d, auth: ddd79b7e-819c-4f06-aef7-d4a13eb1df2d, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾家宽 043, server: 111.253.192.248, port: 10138, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
-  - {name: 🇹🇼 台湾 111, server: 118.170.199.164, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
-  - {name: 🇹🇼 台湾家宽 064, server: 118.170.199.164, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
-  - {name: 🇹🇼 台湾 063, server: 36.232.115.87, port: 10150, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
-  - {name: 🇹🇼 台湾家宽 095, server: 36.234.65.77, port: 10065, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇰🇷 韩国 23, server: 106.240.137.36, port: 50001, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "x @节点狂魔 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇹🇼 台湾 026, server: 125.230.0.195, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
-  - {name: 🇹🇼 台湾家宽 065, server: 114.46.76.16, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
-  - {name: 🇹🇼 台湾 085, server: 118.170.203.35, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: fc278668-11a9-435a-b025-0bcee442deb5, udp: true}
-  - {name: 🇯🇵 日本 24, server: jp.tsz999jp.top, port: 18193, type: vmess, uuid: 7abd8432-49a4-427b-a60f-d70b8544a320, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 033, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 1b085501-6e52-4658-b16b-ae6cb197be4a, auth: 1b085501-6e52-4658-b16b-ae6cb197be4a, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 053, server: 36.232.121.189, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
-  - {name: 🇹🇼 台湾 045, server: 36.234.93.10, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇺🇸 美国 090, server: 212.192.15.176, port: 25169, type: vmess, uuid: 3ee6e269-d5f9-4395-95ac-6fbe34e8691c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇳🇱 荷兰 04, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: 🇰🇷 韩国 26, server: 152.67.211.114, port: 58337, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "telegram @freecodes /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇹🇼 台湾 125, server: 111.253.216.71, port: 10149, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
-  - {name: 🇺🇸 美国 034, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: dcc31373-7c26-4368-b2f2-e11c764c11aa, auth: dcc31373-7c26-4368-b2f2-e11c764c11aa, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 121, server: 111.253.216.71, port: 10149, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
-  - {name: 🇹🇼 台湾家宽 018, server: 1.165.108.40, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: fc278668-11a9-435a-b025-0bcee442deb5, udp: true}
-  - {name: 🇹🇼 台湾 105, server: 1.170.23.99, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
-  - {name: 🇰🇷 韩国 33, server: 112.172.38.246, port: 10554, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "telegram @freecodes /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇰🇷 韩国 38, server: 119.195.168.105, port: 10200, type: vless, uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd, tls: true, servername: vless.pengjiajin.sbs, network: ws, ws-opts: {path: "freecodes@节点狂魔/?ed=2560", headers: {Host: vless.pengjiajin.sbs}}, udp: true}
-  - {name: 🇹🇼 台湾家宽 082, server: 125.230.0.195, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
-  - {name: 🇭🇰 香港 45, server: 212.192.15.176, port: 23185, type: vmess, uuid: 136368f2-3643-4a59-a7e9-f64a7670e293, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇰🇷 韩国 55, server: 1.212.245.124, port: 50001, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /telegram @freecodes /, headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇹🇼 台湾家宽 055, server: 125.230.2.54, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇺🇸 美国家宽 06, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 4915f169-6a87-48f6-aa4a-6f5ef8793e95, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇷🇺 俄罗斯 10, server: pepslgy1.pepsl.top, port: 14568, type: hysteria2, password: 489aa524-37dd-46b3-8e77-e795f8c2b27a, auth: 489aa524-37dd-46b3-8e77-e795f8c2b27a, sni: pepslgy1.pepsl.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 004, server: 1.170.27.29, port: 10100, type: ss, cipher: chacha20-ietf-poly1305, password: 8b4c7144-3231-47ee-a55d-0d0cdfb1b695, udp: true}
-  - {name: 🇹🇼 台湾家宽 103, server: 1.170.2.230, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: fc278668-11a9-435a-b025-0bcee442deb5, udp: true}
-  - {name: 🇺🇸 美国 007, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 1024f649-265b-4015-ae5f-3e91fe2fa10a, auth: 1024f649-265b-4015-ae5f-3e91fe2fa10a, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 19, server: 155.248.187.80, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇭🇰 香港家宽 20, server: d8e7b66a-t46kg0-t9eu8q-tlhh.hk2.hyhuawei.com, port: 443, type: hysteria2, password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, auth: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 157, server: tw-me-01.linlujs.pw, port: 30009, type: hysteria2, password: c74a3fe8-a7be-40c9-899c-c0c6223f7f80, auth: c74a3fe8-a7be-40c9-899c-c0c6223f7f80, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 俄罗斯 15, server: banmabanmabanmabanmabanmabanma8.wanlidag.top, port: 54265, type: hysteria2, password: dcc31373-7c26-4368-b2f2-e11c764c11aa, auth: dcc31373-7c26-4368-b2f2-e11c764c11aa, sni: banmabanmabanmabanmabanmabanma8.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾家宽 042, server: 125.230.11.163, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
-  - {name: 🇰🇷 韩国 29, server: 112.186.212.12, port: 50000, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "telegram @freecodes /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇹🇼 台湾 035, server: 1.165.84.153, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 8b4c7144-3231-47ee-a55d-0d0cdfb1b695, udp: true}
-  - {name: 🇹🇼 台湾 032, server: 36.232.74.146, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: 8d5c4680-9dd0-43d4-9ea1-2b0e3dbb4684, udp: true}
-  - {name: 🇺🇸 美国 060, server: 6e27cd2e-t4dz40-t7dy6t-jx5r.us.hyhuawei.com, port: 443, type: hysteria2, password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, auth: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, udp: true}
-  - {name: 🇸🇬 新加坡 06, server: 138.2.8.126, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇷🇺 俄罗斯 08, server: pepslgy1.pepsl.top, port: 14568, type: hysteria2, password: 83fab675-71a6-4d47-99a6-03685f97ba19, auth: 83fab675-71a6-4d47-99a6-03685f97ba19, sni: pepslgy1.pepsl.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 080, server: 195.13.45.253, port: 2096, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/telegram@freecodes/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇹🇼 台湾 011, server: 36.232.121.189, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇰🇷 韩国 27, server: 220.90.247.28, port: 50001, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@节点狂魔/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 082, server: sfjmg4.sufujia.top, port: 57300, type: hysteria2, password: e92f8938-a107-44b3-a410-1b015099170b, auth: e92f8938-a107-44b3-a410-1b015099170b, sni: sfjmg4.sufujia.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 085, server: 212.192.15.176, port: 31008, type: hysteria2, password: f43e3cf4-9bdc-4cf3-8b65-96a17fdd44e1, auth: f43e3cf4-9bdc-4cf3-8b65-96a17fdd44e1, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇹🇼 台湾家宽 011, server: 1.170.2.230, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: 8b4c7144-3231-47ee-a55d-0d0cdfb1b695, udp: true}
-  - {name: 🇹🇼 台湾 056, server: 125.231.77.193, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
-  - {name: 🇹🇼 台湾 068, server: 36.234.99.56, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
-  - {name: 🇹🇼 台湾 143, server: 1.170.14.134, port: 10110, type: ss, cipher: chacha20-ietf-poly1305, password: 7e362bd8-7826-46d9-a7ba-182d86b80b11, udp: true}
-  - {name: 🇰🇷 韩国 30, server: 124.61.52.107, port: 26257, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /x @节点狂魔 /, headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇭🇰 香港家宽 18, server: 38721ce7-t3rr40-tdnzz0-1qtp7.hk3.p5pv.com, port: 80, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, servername: 🇭🇰HK-58.153.73.6-5362 | 9.331MB, network: ws, ws-opts: {path: /, headers: {Host: 38721ce7-t3rr40-tdnzz0-1qtp7.hk3.p5pv.com}}, udp: true}
-  - {name: 🇺🇸 美国家宽 10, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 76f09222-e863-419d-b4fb-5ebbe4337103, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾 036, server: 118.170.224.245, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: fc278668-11a9-435a-b025-0bcee442deb5, udp: true}
-  - {name: 🇸🇬 新加坡 29, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇹🇼 台湾 064, server: 1.170.2.230, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
-  - {name: 🇹🇼 台湾家宽 129, server: 114.46.74.54, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 7e362bd8-7826-46d9-a7ba-182d86b80b11, udp: true}
-  - {name: 🇺🇸 美国 003, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 5ee68282-d01b-424d-94ce-86402e7b6c45, auth: 5ee68282-d01b-424d-94ce-86402e7b6c45, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 20, server: 43.132.244.52, port: 21415, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 124, server: pepslgy2.pepsl.top, port: 14568, type: hysteria2, password: f844bfdc-b312-4017-ac80-4a8c7d7b82c2, auth: f844bfdc-b312-4017-ac80-4a8c7d7b82c2, sni: pepslgy2.pepsl.top, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 05, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, password: b261dfbb-4c58-427e-b4b4-dd94ef500fe7, auth: b261dfbb-4c58-427e-b4b4-dd94ef500fe7, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾 037, server: 125.231.77.193, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 7e362bd8-7826-46d9-a7ba-182d86b80b11, udp: true}
-  - {name: 🇹🇼 台湾家宽 108, server: 1.170.2.230, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
-  - {name: 🇹🇼 台湾 057, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: 8d5c4680-9dd0-43d4-9ea1-2b0e3dbb4684, udp: true}
-  - {name: 🇸🇬 新加坡 09, server: sg-nb-02.linlujs.pw, port: 24785, type: hysteria2, password: c74a3fe8-a7be-40c9-899c-c0c6223f7f80, auth: c74a3fe8-a7be-40c9-899c-c0c6223f7f80, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾 084, server: 1.165.118.5, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
-  - {name: 🇹🇼 台湾 130, server: 1.170.23.99, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇹🇼 台湾家宽 091, server: 36.235.0.125, port: 10122, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇹🇼 台湾 116, server: 1.170.42.185, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
-  - {name: 🇷🇺 俄罗斯 14, server: pepslgy1.pepsl.top, port: 14568, type: hysteria2, password: 40010576-f3ee-415e-8a62-4fe3eae923a0, auth: 40010576-f3ee-415e-8a62-4fe3eae923a0, sni: pepslgy1.pepsl.top, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 06, server: fra-nb-01.linlujs.pw, port: 24568, type: hysteria2, password: c74a3fe8-a7be-40c9-899c-c0c6223f7f80, auth: c74a3fe8-a7be-40c9-899c-c0c6223f7f80, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国 33, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: c23360da-4bb5-4b09-85b7-c772cd78dbc1, auth: c23360da-4bb5-4b09-85b7-c772cd78dbc1, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 21, server: 160.22.79.155, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇹🇼 台湾家宽 072, server: 1.165.84.153, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 8d5c4680-9dd0-43d4-9ea1-2b0e3dbb4684, udp: true}
-  - {name: 🇹🇼 台湾 145, server: 36.232.121.189, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
-  - {name: 🇹🇼 台湾家宽 136, server: 125.230.15.197, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: fc278668-11a9-435a-b025-0bcee442deb5, udp: true}
-  - {name: 🇩🇪 德国 19, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: fa2ea816-68bc-479f-931e-ad6e55306a47, auth: fa2ea816-68bc-479f-931e-ad6e55306a47, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 01, server: ntw01.619101.xyz, port: 20006, type: vless, uuid: b5fd4721-17c7-40e7-b89a-952a1fb34637, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mSMsSffmzvBDOLYt_pX3lV1dxfvD2_5QH11GKcgXcxM}, servername: v1-dy.ixigua.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾 138, server: 1.170.27.15, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: 8b4c7144-3231-47ee-a55d-0d0cdfb1b695, udp: true}
-  - {name: 🇯🇵 日本 33, server: 64.110.101.90, port: 55007, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /x @节点狂魔 /, headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 044, server: dae91d72-t4dz40-taksay-1tcuf.us.hyhuawei.com, port: 443, type: hysteria2, password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, auth: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, udp: true}
-  - {name: 🇹🇼 台湾家宽 020, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
-  - {name: 🇷🇺 俄罗斯 13, server: pepslgy1.pepsl.top, port: 14568, type: hysteria2, password: 5a67bc7f-f7d8-4586-8bb5-b92b07f89ae0, auth: 5a67bc7f-f7d8-4586-8bb5-b92b07f89ae0, sni: pepslgy1.pepsl.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 127, server: els.ylccloud.top, port: 16090, type: hysteria2, password: 5c5467ee-c972-4230-a16f-7db8f5699eb5, auth: 5c5467ee-c972-4230-a16f-7db8f5699eb5, sni: els.ylccloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 009, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 1f1711e8-d2c0-4870-996a-0e8e2f333d85, auth: 1f1711e8-d2c0-4870-996a-0e8e2f333d85, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯 16, server: banmabanmabanmabanmabanmabanma7.wanlidag.top, port: 54265, type: hysteria2, password: 9e80625b-ab53-4bc7-a371-ee4b1928c99e, auth: 9e80625b-ab53-4bc7-a371-ee4b1928c99e, sni: banmabanmabanmabanmabanmabanma7.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 15, server: 27.100.229.147, port: 50000, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "x @节点狂魔 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 125, server: us-nb-01.linlujs.pw, port: 25684, type: hysteria2, password: dd2ef6f5-b817-49c9-b538-fe7ef32dc3c7, auth: dd2ef6f5-b817-49c9-b538-fe7ef32dc3c7, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 33, server: 212.192.15.176, port: 33079, type: hysteria2, password: 4fa4c2c2-940d-4a14-80f3-9f0fd9584d73, auth: 4fa4c2c2-940d-4a14-80f3-9f0fd9584d73, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇹🇼 台湾家宽 134, server: 125.230.11.163, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 8b4c7144-3231-47ee-a55d-0d0cdfb1b695, udp: true}
-  - {name: 🇰🇷 韩国 51, server: 175.215.175.175, port: 50003, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "telegram @freecodes /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇰🇷 韩国 72, server: 211.105.86.219, port: 30012, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "telegram @freecodes /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇹🇼 台湾 006, server: 118.170.235.129, port: 10061, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
-  - {name: 🇹🇼 台湾 102, server: 36.232.115.87, port: 10150, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇺🇸 美国 077, server: 185.148.104.253, port: 2096, type: vless, uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e, tls: true, servername: vless.muzheng.top, network: ws, ws-opts: {path: /x @节点狂魔 /, headers: {Host: vless.muzheng.top}}, udp: true}
-  - {name: 🇺🇸 美国 020, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: a2573e46-ef76-46e3-bd69-fc1d8ebd0659, auth: a2573e46-ef76-46e3-bd69-fc1d8ebd0659, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾家宽 139, server: 36.234.118.252, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: fc278668-11a9-435a-b025-0bcee442deb5, udp: true}
-  - {name: 🇹🇼 台湾 041, server: 114.46.83.135, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: 8d5c4680-9dd0-43d4-9ea1-2b0e3dbb4684, udp: true}
-  - {name: 🇺🇸 美国 017, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 3d59c624-f7bf-4a94-8bea-7e2618ba8c59, auth: 3d59c624-f7bf-4a94-8bea-7e2618ba8c59, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾家宽 100, server: 36.232.74.146, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
-  - {name: 🇹🇼 台湾 059, server: 1.170.23.99, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: fc278668-11a9-435a-b025-0bcee442deb5, udp: true}
-  - {name: 🇹🇼 台湾 016, server: 1.165.108.40, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇷🇺 俄罗斯 04, server: pepslgy1.pepsl.top, port: 14568, type: hysteria2, password: 92e11fe5-af62-4f17-acf1-9866e1f6df01, auth: 92e11fe5-af62-4f17-acf1-9866e1f6df01, sni: pepslgy1.pepsl.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾家宽 135, server: 36.235.0.125, port: 10122, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
-  - {name: 🇹🇼 台湾 144, server: 114.46.75.144, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
-  - {name: 🇺🇸 美国 012, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 487e85be-92ae-4a2b-b488-50d7b0372998, auth: 487e85be-92ae-4a2b-b488-50d7b0372998, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 27, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: de4d3dfc-bac3-4132-8fc3-88c3a8ee27c0, auth: de4d3dfc-bac3-4132-8fc3-88c3a8ee27c0, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 018, server: 125.231.77.193, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 8b4c7144-3231-47ee-a55d-0d0cdfb1b695, udp: true}
-  - {name: 🇹🇼 台湾家宽 029, server: 111.253.216.71, port: 10149, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
-  - {name: 🇹🇼 台湾家宽 017, server: 114.46.76.16, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
-  - {name: 🇺🇸 美国 120, server: us-nb-05.linlujs.pw, port: 25438, type: hysteria2, password: dd2ef6f5-b817-49c9-b538-fe7ef32dc3c7, auth: dd2ef6f5-b817-49c9-b538-fe7ef32dc3c7, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 26, server: 175.202.241.130, port: 30112, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇹🇼 台湾家宽 151, server: 36.234.66.86, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
-  - {name: 🇺🇸 美国 023, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 32144368-62c4-46e1-90f7-4f3b9505eaa8, auth: 32144368-62c4-46e1-90f7-4f3b9505eaa8, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 126, server: pepslgy2.pepsl.top, port: 14568, type: hysteria2, password: 673550b7-56ae-462e-9561-a13af4c37248, auth: 673550b7-56ae-462e-9561-a13af4c37248, sni: pepslgy2.pepsl.top, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 12, server: sg777tsz.xyz, port: 45466, type: vmess, uuid: 7abd8432-49a4-427b-a60f-d70b8544a320, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽 075, server: 1.170.27.15, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
+  - {name: 🇹🇼 台湾家宽 788, server: 36.234.65.154, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇺🇸 美国 284, server: banmabanmabanmabanmabanmabanma6.wanlidag.top, port: 54265, type: hysteria2, password: 33eb9531-25b2-431a-805f-7e681d2d6362, auth: 33eb9531-25b2-431a-805f-7e681d2d6362, sni: banmabanmabanmabanmabanmabanma6.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 308, server: us99svip.xyz, port: 11924, type: vmess, uuid: 7abd8432-49a4-427b-a60f-d70b8544a320, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾家宽 058, server: 118.170.245.3, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
+  - {name: 🇹🇼 台湾家宽 385, server: 1.165.70.117, port: 10041, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
+  - {name: 🇹🇼 台湾家宽 820, server: 125.231.65.29, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
+  - {name: 🇳🇱 荷兰 10, server: 109.104.153.91, port: 37519, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 1000, down: 1000, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 🇹🇼 台湾家宽 339, server: 125.230.2.54, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇰🇷 韩国 46, server: 121.145.201.24, port: 50004, type: vless, uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd, tls: true, servername: vless.pengjiajin.sbs, network: ws, ws-opts: {path: "freecodes@节点狂魔/?ed=2560", headers: {Host: vless.pengjiajin.sbs}}, udp: true}
+  - {name: 🇹🇼 台湾家宽 095, server: 1.165.68.244, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇹🇼 台湾家宽 566, server: 36.232.74.146, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇹🇼 台湾家宽 150, server: 1.170.27.71, port: 10119, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇸🇬 新加坡 066, server: 129.154.204.196, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇹🇼 台湾家宽 066, server: 36.235.3.226, port: 10101, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
+  - {name: 🇹🇼 台湾家宽 929, server: 125.230.11.163, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇸🇬 新加坡 035, server: 43.156.107.236, port: 12131, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram@freecodes/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇮🇳 印度 10, server: id.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
+  - {name: 🇺🇸 美国 065, server: 034a6150-t4dz40-tcq5zn-19qpt.us.hyhuawei.com, port: 443, type: hysteria2, password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d, auth: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d, udp: true}
+  - {name: 🇺🇸 美国家宽 05, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 811f113a-af7b-493b-98d4-e83d0507f765, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾家宽 267, server: 114.35.114.182, port: 10129, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
+  - {name: 🇹🇼 台湾家宽 130, server: 114.46.100.209, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
+  - {name: 🇹🇼 台湾家宽 091, server: 125.230.2.54, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
+  - {name: 🇹🇼 台湾家宽 724, server: 125.230.11.163, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
+  - {name: 🇺🇸 美国 092, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
+  - {name: 🇻🇳 越南 77, server: 103.186.155.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇨🇦 加拿大 09, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 726b0ef0-8b71-4b98-ba14-f7e4cfb8ea66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 648, server: 118.170.224.245, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
+  - {name: 🇹🇼 台湾家宽 868, server: 125.230.12.229, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇰🇷 韩国 17, server: 49.174.170.115, port: 22577, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@节点狂魔/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇺🇸 美国家宽 04, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 6e17641a-d91c-4006-a2e8-c7f415588aa1, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: ios, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾家宽 598, server: 36.232.109.82, port: 10114, type: ss, cipher: chacha20-ietf-poly1305, password: af0d629a-b8dc-46fc-976e-fc3215263fe6, udp: true}
+  - {name: 🇩🇪 德国 023, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: ff4b44f0-fe8b-41d1-853f-848b15821a42, auth: ff4b44f0-fe8b-41d1-853f-848b15821a42, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大 12, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 🇹🇼 台湾家宽 290, server: 118.170.203.35, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
+  - {name: 🇺🇸 美国 095, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 4e95c8d4-6916-4571-b846-c90df766f8e0, auth: 4e95c8d4-6916-4571-b846-c90df766f8e0, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 051, server: e39fcabd-t4dz40-tfi5fd-1imi4.hk1.hyhuawei.com, port: 443, type: hysteria2, password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, auth: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, udp: true}
+  - {name: 🇹🇼 台湾家宽 193, server: 1.170.1.14, port: 10107, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
+  - {name: 🇳🇱 荷兰 04, server: 104.21.33.216, port: 443, type: trojan, password: dbeace35-cdc9-493b-b492-25caceba040c, sni: joss.krikkrik.xyz, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/ES2, headers: {Host: joss.krikkrik.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 228, server: banmabanmabanmabanmabanmabanma3.wanlidag.top, port: 54265, type: hysteria2, password: 8b8fbb3c-2b7c-465f-8c37-89d55d68d850, auth: 8b8fbb3c-2b7c-465f-8c37-89d55d68d850, sni: banmabanmabanmabanmabanmabanma3.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 86, server: 103.186.155.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇹🇼 台湾家宽 210, server: 1.170.1.14, port: 10107, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
+  - {name: 🇹🇼 台湾家宽 651, server: 36.232.93.125, port: 10134, type: ss, cipher: chacha20-ietf-poly1305, password: c6e2a9f1-70e1-4dda-a58c-8331c8f06ef6, udp: true}
+  - {name: 🇹🇼 台湾家宽 248, server: 114.46.74.54, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇹🇼 台湾家宽 608, server: 36.232.107.24, port: 10130, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
+  - {name: 🇺🇸 美国 232, server: pepslgy2.pepsl.top, port: 14568, type: hysteria2, password: 576ae19f-35e2-4f28-b7a8-c78ccbd59267, auth: 576ae19f-35e2-4f28-b7a8-c78ccbd59267, sni: pepslgy2.pepsl.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 090, server: 118.170.199.164, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
+  - {name: 🇹🇼 台湾家宽 235, server: 1.170.14.134, port: 10110, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
+  - {name: 🇹🇼 台湾家宽 692, server: 36.234.66.86, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
+  - {name: 🇺🇸 美国 135, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 22569b14-ad94-4a9c-82f1-3f4e3cf6af77, auth: 22569b14-ad94-4a9c-82f1-3f4e3cf6af77, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 965, server: tw-me-02.linlujs.pw, port: 30011, type: hysteria2, password: dd2ef6f5-b817-49c9-b538-fe7ef32dc3c7, auth: dd2ef6f5-b817-49c9-b538-fe7ef32dc3c7, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 077, server: 43.132.244.52, port: 21415, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇹🇼 台湾家宽 869, server: 36.232.68.112, port: 10091, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
+  - {name: 🇺🇸 美国 205, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 301e4f68-0487-49c7-bde1-724520daa726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 038, server: 114.46.75.144, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: af0d629a-b8dc-46fc-976e-fc3215263fe6, udp: true}
+  - {name: 🇭🇰 香港家宽 082, server: 202b3534-t4dz40-t59z4l-1oijm.hk1.hyhuawei.com, port: 443, type: hysteria2, password: bf140bc0-3f68-11ee-953a-f23c9164ca5d, auth: bf140bc0-3f68-11ee-953a-f23c9164ca5d, udp: true}
+  - {name: 🇻🇳 越南 78, server: 103.186.154.188, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇹🇼 台湾家宽 117, server: 1.170.14.134, port: 10110, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
+  - {name: 🇹🇼 台湾家宽 072, server: 111.253.216.71, port: 10149, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
+  - {name: 🇩🇪 德国 078, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: ff1561cb-f515-401d-b01f-98a07c51e76e, auth: ff1561cb-f515-401d-b01f-98a07c51e76e, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 274, server: 1.165.68.244, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
+  - {name: 🇯🇵 日本 34, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: b551214b-99dc-42df-bcea-3818f83e08b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 398, server: 1.165.106.7, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: c6e2a9f1-70e1-4dda-a58c-8331c8f06ef6, udp: true}
+  - {name: 🇸🇬 新加坡 052, server: 172.104.188.163, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇹🇼 台湾家宽 466, server: 1.170.27.28, port: 10082, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
+  - {name: 🇭🇰 香港 018, server: 38.180.94.97, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇹🇼 台湾家宽 536, server: 1.170.1.14, port: 10107, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
+  - {name: 🇭🇰 香港家宽 083, server: a0fdc38d-t4dz40-tbnucr-1thfv.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, auth: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, udp: true}
+  - {name: 🇸🇬 新加坡 053, server: 139.180.154.158, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 138, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 5148373c-be18-4778-b200-39d8ad39bcc9, auth: 5148373c-be18-4778-b200-39d8ad39bcc9, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 036, server: 4007e198-t4dz40-t9eu8q-tlhh.us.hyhuawei.com, port: 443, type: hysteria2, password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, auth: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, udp: true}
+  - {name: 🇺🇸 美国 130, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: ed90cd3d-82da-41b2-aa5b-e89ab46276fa, auth: ed90cd3d-82da-41b2-aa5b-e89ab46276fa, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 969, server: tw111vip.xyz, port: 56571, type: vmess, uuid: 7abd8432-49a4-427b-a60f-d70b8544a320, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇩🇪 德国 007, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: 6fe08b7a-fcb7-4c29-9942-124822bbcbd2, auth: 6fe08b7a-fcb7-4c29-9942-124822bbcbd2, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 729, server: 36.234.111.35, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇩🇪 德国 072, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: 7fb2c6d9-e8f1-48ee-b1f0-cf3734503f65, auth: 7fb2c6d9-e8f1-48ee-b1f0-cf3734503f65, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 37, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 726b0ef0-8b71-4b98-ba14-f7e4cfb8ea66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 322, server: 2566e772-t4dz40-tbpu76-1thmd.us.hyhuawei.com, port: 443, type: hysteria2, password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, auth: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, udp: true}
+  - {name: 🇹🇼 台湾家宽 074, server: 1.170.14.134, port: 10110, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
+  - {name: 🇹🇼 台湾家宽 769, server: 114.46.76.16, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: c6e2a9f1-70e1-4dda-a58c-8331c8f06ef6, udp: true}
+  - {name: 🇹🇼 台湾家宽 806, server: 118.170.196.147, port: 10069, type: ss, cipher: chacha20-ietf-poly1305, password: 8428b713-8f83-417a-98a5-6c3639794882, udp: true}
+  - {name: 🇹🇼 台湾家宽 696, server: 1.165.120.208, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇰🇷 韩国 36, server: 218.154.22.99, port: 50003, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@节点狂魔/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇹🇼 台湾家宽 395, server: 125.230.18.180, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇹🇼 台湾家宽 377, server: 36.234.93.10, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇹🇼 台湾家宽 766, server: 114.46.83.135, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇹🇼 台湾家宽 787, server: 36.235.5.222, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
+  - {name: 🇸🇬 新加坡 099, server: sg-nb-03.linlujs.pw, port: 25664, type: hysteria2, password: 3e00baa4-425d-4645-9a3c-5018d7417fcf, auth: 3e00baa4-425d-4645-9a3c-5018d7417fcf, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾家宽 819, server: 36.234.73.135, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
+  - {name: 🇹🇼 台湾家宽 711, server: 36.232.106.104, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇹🇼 台湾家宽 873, server: 125.230.2.80, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇹🇼 台湾家宽 320, server: 125.230.0.195, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇭🇰 香港家宽 085, server: 20617ee1-t4dz40-tlm64c-xm0q.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 3437f34e-1b77-11eb-8684-f23c913c8d2b, auth: 3437f34e-1b77-11eb-8684-f23c913c8d2b, udp: true}
+  - {name: 🇯🇵 日本 38, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: b551214b-99dc-42df-bcea-3818f83e08b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 06, server: 1.165.70.117, port: 10041, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
+  - {name: 🇹🇼 台湾家宽 749, server: 1.170.49.103, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
+  - {name: 🇺🇸 美国 311, server: 767ebbac-t4a9s0-t5dm27-1t5n1.us.hyhuawei.com, port: 443, type: hysteria2, password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, auth: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, sni: 767ebbac-t4a9s0-t5dm27-1t5n1.us.hyhuawei.com, udp: true}
+  - {name: 🇺🇸 美国 239, server: d729c8a6-t4c4g0-t6eg6k-1pckg.us.hyhuawei.com, port: 443, type: hysteria2, password: 526a1128-7487-11ee-9bca-f23c913c8d2b, auth: 526a1128-7487-11ee-9bca-f23c913c8d2b, sni: d729c8a6-t4c4g0-t6eg6k-1pckg.us.hyhuawei.com, udp: true}
+  - {name: 🇹🇼 台湾家宽 032, server: 125.230.18.180, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
+  - {name: 🇹🇼 台湾家宽 166, server: 1.170.49.103, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: 8428b713-8f83-417a-98a5-6c3639794882, udp: true}
+  - {name: 🇺🇸 美国 202, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 65515a51-a7cd-45ec-8ba9-8c0a8993bb9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 192, server: 118.170.203.35, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇹🇼 台湾家宽 045, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
+  - {name: 🇻🇳 越南 53, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇹🇼 台湾家宽 635, server: 1.165.118.5, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: af0d629a-b8dc-46fc-976e-fc3215263fe6, udp: true}
+  - {name: 🇺🇸 美国 074, server: bef32d3c-t4dz40-t5s93b-1swry.us.hyhuawei.com, port: 443, type: hysteria2, password: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b, auth: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b, udp: true}
+  - {name: 🇹🇼 台湾家宽 767, server: 36.232.73.7, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
+  - {name: 🇹🇼 台湾家宽 943, server: 36.235.5.222, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 8428b713-8f83-417a-98a5-6c3639794882, udp: true}
+  - {name: 🇹🇼 台湾家宽 914, server: 1.170.2.230, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
+  - {name: 🇹🇼 台湾家宽 159, server: 1.165.86.13, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇩🇪 德国 052, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: fa2ea816-68bc-479f-931e-ad6e55306a47, auth: fa2ea816-68bc-479f-931e-ad6e55306a47, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 164, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 6b902cba-6591-41df-94e8-88df86052810, auth: 6b902cba-6591-41df-94e8-88df86052810, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 042, server: e4f298a9-t4dz40-t5s93b-1swry.hk1.hyhuawei.com, port: 443, type: hysteria2, password: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b, auth: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b, udp: true}
+  - {name: 🇹🇼 台湾家宽 743, server: 36.235.5.222, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇻🇳 越南 06, server: 103.186.155.202, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港 064, server: 134.122.174.192, port: 12389, type: ss, cipher: chacha20-ietf-poly1305, password: 3fe526c8-ca9c-49b0-b41d-8f1d721dc759, udp: true}
+  - {name: 🇺🇸 美国 061, server: 1167d6e1-t4dz40-t4qa9y-g43g.us.hyhuawei.com, port: 443, type: hysteria2, password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, auth: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, udp: true}
+  - {name: 🇫🇮 芬兰 01, server: 157.180.123.212, port: 10100, type: vmess, uuid: 14fd5c56-2d55-44a5-9876-6ce27d3aec44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 614, server: 114.46.100.209, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇩🇪 德国 051, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: 7806159d-60c5-48ad-82f5-907bf9b1b766, auth: 7806159d-60c5-48ad-82f5-907bf9b1b766, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 11, server: jp-ak-01.linlujs.pw, port: 37850, type: hysteria2, password: c74a3fe8-a7be-40c9-899c-c0c6223f7f80, auth: c74a3fe8-a7be-40c9-899c-c0c6223f7f80, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 109, server: 212.192.15.176, port: 27123, type: vmess, uuid: 2ecaf88b-6470-4b2f-81e8-b9aebd0cd35d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇹🇼 台湾家宽 279, server: 1.165.114.124, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 52e1a880-4e00-4ec1-b2de-fd390a3c2cc6, udp: true}
+  - {name: 🇭🇰 香港家宽 130, server: 12b30af1-t4c4g0-t5nm0m-17z95.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9, auth: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9, sni: 12b30af1-t4c4g0-t5nm0m-17z95.hk2.hyhuawei.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 932, server: 36.232.74.146, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: c6e2a9f1-70e1-4dda-a58c-8331c8f06ef6, udp: true}
+  - {name: 🇺🇸 美国 241, server: us-nb-05.linlujs.pw, port: 25438, type: hysteria2, password: dd2ef6f5-b817-49c9-b538-fe7ef32dc3c7, auth: dd2ef6f5-b817-49c9-b538-fe7ef32dc3c7, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 281, server: us.tsz999us.top, port: 34359, type: vmess, uuid: 7abd8432-49a4-427b-a60f-d70b8544a320, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本 49, server: jp333jc.xyz, port: 18191, type: vmess, uuid: 7abd8432-49a4-427b-a60f-d70b8544a320, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港家宽 023, server: f5cbba13-t4dz40-t7pmvm-17xo8.hk1.hyhuawei.com, port: 443, type: hysteria2, password: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d, auth: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d, udp: true}
+  - {name: 🇺🇸 美国 171, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: a32458d1-4bd3-416a-bdfb-73178e36eb38, auth: a32458d1-4bd3-416a-bdfb-73178e36eb38, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 013, server: 36.235.5.222, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
+  - {name: 🇺🇸 美国 051, server: 1c3f22c6-t4dz40-t50m4g-xu74.us.hyhuawei.com, port: 443, type: hysteria2, password: 715a2574-9c25-11eb-8673-f23c9164ca5d, auth: 715a2574-9c25-11eb-8673-f23c9164ca5d, udp: true}
+  - {name: 🇹🇼 台湾家宽 424, server: 114.46.76.16, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
+  - {name: 🇩🇪 德国 016, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: dcc70d73-98d6-444d-b1dc-e8ecd05cc0a6, auth: dcc70d73-98d6-444d-b1dc-e8ecd05cc0a6, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 064, server: 1.165.108.40, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: c4b65474-b965-40ec-b5b1-223427bdf615, udp: true}
+  - {name: 🇯🇵 日本 35, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 726b0ef0-8b71-4b98-ba14-f7e4cfb8ea66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 072, server: 45.76.179.81, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 300, server: pepslgy2.pepsl.top, port: 14568, type: hysteria2, password: c54095f3-4740-4b6f-97f4-a95ac7d1db47, auth: c54095f3-4740-4b6f-97f4-a95ac7d1db47, sni: pepslgy2.pepsl.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 807, server: 1.170.23.99, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: af0d629a-b8dc-46fc-976e-fc3215263fe6, udp: true}
+  - {name: 🇸🇬 新加坡 031, server: 217.142.130.109, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇹🇼 台湾家宽 462, server: 36.232.73.7, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
+  - {name: 🇹🇼 台湾家宽 068, server: 1.165.114.124, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
+  - {name: 🇹🇼 台湾家宽 283, server: 114.46.100.144, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
+  - {name: 🇹🇼 台湾家宽 752, server: 118.170.203.35, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
+  - {name: 🇹🇼 台湾家宽 089, server: 1.165.120.208, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
+  - {name: 🇹🇼 台湾家宽 808, server: 114.46.108.46, port: 10064, type: ss, cipher: chacha20-ietf-poly1305, password: c18823c7-3cc5-4395-a6c4-c432a9f88493, udp: true}
+  - {name: 🇺🇸 美国 002, server: 208.87.243.151, port: 38845, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 100, down: 100, protocol: udp, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 🇺🇸 美国 008, server: tj.cpddx.club, port: 8443, type: trojan, password: 419f0c40-2738-4139-a286-a6ef5583f432, sni: tj.cpddx.club, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: tj.cpddx.club}}, udp: true}
+  - {name: 🇯🇵 日本 29, server: 153.121.45.101, port: 443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/X@节点狂魔/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 304, server: pepslgy2.pepsl.top, port: 14568, type: hysteria2, password: 4391d667-21ed-4ee1-8874-ed33b53740af, auth: 4391d667-21ed-4ee1-8874-ed33b53740af, sni: pepslgy2.pepsl.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 588, server: 1.170.42.185, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -155,296 +163,312 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 027
-      - 🇩🇪 德国 30
-      - 🇭🇰 香港 38
-      - 🇹🇼 台湾 066
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 022
-      - 🇭🇰 香港 06
-      - 🇺🇸 美国 002
-      - 🇰🇷 韩国 75
-      - 🇩🇪 德国 12
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港 23
-      - 🇹🇼 台湾家宽 014
-      - 🇯🇵 日本 29
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 036
-      - 🇹🇼 台湾 094
-      - 🇹🇼 台湾 154
-      - 🇺🇸 美国 042
-      - 🇹🇼 台湾 069
-      - 🇹🇼 台湾家宽 143
-      - 🇹🇼 台湾 152
-      - 🇺🇸 美国 024
-      - 🇹🇼 台湾家宽 043
-      - 🇹🇼 台湾 111
-      - 🇹🇼 台湾家宽 064
-      - 🇹🇼 台湾 063
+      - 🇹🇼 台湾家宽 788
+      - 🇺🇸 美国 284
+      - 🇺🇸 美国 308
+      - 🇹🇼 台湾家宽 058
+      - 🇹🇼 台湾家宽 385
+      - 🇹🇼 台湾家宽 820
+      - 🇳🇱 荷兰 10
+      - 🇹🇼 台湾家宽 339
+      - 🇰🇷 韩国 46
       - 🇹🇼 台湾家宽 095
-      - 🇰🇷 韩国 23
-      - 🇹🇼 台湾 026
-      - 🇹🇼 台湾家宽 065
-      - 🇹🇼 台湾 085
-      - 🇯🇵 日本 24
-      - 🇺🇸 美国 033
-      - 🇹🇼 台湾 053
-      - 🇹🇼 台湾 045
-      - 🇺🇸 美国 090
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 26
-      - 🇹🇼 台湾 125
-      - 🇺🇸 美国 034
-      - 🇹🇼 台湾 121
-      - 🇹🇼 台湾家宽 018
-      - 🇹🇼 台湾 105
-      - 🇰🇷 韩国 33
-      - 🇰🇷 韩国 38
-      - 🇹🇼 台湾家宽 082
-      - 🇭🇰 香港 45
-      - 🇰🇷 韩国 55
-      - 🇹🇼 台湾家宽 055
-      - 🇺🇸 美国家宽 06
-      - 🇷🇺 俄罗斯 10
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾家宽 103
-      - 🇺🇸 美国 007
-      - 🇸🇬 新加坡 19
-      - 🇭🇰 香港家宽 20
-      - 🇹🇼 台湾家宽 157
-      - 🇷🇺 俄罗斯 15
-      - 🇹🇼 台湾家宽 042
-      - 🇰🇷 韩国 29
-      - 🇹🇼 台湾 035
-      - 🇹🇼 台湾 032
-      - 🇺🇸 美国 060
-      - 🇸🇬 新加坡 06
-      - 🇷🇺 俄罗斯 08
-      - 🇺🇸 美国 080
-      - 🇹🇼 台湾 011
-      - 🇰🇷 韩国 27
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国 085
-      - 🇹🇼 台湾家宽 011
-      - 🇹🇼 台湾 056
-      - 🇹🇼 台湾 068
-      - 🇹🇼 台湾 143
-      - 🇰🇷 韩国 30
-      - 🇭🇰 香港家宽 18
-      - 🇺🇸 美国家宽 10
-      - 🇹🇼 台湾 036
-      - 🇸🇬 新加坡 29
-      - 🇹🇼 台湾 064
-      - 🇹🇼 台湾家宽 129
-      - 🇺🇸 美国 003
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 124
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 037
-      - 🇹🇼 台湾家宽 108
-      - 🇹🇼 台湾 057
-      - 🇸🇬 新加坡 09
-      - 🇹🇼 台湾 084
-      - 🇹🇼 台湾 130
+      - 🇹🇼 台湾家宽 566
+      - 🇹🇼 台湾家宽 150
+      - 🇸🇬 新加坡 066
+      - 🇹🇼 台湾家宽 066
+      - 🇹🇼 台湾家宽 929
+      - 🇸🇬 新加坡 035
+      - 🇮🇳 印度 10
+      - 🇺🇸 美国 065
+      - 🇺🇸 美国家宽 05
+      - 🇹🇼 台湾家宽 267
+      - 🇹🇼 台湾家宽 130
       - 🇹🇼 台湾家宽 091
-      - 🇹🇼 台湾 116
-      - 🇷🇺 俄罗斯 14
-      - 🇩🇪 德国 06
-      - 🇩🇪 德国 33
-      - 🇸🇬 新加坡 21
+      - 🇹🇼 台湾家宽 724
+      - 🇺🇸 美国 092
+      - 🇻🇳 越南 77
+      - 🇨🇦 加拿大 09
+      - 🇹🇼 台湾家宽 648
+      - 🇹🇼 台湾家宽 868
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国家宽 04
+      - 🇹🇼 台湾家宽 598
+      - 🇩🇪 德国 023
+      - 🇨🇦 加拿大 12
+      - 🇹🇼 台湾家宽 290
+      - 🇺🇸 美国 095
+      - 🇭🇰 香港家宽 051
+      - 🇹🇼 台湾家宽 193
+      - 🇳🇱 荷兰 04
+      - 🇺🇸 美国 228
+      - 🇻🇳 越南 86
+      - 🇹🇼 台湾家宽 210
+      - 🇹🇼 台湾家宽 651
+      - 🇹🇼 台湾家宽 248
+      - 🇹🇼 台湾家宽 608
+      - 🇺🇸 美国 232
+      - 🇹🇼 台湾家宽 090
+      - 🇹🇼 台湾家宽 235
+      - 🇹🇼 台湾家宽 692
+      - 🇺🇸 美国 135
+      - 🇹🇼 台湾家宽 965
+      - 🇭🇰 香港 077
+      - 🇹🇼 台湾家宽 869
+      - 🇺🇸 美国 205
+      - 🇹🇼 台湾家宽 038
+      - 🇭🇰 香港家宽 082
+      - 🇻🇳 越南 78
+      - 🇹🇼 台湾家宽 117
       - 🇹🇼 台湾家宽 072
-      - 🇹🇼 台湾 145
-      - 🇹🇼 台湾家宽 136
-      - 🇩🇪 德国 19
-      - 🇻🇳 越南 01
-      - 🇹🇼 台湾 138
-      - 🇯🇵 日本 33
-      - 🇺🇸 美国 044
-      - 🇹🇼 台湾家宽 020
-      - 🇷🇺 俄罗斯 13
-      - 🇺🇸 美国 127
-      - 🇺🇸 美国 009
-      - 🇷🇺 俄罗斯 16
-      - 🇰🇷 韩国 15
-      - 🇺🇸 美国 125
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾家宽 134
-      - 🇰🇷 韩国 51
-      - 🇰🇷 韩国 72
-      - 🇹🇼 台湾 006
-      - 🇹🇼 台湾 102
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 020
-      - 🇹🇼 台湾家宽 139
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾家宽 100
-      - 🇹🇼 台湾 059
-      - 🇹🇼 台湾 016
-      - 🇷🇺 俄罗斯 04
-      - 🇹🇼 台湾家宽 135
-      - 🇹🇼 台湾 144
-      - 🇺🇸 美国 012
-      - 🇩🇪 德国 27
-      - 🇹🇼 台湾 018
-      - 🇹🇼 台湾家宽 029
-      - 🇹🇼 台湾家宽 017
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 26
-      - 🇹🇼 台湾家宽 151
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 126
-      - 🇸🇬 新加坡 12
-      - 🇹🇼 台湾家宽 075
+      - 🇩🇪 德国 078
+      - 🇹🇼 台湾家宽 274
+      - 🇯🇵 日本 34
+      - 🇹🇼 台湾家宽 398
+      - 🇸🇬 新加坡 052
+      - 🇹🇼 台湾家宽 466
+      - 🇭🇰 香港 018
+      - 🇹🇼 台湾家宽 536
+      - 🇭🇰 香港家宽 083
+      - 🇸🇬 新加坡 053
+      - 🇺🇸 美国 138
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 130
+      - 🇹🇼 台湾家宽 969
+      - 🇩🇪 德国 007
+      - 🇹🇼 台湾家宽 729
+      - 🇩🇪 德国 072
+      - 🇯🇵 日本 37
+      - 🇺🇸 美国 322
+      - 🇹🇼 台湾家宽 074
+      - 🇹🇼 台湾家宽 769
+      - 🇹🇼 台湾家宽 806
+      - 🇹🇼 台湾家宽 696
+      - 🇰🇷 韩国 36
+      - 🇹🇼 台湾家宽 395
+      - 🇹🇼 台湾家宽 377
+      - 🇹🇼 台湾家宽 766
+      - 🇹🇼 台湾家宽 787
+      - 🇸🇬 新加坡 099
+      - 🇹🇼 台湾家宽 819
+      - 🇹🇼 台湾家宽 711
+      - 🇹🇼 台湾家宽 873
+      - 🇹🇼 台湾家宽 320
+      - 🇭🇰 香港家宽 085
+      - 🇯🇵 日本 38
+      - 🇹🇼 台湾 06
+      - 🇹🇼 台湾家宽 749
+      - 🇺🇸 美国 311
+      - 🇺🇸 美国 239
+      - 🇹🇼 台湾家宽 032
+      - 🇹🇼 台湾家宽 166
+      - 🇺🇸 美国 202
+      - 🇹🇼 台湾家宽 192
+      - 🇹🇼 台湾家宽 045
+      - 🇻🇳 越南 53
+      - 🇹🇼 台湾家宽 635
+      - 🇺🇸 美国 074
+      - 🇹🇼 台湾家宽 767
+      - 🇹🇼 台湾家宽 943
+      - 🇹🇼 台湾家宽 914
+      - 🇹🇼 台湾家宽 159
+      - 🇩🇪 德国 052
+      - 🇺🇸 美国 164
+      - 🇭🇰 香港家宽 042
+      - 🇹🇼 台湾家宽 743
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 064
+      - 🇺🇸 美国 061
+      - 🇫🇮 芬兰 01
+      - 🇹🇼 台湾家宽 614
+      - 🇩🇪 德国 051
+      - 🇯🇵 日本 11
+      - 🇭🇰 香港 109
+      - 🇹🇼 台湾家宽 279
+      - 🇭🇰 香港家宽 130
+      - 🇹🇼 台湾家宽 932
+      - 🇺🇸 美国 241
+      - 🇺🇸 美国 281
+      - 🇯🇵 日本 49
+      - 🇭🇰 香港家宽 023
+      - 🇺🇸 美国 171
+      - 🇹🇼 台湾家宽 013
+      - 🇺🇸 美国 051
+      - 🇹🇼 台湾家宽 424
+      - 🇩🇪 德国 016
+      - 🇹🇼 台湾家宽 064
+      - 🇯🇵 日本 35
+      - 🇸🇬 新加坡 072
+      - 🇺🇸 美国 300
+      - 🇹🇼 台湾家宽 807
+      - 🇸🇬 新加坡 031
+      - 🇹🇼 台湾家宽 462
+      - 🇹🇼 台湾家宽 068
+      - 🇹🇼 台湾家宽 283
+      - 🇹🇼 台湾家宽 752
+      - 🇹🇼 台湾家宽 089
+      - 🇹🇼 台湾家宽 808
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 008
+      - 🇯🇵 日本 29
+      - 🇺🇸 美国 304
+      - 🇹🇼 台湾家宽 588
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 027
-      - 🇩🇪 德国 30
-      - 🇭🇰 香港 38
-      - 🇹🇼 台湾 066
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 022
-      - 🇭🇰 香港 06
-      - 🇺🇸 美国 002
-      - 🇰🇷 韩国 75
-      - 🇩🇪 德国 12
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港 23
-      - 🇹🇼 台湾家宽 014
-      - 🇯🇵 日本 29
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 036
-      - 🇹🇼 台湾 094
-      - 🇹🇼 台湾 154
-      - 🇺🇸 美国 042
-      - 🇹🇼 台湾 069
-      - 🇹🇼 台湾家宽 143
-      - 🇹🇼 台湾 152
-      - 🇺🇸 美国 024
-      - 🇹🇼 台湾家宽 043
-      - 🇹🇼 台湾 111
-      - 🇹🇼 台湾家宽 064
-      - 🇹🇼 台湾 063
+      - 🇹🇼 台湾家宽 788
+      - 🇺🇸 美国 284
+      - 🇺🇸 美国 308
+      - 🇹🇼 台湾家宽 058
+      - 🇹🇼 台湾家宽 385
+      - 🇹🇼 台湾家宽 820
+      - 🇳🇱 荷兰 10
+      - 🇹🇼 台湾家宽 339
+      - 🇰🇷 韩国 46
       - 🇹🇼 台湾家宽 095
-      - 🇰🇷 韩国 23
-      - 🇹🇼 台湾 026
-      - 🇹🇼 台湾家宽 065
-      - 🇹🇼 台湾 085
-      - 🇯🇵 日本 24
-      - 🇺🇸 美国 033
-      - 🇹🇼 台湾 053
-      - 🇹🇼 台湾 045
-      - 🇺🇸 美国 090
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 26
-      - 🇹🇼 台湾 125
-      - 🇺🇸 美国 034
-      - 🇹🇼 台湾 121
-      - 🇹🇼 台湾家宽 018
-      - 🇹🇼 台湾 105
-      - 🇰🇷 韩国 33
-      - 🇰🇷 韩国 38
-      - 🇹🇼 台湾家宽 082
-      - 🇭🇰 香港 45
-      - 🇰🇷 韩国 55
-      - 🇹🇼 台湾家宽 055
-      - 🇺🇸 美国家宽 06
-      - 🇷🇺 俄罗斯 10
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾家宽 103
-      - 🇺🇸 美国 007
-      - 🇸🇬 新加坡 19
-      - 🇭🇰 香港家宽 20
-      - 🇹🇼 台湾家宽 157
-      - 🇷🇺 俄罗斯 15
-      - 🇹🇼 台湾家宽 042
-      - 🇰🇷 韩国 29
-      - 🇹🇼 台湾 035
-      - 🇹🇼 台湾 032
-      - 🇺🇸 美国 060
-      - 🇸🇬 新加坡 06
-      - 🇷🇺 俄罗斯 08
-      - 🇺🇸 美国 080
-      - 🇹🇼 台湾 011
-      - 🇰🇷 韩国 27
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国 085
-      - 🇹🇼 台湾家宽 011
-      - 🇹🇼 台湾 056
-      - 🇹🇼 台湾 068
-      - 🇹🇼 台湾 143
-      - 🇰🇷 韩国 30
-      - 🇭🇰 香港家宽 18
-      - 🇺🇸 美国家宽 10
-      - 🇹🇼 台湾 036
-      - 🇸🇬 新加坡 29
-      - 🇹🇼 台湾 064
-      - 🇹🇼 台湾家宽 129
-      - 🇺🇸 美国 003
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 124
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 037
-      - 🇹🇼 台湾家宽 108
-      - 🇹🇼 台湾 057
-      - 🇸🇬 新加坡 09
-      - 🇹🇼 台湾 084
-      - 🇹🇼 台湾 130
+      - 🇹🇼 台湾家宽 566
+      - 🇹🇼 台湾家宽 150
+      - 🇸🇬 新加坡 066
+      - 🇹🇼 台湾家宽 066
+      - 🇹🇼 台湾家宽 929
+      - 🇸🇬 新加坡 035
+      - 🇮🇳 印度 10
+      - 🇺🇸 美国 065
+      - 🇺🇸 美国家宽 05
+      - 🇹🇼 台湾家宽 267
+      - 🇹🇼 台湾家宽 130
       - 🇹🇼 台湾家宽 091
-      - 🇹🇼 台湾 116
-      - 🇷🇺 俄罗斯 14
-      - 🇩🇪 德国 06
-      - 🇩🇪 德国 33
-      - 🇸🇬 新加坡 21
+      - 🇹🇼 台湾家宽 724
+      - 🇺🇸 美国 092
+      - 🇻🇳 越南 77
+      - 🇨🇦 加拿大 09
+      - 🇹🇼 台湾家宽 648
+      - 🇹🇼 台湾家宽 868
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国家宽 04
+      - 🇹🇼 台湾家宽 598
+      - 🇩🇪 德国 023
+      - 🇨🇦 加拿大 12
+      - 🇹🇼 台湾家宽 290
+      - 🇺🇸 美国 095
+      - 🇭🇰 香港家宽 051
+      - 🇹🇼 台湾家宽 193
+      - 🇳🇱 荷兰 04
+      - 🇺🇸 美国 228
+      - 🇻🇳 越南 86
+      - 🇹🇼 台湾家宽 210
+      - 🇹🇼 台湾家宽 651
+      - 🇹🇼 台湾家宽 248
+      - 🇹🇼 台湾家宽 608
+      - 🇺🇸 美国 232
+      - 🇹🇼 台湾家宽 090
+      - 🇹🇼 台湾家宽 235
+      - 🇹🇼 台湾家宽 692
+      - 🇺🇸 美国 135
+      - 🇹🇼 台湾家宽 965
+      - 🇭🇰 香港 077
+      - 🇹🇼 台湾家宽 869
+      - 🇺🇸 美国 205
+      - 🇹🇼 台湾家宽 038
+      - 🇭🇰 香港家宽 082
+      - 🇻🇳 越南 78
+      - 🇹🇼 台湾家宽 117
       - 🇹🇼 台湾家宽 072
-      - 🇹🇼 台湾 145
-      - 🇹🇼 台湾家宽 136
-      - 🇩🇪 德国 19
-      - 🇻🇳 越南 01
-      - 🇹🇼 台湾 138
-      - 🇯🇵 日本 33
-      - 🇺🇸 美国 044
-      - 🇹🇼 台湾家宽 020
-      - 🇷🇺 俄罗斯 13
-      - 🇺🇸 美国 127
-      - 🇺🇸 美国 009
-      - 🇷🇺 俄罗斯 16
-      - 🇰🇷 韩国 15
-      - 🇺🇸 美国 125
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾家宽 134
-      - 🇰🇷 韩国 51
-      - 🇰🇷 韩国 72
-      - 🇹🇼 台湾 006
-      - 🇹🇼 台湾 102
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 020
-      - 🇹🇼 台湾家宽 139
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾家宽 100
-      - 🇹🇼 台湾 059
-      - 🇹🇼 台湾 016
-      - 🇷🇺 俄罗斯 04
-      - 🇹🇼 台湾家宽 135
-      - 🇹🇼 台湾 144
-      - 🇺🇸 美国 012
-      - 🇩🇪 德国 27
-      - 🇹🇼 台湾 018
-      - 🇹🇼 台湾家宽 029
-      - 🇹🇼 台湾家宽 017
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 26
-      - 🇹🇼 台湾家宽 151
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 126
-      - 🇸🇬 新加坡 12
-      - 🇹🇼 台湾家宽 075
+      - 🇩🇪 德国 078
+      - 🇹🇼 台湾家宽 274
+      - 🇯🇵 日本 34
+      - 🇹🇼 台湾家宽 398
+      - 🇸🇬 新加坡 052
+      - 🇹🇼 台湾家宽 466
+      - 🇭🇰 香港 018
+      - 🇹🇼 台湾家宽 536
+      - 🇭🇰 香港家宽 083
+      - 🇸🇬 新加坡 053
+      - 🇺🇸 美国 138
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 130
+      - 🇹🇼 台湾家宽 969
+      - 🇩🇪 德国 007
+      - 🇹🇼 台湾家宽 729
+      - 🇩🇪 德国 072
+      - 🇯🇵 日本 37
+      - 🇺🇸 美国 322
+      - 🇹🇼 台湾家宽 074
+      - 🇹🇼 台湾家宽 769
+      - 🇹🇼 台湾家宽 806
+      - 🇹🇼 台湾家宽 696
+      - 🇰🇷 韩国 36
+      - 🇹🇼 台湾家宽 395
+      - 🇹🇼 台湾家宽 377
+      - 🇹🇼 台湾家宽 766
+      - 🇹🇼 台湾家宽 787
+      - 🇸🇬 新加坡 099
+      - 🇹🇼 台湾家宽 819
+      - 🇹🇼 台湾家宽 711
+      - 🇹🇼 台湾家宽 873
+      - 🇹🇼 台湾家宽 320
+      - 🇭🇰 香港家宽 085
+      - 🇯🇵 日本 38
+      - 🇹🇼 台湾 06
+      - 🇹🇼 台湾家宽 749
+      - 🇺🇸 美国 311
+      - 🇺🇸 美国 239
+      - 🇹🇼 台湾家宽 032
+      - 🇹🇼 台湾家宽 166
+      - 🇺🇸 美国 202
+      - 🇹🇼 台湾家宽 192
+      - 🇹🇼 台湾家宽 045
+      - 🇻🇳 越南 53
+      - 🇹🇼 台湾家宽 635
+      - 🇺🇸 美国 074
+      - 🇹🇼 台湾家宽 767
+      - 🇹🇼 台湾家宽 943
+      - 🇹🇼 台湾家宽 914
+      - 🇹🇼 台湾家宽 159
+      - 🇩🇪 德国 052
+      - 🇺🇸 美国 164
+      - 🇭🇰 香港家宽 042
+      - 🇹🇼 台湾家宽 743
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 064
+      - 🇺🇸 美国 061
+      - 🇫🇮 芬兰 01
+      - 🇹🇼 台湾家宽 614
+      - 🇩🇪 德国 051
+      - 🇯🇵 日本 11
+      - 🇭🇰 香港 109
+      - 🇹🇼 台湾家宽 279
+      - 🇭🇰 香港家宽 130
+      - 🇹🇼 台湾家宽 932
+      - 🇺🇸 美国 241
+      - 🇺🇸 美国 281
+      - 🇯🇵 日本 49
+      - 🇭🇰 香港家宽 023
+      - 🇺🇸 美国 171
+      - 🇹🇼 台湾家宽 013
+      - 🇺🇸 美国 051
+      - 🇹🇼 台湾家宽 424
+      - 🇩🇪 德国 016
+      - 🇹🇼 台湾家宽 064
+      - 🇯🇵 日本 35
+      - 🇸🇬 新加坡 072
+      - 🇺🇸 美国 300
+      - 🇹🇼 台湾家宽 807
+      - 🇸🇬 新加坡 031
+      - 🇹🇼 台湾家宽 462
+      - 🇹🇼 台湾家宽 068
+      - 🇹🇼 台湾家宽 283
+      - 🇹🇼 台湾家宽 752
+      - 🇹🇼 台湾家宽 089
+      - 🇹🇼 台湾家宽 808
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 008
+      - 🇯🇵 日本 29
+      - 🇺🇸 美国 304
+      - 🇹🇼 台湾家宽 588
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -452,148 +476,156 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 027
-      - 🇩🇪 德国 30
-      - 🇭🇰 香港 38
-      - 🇹🇼 台湾 066
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 022
-      - 🇭🇰 香港 06
-      - 🇺🇸 美国 002
-      - 🇰🇷 韩国 75
-      - 🇩🇪 德国 12
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港 23
-      - 🇹🇼 台湾家宽 014
-      - 🇯🇵 日本 29
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 036
-      - 🇹🇼 台湾 094
-      - 🇹🇼 台湾 154
-      - 🇺🇸 美国 042
-      - 🇹🇼 台湾 069
-      - 🇹🇼 台湾家宽 143
-      - 🇹🇼 台湾 152
-      - 🇺🇸 美国 024
-      - 🇹🇼 台湾家宽 043
-      - 🇹🇼 台湾 111
-      - 🇹🇼 台湾家宽 064
-      - 🇹🇼 台湾 063
+      - 🇹🇼 台湾家宽 788
+      - 🇺🇸 美国 284
+      - 🇺🇸 美国 308
+      - 🇹🇼 台湾家宽 058
+      - 🇹🇼 台湾家宽 385
+      - 🇹🇼 台湾家宽 820
+      - 🇳🇱 荷兰 10
+      - 🇹🇼 台湾家宽 339
+      - 🇰🇷 韩国 46
       - 🇹🇼 台湾家宽 095
-      - 🇰🇷 韩国 23
-      - 🇹🇼 台湾 026
-      - 🇹🇼 台湾家宽 065
-      - 🇹🇼 台湾 085
-      - 🇯🇵 日本 24
-      - 🇺🇸 美国 033
-      - 🇹🇼 台湾 053
-      - 🇹🇼 台湾 045
-      - 🇺🇸 美国 090
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 26
-      - 🇹🇼 台湾 125
-      - 🇺🇸 美国 034
-      - 🇹🇼 台湾 121
-      - 🇹🇼 台湾家宽 018
-      - 🇹🇼 台湾 105
-      - 🇰🇷 韩国 33
-      - 🇰🇷 韩国 38
-      - 🇹🇼 台湾家宽 082
-      - 🇭🇰 香港 45
-      - 🇰🇷 韩国 55
-      - 🇹🇼 台湾家宽 055
-      - 🇺🇸 美国家宽 06
-      - 🇷🇺 俄罗斯 10
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾家宽 103
-      - 🇺🇸 美国 007
-      - 🇸🇬 新加坡 19
-      - 🇭🇰 香港家宽 20
-      - 🇹🇼 台湾家宽 157
-      - 🇷🇺 俄罗斯 15
-      - 🇹🇼 台湾家宽 042
-      - 🇰🇷 韩国 29
-      - 🇹🇼 台湾 035
-      - 🇹🇼 台湾 032
-      - 🇺🇸 美国 060
-      - 🇸🇬 新加坡 06
-      - 🇷🇺 俄罗斯 08
-      - 🇺🇸 美国 080
-      - 🇹🇼 台湾 011
-      - 🇰🇷 韩国 27
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国 085
-      - 🇹🇼 台湾家宽 011
-      - 🇹🇼 台湾 056
-      - 🇹🇼 台湾 068
-      - 🇹🇼 台湾 143
-      - 🇰🇷 韩国 30
-      - 🇭🇰 香港家宽 18
-      - 🇺🇸 美国家宽 10
-      - 🇹🇼 台湾 036
-      - 🇸🇬 新加坡 29
-      - 🇹🇼 台湾 064
-      - 🇹🇼 台湾家宽 129
-      - 🇺🇸 美国 003
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 124
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 037
-      - 🇹🇼 台湾家宽 108
-      - 🇹🇼 台湾 057
-      - 🇸🇬 新加坡 09
-      - 🇹🇼 台湾 084
-      - 🇹🇼 台湾 130
+      - 🇹🇼 台湾家宽 566
+      - 🇹🇼 台湾家宽 150
+      - 🇸🇬 新加坡 066
+      - 🇹🇼 台湾家宽 066
+      - 🇹🇼 台湾家宽 929
+      - 🇸🇬 新加坡 035
+      - 🇮🇳 印度 10
+      - 🇺🇸 美国 065
+      - 🇺🇸 美国家宽 05
+      - 🇹🇼 台湾家宽 267
+      - 🇹🇼 台湾家宽 130
       - 🇹🇼 台湾家宽 091
-      - 🇹🇼 台湾 116
-      - 🇷🇺 俄罗斯 14
-      - 🇩🇪 德国 06
-      - 🇩🇪 德国 33
-      - 🇸🇬 新加坡 21
+      - 🇹🇼 台湾家宽 724
+      - 🇺🇸 美国 092
+      - 🇻🇳 越南 77
+      - 🇨🇦 加拿大 09
+      - 🇹🇼 台湾家宽 648
+      - 🇹🇼 台湾家宽 868
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国家宽 04
+      - 🇹🇼 台湾家宽 598
+      - 🇩🇪 德国 023
+      - 🇨🇦 加拿大 12
+      - 🇹🇼 台湾家宽 290
+      - 🇺🇸 美国 095
+      - 🇭🇰 香港家宽 051
+      - 🇹🇼 台湾家宽 193
+      - 🇳🇱 荷兰 04
+      - 🇺🇸 美国 228
+      - 🇻🇳 越南 86
+      - 🇹🇼 台湾家宽 210
+      - 🇹🇼 台湾家宽 651
+      - 🇹🇼 台湾家宽 248
+      - 🇹🇼 台湾家宽 608
+      - 🇺🇸 美国 232
+      - 🇹🇼 台湾家宽 090
+      - 🇹🇼 台湾家宽 235
+      - 🇹🇼 台湾家宽 692
+      - 🇺🇸 美国 135
+      - 🇹🇼 台湾家宽 965
+      - 🇭🇰 香港 077
+      - 🇹🇼 台湾家宽 869
+      - 🇺🇸 美国 205
+      - 🇹🇼 台湾家宽 038
+      - 🇭🇰 香港家宽 082
+      - 🇻🇳 越南 78
+      - 🇹🇼 台湾家宽 117
       - 🇹🇼 台湾家宽 072
-      - 🇹🇼 台湾 145
-      - 🇹🇼 台湾家宽 136
-      - 🇩🇪 德国 19
-      - 🇻🇳 越南 01
-      - 🇹🇼 台湾 138
-      - 🇯🇵 日本 33
-      - 🇺🇸 美国 044
-      - 🇹🇼 台湾家宽 020
-      - 🇷🇺 俄罗斯 13
-      - 🇺🇸 美国 127
-      - 🇺🇸 美国 009
-      - 🇷🇺 俄罗斯 16
-      - 🇰🇷 韩国 15
-      - 🇺🇸 美国 125
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾家宽 134
-      - 🇰🇷 韩国 51
-      - 🇰🇷 韩国 72
-      - 🇹🇼 台湾 006
-      - 🇹🇼 台湾 102
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 020
-      - 🇹🇼 台湾家宽 139
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾家宽 100
-      - 🇹🇼 台湾 059
-      - 🇹🇼 台湾 016
-      - 🇷🇺 俄罗斯 04
-      - 🇹🇼 台湾家宽 135
-      - 🇹🇼 台湾 144
-      - 🇺🇸 美国 012
-      - 🇩🇪 德国 27
-      - 🇹🇼 台湾 018
-      - 🇹🇼 台湾家宽 029
-      - 🇹🇼 台湾家宽 017
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 26
-      - 🇹🇼 台湾家宽 151
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 126
-      - 🇸🇬 新加坡 12
-      - 🇹🇼 台湾家宽 075
+      - 🇩🇪 德国 078
+      - 🇹🇼 台湾家宽 274
+      - 🇯🇵 日本 34
+      - 🇹🇼 台湾家宽 398
+      - 🇸🇬 新加坡 052
+      - 🇹🇼 台湾家宽 466
+      - 🇭🇰 香港 018
+      - 🇹🇼 台湾家宽 536
+      - 🇭🇰 香港家宽 083
+      - 🇸🇬 新加坡 053
+      - 🇺🇸 美国 138
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 130
+      - 🇹🇼 台湾家宽 969
+      - 🇩🇪 德国 007
+      - 🇹🇼 台湾家宽 729
+      - 🇩🇪 德国 072
+      - 🇯🇵 日本 37
+      - 🇺🇸 美国 322
+      - 🇹🇼 台湾家宽 074
+      - 🇹🇼 台湾家宽 769
+      - 🇹🇼 台湾家宽 806
+      - 🇹🇼 台湾家宽 696
+      - 🇰🇷 韩国 36
+      - 🇹🇼 台湾家宽 395
+      - 🇹🇼 台湾家宽 377
+      - 🇹🇼 台湾家宽 766
+      - 🇹🇼 台湾家宽 787
+      - 🇸🇬 新加坡 099
+      - 🇹🇼 台湾家宽 819
+      - 🇹🇼 台湾家宽 711
+      - 🇹🇼 台湾家宽 873
+      - 🇹🇼 台湾家宽 320
+      - 🇭🇰 香港家宽 085
+      - 🇯🇵 日本 38
+      - 🇹🇼 台湾 06
+      - 🇹🇼 台湾家宽 749
+      - 🇺🇸 美国 311
+      - 🇺🇸 美国 239
+      - 🇹🇼 台湾家宽 032
+      - 🇹🇼 台湾家宽 166
+      - 🇺🇸 美国 202
+      - 🇹🇼 台湾家宽 192
+      - 🇹🇼 台湾家宽 045
+      - 🇻🇳 越南 53
+      - 🇹🇼 台湾家宽 635
+      - 🇺🇸 美国 074
+      - 🇹🇼 台湾家宽 767
+      - 🇹🇼 台湾家宽 943
+      - 🇹🇼 台湾家宽 914
+      - 🇹🇼 台湾家宽 159
+      - 🇩🇪 德国 052
+      - 🇺🇸 美国 164
+      - 🇭🇰 香港家宽 042
+      - 🇹🇼 台湾家宽 743
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 064
+      - 🇺🇸 美国 061
+      - 🇫🇮 芬兰 01
+      - 🇹🇼 台湾家宽 614
+      - 🇩🇪 德国 051
+      - 🇯🇵 日本 11
+      - 🇭🇰 香港 109
+      - 🇹🇼 台湾家宽 279
+      - 🇭🇰 香港家宽 130
+      - 🇹🇼 台湾家宽 932
+      - 🇺🇸 美国 241
+      - 🇺🇸 美国 281
+      - 🇯🇵 日本 49
+      - 🇭🇰 香港家宽 023
+      - 🇺🇸 美国 171
+      - 🇹🇼 台湾家宽 013
+      - 🇺🇸 美国 051
+      - 🇹🇼 台湾家宽 424
+      - 🇩🇪 德国 016
+      - 🇹🇼 台湾家宽 064
+      - 🇯🇵 日本 35
+      - 🇸🇬 新加坡 072
+      - 🇺🇸 美国 300
+      - 🇹🇼 台湾家宽 807
+      - 🇸🇬 新加坡 031
+      - 🇹🇼 台湾家宽 462
+      - 🇹🇼 台湾家宽 068
+      - 🇹🇼 台湾家宽 283
+      - 🇹🇼 台湾家宽 752
+      - 🇹🇼 台湾家宽 089
+      - 🇹🇼 台湾家宽 808
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 008
+      - 🇯🇵 日本 29
+      - 🇺🇸 美国 304
+      - 🇹🇼 台湾家宽 588
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -613,228 +645,246 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 027
-      - 🇩🇪 德国 30
-      - 🇭🇰 香港 38
-      - 🇹🇼 台湾 066
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 022
-      - 🇭🇰 香港 06
-      - 🇺🇸 美国 002
-      - 🇰🇷 韩国 75
-      - 🇩🇪 德国 12
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港 23
-      - 🇹🇼 台湾家宽 014
-      - 🇯🇵 日本 29
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 036
-      - 🇹🇼 台湾 094
-      - 🇹🇼 台湾 154
-      - 🇺🇸 美国 042
-      - 🇹🇼 台湾 069
-      - 🇹🇼 台湾家宽 143
-      - 🇹🇼 台湾 152
-      - 🇺🇸 美国 024
-      - 🇹🇼 台湾家宽 043
-      - 🇹🇼 台湾 111
-      - 🇹🇼 台湾家宽 064
-      - 🇹🇼 台湾 063
+      - 🇹🇼 台湾家宽 788
+      - 🇺🇸 美国 284
+      - 🇺🇸 美国 308
+      - 🇹🇼 台湾家宽 058
+      - 🇹🇼 台湾家宽 385
+      - 🇹🇼 台湾家宽 820
+      - 🇳🇱 荷兰 10
+      - 🇹🇼 台湾家宽 339
+      - 🇰🇷 韩国 46
       - 🇹🇼 台湾家宽 095
-      - 🇰🇷 韩国 23
-      - 🇹🇼 台湾 026
-      - 🇹🇼 台湾家宽 065
-      - 🇹🇼 台湾 085
-      - 🇯🇵 日本 24
-      - 🇺🇸 美国 033
-      - 🇹🇼 台湾 053
-      - 🇹🇼 台湾 045
-      - 🇺🇸 美国 090
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 26
-      - 🇹🇼 台湾 125
-      - 🇺🇸 美国 034
-      - 🇹🇼 台湾 121
-      - 🇹🇼 台湾家宽 018
-      - 🇹🇼 台湾 105
-      - 🇰🇷 韩国 33
-      - 🇰🇷 韩国 38
-      - 🇹🇼 台湾家宽 082
-      - 🇭🇰 香港 45
-      - 🇰🇷 韩国 55
-      - 🇹🇼 台湾家宽 055
-      - 🇺🇸 美国家宽 06
-      - 🇷🇺 俄罗斯 10
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾家宽 103
-      - 🇺🇸 美国 007
-      - 🇸🇬 新加坡 19
-      - 🇭🇰 香港家宽 20
-      - 🇹🇼 台湾家宽 157
-      - 🇷🇺 俄罗斯 15
-      - 🇹🇼 台湾家宽 042
-      - 🇰🇷 韩国 29
-      - 🇹🇼 台湾 035
-      - 🇹🇼 台湾 032
-      - 🇺🇸 美国 060
-      - 🇸🇬 新加坡 06
-      - 🇷🇺 俄罗斯 08
-      - 🇺🇸 美国 080
-      - 🇹🇼 台湾 011
-      - 🇰🇷 韩国 27
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国 085
-      - 🇹🇼 台湾家宽 011
-      - 🇹🇼 台湾 056
-      - 🇹🇼 台湾 068
-      - 🇹🇼 台湾 143
-      - 🇰🇷 韩国 30
-      - 🇭🇰 香港家宽 18
-      - 🇺🇸 美国家宽 10
-      - 🇹🇼 台湾 036
-      - 🇸🇬 新加坡 29
-      - 🇹🇼 台湾 064
-      - 🇹🇼 台湾家宽 129
-      - 🇺🇸 美国 003
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 124
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 037
-      - 🇹🇼 台湾家宽 108
-      - 🇹🇼 台湾 057
-      - 🇸🇬 新加坡 09
-      - 🇹🇼 台湾 084
-      - 🇹🇼 台湾 130
+      - 🇹🇼 台湾家宽 566
+      - 🇹🇼 台湾家宽 150
+      - 🇸🇬 新加坡 066
+      - 🇹🇼 台湾家宽 066
+      - 🇹🇼 台湾家宽 929
+      - 🇸🇬 新加坡 035
+      - 🇮🇳 印度 10
+      - 🇺🇸 美国 065
+      - 🇺🇸 美国家宽 05
+      - 🇹🇼 台湾家宽 267
+      - 🇹🇼 台湾家宽 130
       - 🇹🇼 台湾家宽 091
-      - 🇹🇼 台湾 116
-      - 🇷🇺 俄罗斯 14
-      - 🇩🇪 德国 06
-      - 🇩🇪 德国 33
-      - 🇸🇬 新加坡 21
+      - 🇹🇼 台湾家宽 724
+      - 🇺🇸 美国 092
+      - 🇻🇳 越南 77
+      - 🇨🇦 加拿大 09
+      - 🇹🇼 台湾家宽 648
+      - 🇹🇼 台湾家宽 868
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国家宽 04
+      - 🇹🇼 台湾家宽 598
+      - 🇩🇪 德国 023
+      - 🇨🇦 加拿大 12
+      - 🇹🇼 台湾家宽 290
+      - 🇺🇸 美国 095
+      - 🇭🇰 香港家宽 051
+      - 🇹🇼 台湾家宽 193
+      - 🇳🇱 荷兰 04
+      - 🇺🇸 美国 228
+      - 🇻🇳 越南 86
+      - 🇹🇼 台湾家宽 210
+      - 🇹🇼 台湾家宽 651
+      - 🇹🇼 台湾家宽 248
+      - 🇹🇼 台湾家宽 608
+      - 🇺🇸 美国 232
+      - 🇹🇼 台湾家宽 090
+      - 🇹🇼 台湾家宽 235
+      - 🇹🇼 台湾家宽 692
+      - 🇺🇸 美国 135
+      - 🇹🇼 台湾家宽 965
+      - 🇭🇰 香港 077
+      - 🇹🇼 台湾家宽 869
+      - 🇺🇸 美国 205
+      - 🇹🇼 台湾家宽 038
+      - 🇭🇰 香港家宽 082
+      - 🇻🇳 越南 78
+      - 🇹🇼 台湾家宽 117
       - 🇹🇼 台湾家宽 072
-      - 🇹🇼 台湾 145
-      - 🇹🇼 台湾家宽 136
-      - 🇩🇪 德国 19
-      - 🇻🇳 越南 01
-      - 🇹🇼 台湾 138
-      - 🇯🇵 日本 33
-      - 🇺🇸 美国 044
-      - 🇹🇼 台湾家宽 020
-      - 🇷🇺 俄罗斯 13
-      - 🇺🇸 美国 127
-      - 🇺🇸 美国 009
-      - 🇷🇺 俄罗斯 16
-      - 🇰🇷 韩国 15
-      - 🇺🇸 美国 125
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾家宽 134
-      - 🇰🇷 韩国 51
-      - 🇰🇷 韩国 72
-      - 🇹🇼 台湾 006
-      - 🇹🇼 台湾 102
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 020
-      - 🇹🇼 台湾家宽 139
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾家宽 100
-      - 🇹🇼 台湾 059
-      - 🇹🇼 台湾 016
-      - 🇷🇺 俄罗斯 04
-      - 🇹🇼 台湾家宽 135
-      - 🇹🇼 台湾 144
-      - 🇺🇸 美国 012
-      - 🇩🇪 德国 27
-      - 🇹🇼 台湾 018
-      - 🇹🇼 台湾家宽 029
-      - 🇹🇼 台湾家宽 017
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 26
-      - 🇹🇼 台湾家宽 151
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 126
-      - 🇸🇬 新加坡 12
-      - 🇹🇼 台湾家宽 075
+      - 🇩🇪 德国 078
+      - 🇹🇼 台湾家宽 274
+      - 🇯🇵 日本 34
+      - 🇹🇼 台湾家宽 398
+      - 🇸🇬 新加坡 052
+      - 🇹🇼 台湾家宽 466
+      - 🇭🇰 香港 018
+      - 🇹🇼 台湾家宽 536
+      - 🇭🇰 香港家宽 083
+      - 🇸🇬 新加坡 053
+      - 🇺🇸 美国 138
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 130
+      - 🇹🇼 台湾家宽 969
+      - 🇩🇪 德国 007
+      - 🇹🇼 台湾家宽 729
+      - 🇩🇪 德国 072
+      - 🇯🇵 日本 37
+      - 🇺🇸 美国 322
+      - 🇹🇼 台湾家宽 074
+      - 🇹🇼 台湾家宽 769
+      - 🇹🇼 台湾家宽 806
+      - 🇹🇼 台湾家宽 696
+      - 🇰🇷 韩国 36
+      - 🇹🇼 台湾家宽 395
+      - 🇹🇼 台湾家宽 377
+      - 🇹🇼 台湾家宽 766
+      - 🇹🇼 台湾家宽 787
+      - 🇸🇬 新加坡 099
+      - 🇹🇼 台湾家宽 819
+      - 🇹🇼 台湾家宽 711
+      - 🇹🇼 台湾家宽 873
+      - 🇹🇼 台湾家宽 320
+      - 🇭🇰 香港家宽 085
+      - 🇯🇵 日本 38
+      - 🇹🇼 台湾 06
+      - 🇹🇼 台湾家宽 749
+      - 🇺🇸 美国 311
+      - 🇺🇸 美国 239
+      - 🇹🇼 台湾家宽 032
+      - 🇹🇼 台湾家宽 166
+      - 🇺🇸 美国 202
+      - 🇹🇼 台湾家宽 192
+      - 🇹🇼 台湾家宽 045
+      - 🇻🇳 越南 53
+      - 🇹🇼 台湾家宽 635
+      - 🇺🇸 美国 074
+      - 🇹🇼 台湾家宽 767
+      - 🇹🇼 台湾家宽 943
+      - 🇹🇼 台湾家宽 914
+      - 🇹🇼 台湾家宽 159
+      - 🇩🇪 德国 052
+      - 🇺🇸 美国 164
+      - 🇭🇰 香港家宽 042
+      - 🇹🇼 台湾家宽 743
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 064
+      - 🇺🇸 美国 061
+      - 🇫🇮 芬兰 01
+      - 🇹🇼 台湾家宽 614
+      - 🇩🇪 德国 051
+      - 🇯🇵 日本 11
+      - 🇭🇰 香港 109
+      - 🇹🇼 台湾家宽 279
+      - 🇭🇰 香港家宽 130
+      - 🇹🇼 台湾家宽 932
+      - 🇺🇸 美国 241
+      - 🇺🇸 美国 281
+      - 🇯🇵 日本 49
+      - 🇭🇰 香港家宽 023
+      - 🇺🇸 美国 171
+      - 🇹🇼 台湾家宽 013
+      - 🇺🇸 美国 051
+      - 🇹🇼 台湾家宽 424
+      - 🇩🇪 德国 016
+      - 🇹🇼 台湾家宽 064
+      - 🇯🇵 日本 35
+      - 🇸🇬 新加坡 072
+      - 🇺🇸 美国 300
+      - 🇹🇼 台湾家宽 807
+      - 🇸🇬 新加坡 031
+      - 🇹🇼 台湾家宽 462
+      - 🇹🇼 台湾家宽 068
+      - 🇹🇼 台湾家宽 283
+      - 🇹🇼 台湾家宽 752
+      - 🇹🇼 台湾家宽 089
+      - 🇹🇼 台湾家宽 808
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 008
+      - 🇯🇵 日本 29
+      - 🇺🇸 美国 304
+      - 🇹🇼 台湾家宽 588
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 38
-      - 🇹🇼 台湾 066
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 022
-      - 🇭🇰 香港 06
-      - 🇭🇰 香港 23
-      - 🇹🇼 台湾家宽 014
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 036
-      - 🇹🇼 台湾 094
-      - 🇹🇼 台湾 154
-      - 🇹🇼 台湾 069
-      - 🇹🇼 台湾家宽 143
-      - 🇹🇼 台湾 152
-      - 🇹🇼 台湾家宽 043
-      - 🇹🇼 台湾 111
-      - 🇹🇼 台湾家宽 064
-      - 🇹🇼 台湾 063
+      - 🇹🇼 台湾家宽 788
+      - 🇹🇼 台湾家宽 058
+      - 🇹🇼 台湾家宽 385
+      - 🇹🇼 台湾家宽 820
+      - 🇹🇼 台湾家宽 339
       - 🇹🇼 台湾家宽 095
-      - 🇹🇼 台湾 026
-      - 🇹🇼 台湾家宽 065
-      - 🇹🇼 台湾 085
-      - 🇹🇼 台湾 053
-      - 🇹🇼 台湾 045
-      - 🇹🇼 台湾 125
-      - 🇹🇼 台湾 121
-      - 🇹🇼 台湾家宽 018
-      - 🇹🇼 台湾 105
-      - 🇹🇼 台湾家宽 082
-      - 🇭🇰 香港 45
-      - 🇹🇼 台湾家宽 055
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾家宽 103
-      - 🇭🇰 香港家宽 20
-      - 🇹🇼 台湾家宽 157
-      - 🇹🇼 台湾家宽 042
-      - 🇹🇼 台湾 035
-      - 🇹🇼 台湾 032
-      - 🇹🇼 台湾 011
-      - 🇹🇼 台湾家宽 011
-      - 🇹🇼 台湾 056
-      - 🇹🇼 台湾 068
-      - 🇹🇼 台湾 143
-      - 🇭🇰 香港家宽 18
-      - 🇹🇼 台湾 036
-      - 🇹🇼 台湾 064
-      - 🇹🇼 台湾家宽 129
-      - 🇭🇰 香港 20
-      - 🇹🇼 台湾 037
-      - 🇹🇼 台湾家宽 108
-      - 🇹🇼 台湾 057
-      - 🇹🇼 台湾 084
-      - 🇹🇼 台湾 130
+      - 🇹🇼 台湾家宽 566
+      - 🇹🇼 台湾家宽 150
+      - 🇹🇼 台湾家宽 066
+      - 🇹🇼 台湾家宽 929
+      - 🇹🇼 台湾家宽 267
+      - 🇹🇼 台湾家宽 130
       - 🇹🇼 台湾家宽 091
-      - 🇹🇼 台湾 116
+      - 🇹🇼 台湾家宽 724
+      - 🇹🇼 台湾家宽 648
+      - 🇹🇼 台湾家宽 868
+      - 🇹🇼 台湾家宽 598
+      - 🇹🇼 台湾家宽 290
+      - 🇭🇰 香港家宽 051
+      - 🇹🇼 台湾家宽 193
+      - 🇹🇼 台湾家宽 210
+      - 🇹🇼 台湾家宽 651
+      - 🇹🇼 台湾家宽 248
+      - 🇹🇼 台湾家宽 608
+      - 🇹🇼 台湾家宽 090
+      - 🇹🇼 台湾家宽 235
+      - 🇹🇼 台湾家宽 692
+      - 🇹🇼 台湾家宽 965
+      - 🇭🇰 香港 077
+      - 🇹🇼 台湾家宽 869
+      - 🇹🇼 台湾家宽 038
+      - 🇭🇰 香港家宽 082
+      - 🇹🇼 台湾家宽 117
       - 🇹🇼 台湾家宽 072
-      - 🇹🇼 台湾 145
-      - 🇹🇼 台湾家宽 136
-      - 🇹🇼 台湾 138
-      - 🇹🇼 台湾家宽 020
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾家宽 134
-      - 🇹🇼 台湾 006
-      - 🇹🇼 台湾 102
-      - 🇹🇼 台湾家宽 139
-      - 🇹🇼 台湾 041
-      - 🇹🇼 台湾家宽 100
-      - 🇹🇼 台湾 059
-      - 🇹🇼 台湾 016
-      - 🇹🇼 台湾家宽 135
-      - 🇹🇼 台湾 144
-      - 🇹🇼 台湾 018
-      - 🇹🇼 台湾家宽 029
-      - 🇹🇼 台湾家宽 017
-      - 🇹🇼 台湾家宽 151
-      - 🇹🇼 台湾家宽 075
+      - 🇹🇼 台湾家宽 274
+      - 🇹🇼 台湾家宽 398
+      - 🇹🇼 台湾家宽 466
+      - 🇭🇰 香港 018
+      - 🇹🇼 台湾家宽 536
+      - 🇭🇰 香港家宽 083
+      - 🇹🇼 台湾家宽 969
+      - 🇹🇼 台湾家宽 729
+      - 🇹🇼 台湾家宽 074
+      - 🇹🇼 台湾家宽 769
+      - 🇹🇼 台湾家宽 806
+      - 🇹🇼 台湾家宽 696
+      - 🇹🇼 台湾家宽 395
+      - 🇹🇼 台湾家宽 377
+      - 🇹🇼 台湾家宽 766
+      - 🇹🇼 台湾家宽 787
+      - 🇹🇼 台湾家宽 819
+      - 🇹🇼 台湾家宽 711
+      - 🇹🇼 台湾家宽 873
+      - 🇹🇼 台湾家宽 320
+      - 🇭🇰 香港家宽 085
+      - 🇹🇼 台湾 06
+      - 🇹🇼 台湾家宽 749
+      - 🇹🇼 台湾家宽 032
+      - 🇹🇼 台湾家宽 166
+      - 🇹🇼 台湾家宽 192
+      - 🇹🇼 台湾家宽 045
+      - 🇹🇼 台湾家宽 635
+      - 🇹🇼 台湾家宽 767
+      - 🇹🇼 台湾家宽 943
+      - 🇹🇼 台湾家宽 914
+      - 🇹🇼 台湾家宽 159
+      - 🇭🇰 香港家宽 042
+      - 🇹🇼 台湾家宽 743
+      - 🇭🇰 香港 064
+      - 🇹🇼 台湾家宽 614
+      - 🇭🇰 香港 109
+      - 🇹🇼 台湾家宽 279
+      - 🇭🇰 香港家宽 130
+      - 🇹🇼 台湾家宽 932
+      - 🇭🇰 香港家宽 023
+      - 🇹🇼 台湾家宽 013
+      - 🇹🇼 台湾家宽 424
+      - 🇹🇼 台湾家宽 064
+      - 🇹🇼 台湾家宽 807
+      - 🇹🇼 台湾家宽 462
+      - 🇹🇼 台湾家宽 068
+      - 🇹🇼 台湾家宽 283
+      - 🇹🇼 台湾家宽 752
+      - 🇹🇼 台湾家宽 089
+      - 🇹🇼 台湾家宽 808
+      - 🇹🇼 台湾家宽 588
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -842,296 +892,312 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 027
-      - 🇩🇪 德国 30
-      - 🇭🇰 香港 38
-      - 🇹🇼 台湾 066
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 022
-      - 🇭🇰 香港 06
-      - 🇺🇸 美国 002
-      - 🇰🇷 韩国 75
-      - 🇩🇪 德国 12
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港 23
-      - 🇹🇼 台湾家宽 014
-      - 🇯🇵 日本 29
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 036
-      - 🇹🇼 台湾 094
-      - 🇹🇼 台湾 154
-      - 🇺🇸 美国 042
-      - 🇹🇼 台湾 069
-      - 🇹🇼 台湾家宽 143
-      - 🇹🇼 台湾 152
-      - 🇺🇸 美国 024
-      - 🇹🇼 台湾家宽 043
-      - 🇹🇼 台湾 111
-      - 🇹🇼 台湾家宽 064
-      - 🇹🇼 台湾 063
+      - 🇹🇼 台湾家宽 788
+      - 🇺🇸 美国 284
+      - 🇺🇸 美国 308
+      - 🇹🇼 台湾家宽 058
+      - 🇹🇼 台湾家宽 385
+      - 🇹🇼 台湾家宽 820
+      - 🇳🇱 荷兰 10
+      - 🇹🇼 台湾家宽 339
+      - 🇰🇷 韩国 46
       - 🇹🇼 台湾家宽 095
-      - 🇰🇷 韩国 23
-      - 🇹🇼 台湾 026
-      - 🇹🇼 台湾家宽 065
-      - 🇹🇼 台湾 085
-      - 🇯🇵 日本 24
-      - 🇺🇸 美国 033
-      - 🇹🇼 台湾 053
-      - 🇹🇼 台湾 045
-      - 🇺🇸 美国 090
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 26
-      - 🇹🇼 台湾 125
-      - 🇺🇸 美国 034
-      - 🇹🇼 台湾 121
-      - 🇹🇼 台湾家宽 018
-      - 🇹🇼 台湾 105
-      - 🇰🇷 韩国 33
-      - 🇰🇷 韩国 38
-      - 🇹🇼 台湾家宽 082
-      - 🇭🇰 香港 45
-      - 🇰🇷 韩国 55
-      - 🇹🇼 台湾家宽 055
-      - 🇺🇸 美国家宽 06
-      - 🇷🇺 俄罗斯 10
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾家宽 103
-      - 🇺🇸 美国 007
-      - 🇸🇬 新加坡 19
-      - 🇭🇰 香港家宽 20
-      - 🇹🇼 台湾家宽 157
-      - 🇷🇺 俄罗斯 15
-      - 🇹🇼 台湾家宽 042
-      - 🇰🇷 韩国 29
-      - 🇹🇼 台湾 035
-      - 🇹🇼 台湾 032
-      - 🇺🇸 美国 060
-      - 🇸🇬 新加坡 06
-      - 🇷🇺 俄罗斯 08
-      - 🇺🇸 美国 080
-      - 🇹🇼 台湾 011
-      - 🇰🇷 韩国 27
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国 085
-      - 🇹🇼 台湾家宽 011
-      - 🇹🇼 台湾 056
-      - 🇹🇼 台湾 068
-      - 🇹🇼 台湾 143
-      - 🇰🇷 韩国 30
-      - 🇭🇰 香港家宽 18
-      - 🇺🇸 美国家宽 10
-      - 🇹🇼 台湾 036
-      - 🇸🇬 新加坡 29
-      - 🇹🇼 台湾 064
-      - 🇹🇼 台湾家宽 129
-      - 🇺🇸 美国 003
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 124
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 037
-      - 🇹🇼 台湾家宽 108
-      - 🇹🇼 台湾 057
-      - 🇸🇬 新加坡 09
-      - 🇹🇼 台湾 084
-      - 🇹🇼 台湾 130
+      - 🇹🇼 台湾家宽 566
+      - 🇹🇼 台湾家宽 150
+      - 🇸🇬 新加坡 066
+      - 🇹🇼 台湾家宽 066
+      - 🇹🇼 台湾家宽 929
+      - 🇸🇬 新加坡 035
+      - 🇮🇳 印度 10
+      - 🇺🇸 美国 065
+      - 🇺🇸 美国家宽 05
+      - 🇹🇼 台湾家宽 267
+      - 🇹🇼 台湾家宽 130
       - 🇹🇼 台湾家宽 091
-      - 🇹🇼 台湾 116
-      - 🇷🇺 俄罗斯 14
-      - 🇩🇪 德国 06
-      - 🇩🇪 德国 33
-      - 🇸🇬 新加坡 21
+      - 🇹🇼 台湾家宽 724
+      - 🇺🇸 美国 092
+      - 🇻🇳 越南 77
+      - 🇨🇦 加拿大 09
+      - 🇹🇼 台湾家宽 648
+      - 🇹🇼 台湾家宽 868
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国家宽 04
+      - 🇹🇼 台湾家宽 598
+      - 🇩🇪 德国 023
+      - 🇨🇦 加拿大 12
+      - 🇹🇼 台湾家宽 290
+      - 🇺🇸 美国 095
+      - 🇭🇰 香港家宽 051
+      - 🇹🇼 台湾家宽 193
+      - 🇳🇱 荷兰 04
+      - 🇺🇸 美国 228
+      - 🇻🇳 越南 86
+      - 🇹🇼 台湾家宽 210
+      - 🇹🇼 台湾家宽 651
+      - 🇹🇼 台湾家宽 248
+      - 🇹🇼 台湾家宽 608
+      - 🇺🇸 美国 232
+      - 🇹🇼 台湾家宽 090
+      - 🇹🇼 台湾家宽 235
+      - 🇹🇼 台湾家宽 692
+      - 🇺🇸 美国 135
+      - 🇹🇼 台湾家宽 965
+      - 🇭🇰 香港 077
+      - 🇹🇼 台湾家宽 869
+      - 🇺🇸 美国 205
+      - 🇹🇼 台湾家宽 038
+      - 🇭🇰 香港家宽 082
+      - 🇻🇳 越南 78
+      - 🇹🇼 台湾家宽 117
       - 🇹🇼 台湾家宽 072
-      - 🇹🇼 台湾 145
-      - 🇹🇼 台湾家宽 136
-      - 🇩🇪 德国 19
-      - 🇻🇳 越南 01
-      - 🇹🇼 台湾 138
-      - 🇯🇵 日本 33
-      - 🇺🇸 美国 044
-      - 🇹🇼 台湾家宽 020
-      - 🇷🇺 俄罗斯 13
-      - 🇺🇸 美国 127
-      - 🇺🇸 美国 009
-      - 🇷🇺 俄罗斯 16
-      - 🇰🇷 韩国 15
-      - 🇺🇸 美国 125
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾家宽 134
-      - 🇰🇷 韩国 51
-      - 🇰🇷 韩国 72
-      - 🇹🇼 台湾 006
-      - 🇹🇼 台湾 102
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 020
-      - 🇹🇼 台湾家宽 139
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾家宽 100
-      - 🇹🇼 台湾 059
-      - 🇹🇼 台湾 016
-      - 🇷🇺 俄罗斯 04
-      - 🇹🇼 台湾家宽 135
-      - 🇹🇼 台湾 144
-      - 🇺🇸 美国 012
-      - 🇩🇪 德国 27
-      - 🇹🇼 台湾 018
-      - 🇹🇼 台湾家宽 029
-      - 🇹🇼 台湾家宽 017
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 26
-      - 🇹🇼 台湾家宽 151
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 126
-      - 🇸🇬 新加坡 12
-      - 🇹🇼 台湾家宽 075
+      - 🇩🇪 德国 078
+      - 🇹🇼 台湾家宽 274
+      - 🇯🇵 日本 34
+      - 🇹🇼 台湾家宽 398
+      - 🇸🇬 新加坡 052
+      - 🇹🇼 台湾家宽 466
+      - 🇭🇰 香港 018
+      - 🇹🇼 台湾家宽 536
+      - 🇭🇰 香港家宽 083
+      - 🇸🇬 新加坡 053
+      - 🇺🇸 美国 138
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 130
+      - 🇹🇼 台湾家宽 969
+      - 🇩🇪 德国 007
+      - 🇹🇼 台湾家宽 729
+      - 🇩🇪 德国 072
+      - 🇯🇵 日本 37
+      - 🇺🇸 美国 322
+      - 🇹🇼 台湾家宽 074
+      - 🇹🇼 台湾家宽 769
+      - 🇹🇼 台湾家宽 806
+      - 🇹🇼 台湾家宽 696
+      - 🇰🇷 韩国 36
+      - 🇹🇼 台湾家宽 395
+      - 🇹🇼 台湾家宽 377
+      - 🇹🇼 台湾家宽 766
+      - 🇹🇼 台湾家宽 787
+      - 🇸🇬 新加坡 099
+      - 🇹🇼 台湾家宽 819
+      - 🇹🇼 台湾家宽 711
+      - 🇹🇼 台湾家宽 873
+      - 🇹🇼 台湾家宽 320
+      - 🇭🇰 香港家宽 085
+      - 🇯🇵 日本 38
+      - 🇹🇼 台湾 06
+      - 🇹🇼 台湾家宽 749
+      - 🇺🇸 美国 311
+      - 🇺🇸 美国 239
+      - 🇹🇼 台湾家宽 032
+      - 🇹🇼 台湾家宽 166
+      - 🇺🇸 美国 202
+      - 🇹🇼 台湾家宽 192
+      - 🇹🇼 台湾家宽 045
+      - 🇻🇳 越南 53
+      - 🇹🇼 台湾家宽 635
+      - 🇺🇸 美国 074
+      - 🇹🇼 台湾家宽 767
+      - 🇹🇼 台湾家宽 943
+      - 🇹🇼 台湾家宽 914
+      - 🇹🇼 台湾家宽 159
+      - 🇩🇪 德国 052
+      - 🇺🇸 美国 164
+      - 🇭🇰 香港家宽 042
+      - 🇹🇼 台湾家宽 743
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 064
+      - 🇺🇸 美国 061
+      - 🇫🇮 芬兰 01
+      - 🇹🇼 台湾家宽 614
+      - 🇩🇪 德国 051
+      - 🇯🇵 日本 11
+      - 🇭🇰 香港 109
+      - 🇹🇼 台湾家宽 279
+      - 🇭🇰 香港家宽 130
+      - 🇹🇼 台湾家宽 932
+      - 🇺🇸 美国 241
+      - 🇺🇸 美国 281
+      - 🇯🇵 日本 49
+      - 🇭🇰 香港家宽 023
+      - 🇺🇸 美国 171
+      - 🇹🇼 台湾家宽 013
+      - 🇺🇸 美国 051
+      - 🇹🇼 台湾家宽 424
+      - 🇩🇪 德国 016
+      - 🇹🇼 台湾家宽 064
+      - 🇯🇵 日本 35
+      - 🇸🇬 新加坡 072
+      - 🇺🇸 美国 300
+      - 🇹🇼 台湾家宽 807
+      - 🇸🇬 新加坡 031
+      - 🇹🇼 台湾家宽 462
+      - 🇹🇼 台湾家宽 068
+      - 🇹🇼 台湾家宽 283
+      - 🇹🇼 台湾家宽 752
+      - 🇹🇼 台湾家宽 089
+      - 🇹🇼 台湾家宽 808
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 008
+      - 🇯🇵 日本 29
+      - 🇺🇸 美国 304
+      - 🇹🇼 台湾家宽 588
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 027
-      - 🇩🇪 德国 30
-      - 🇭🇰 香港 38
-      - 🇹🇼 台湾 066
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 022
-      - 🇭🇰 香港 06
-      - 🇺🇸 美国 002
-      - 🇰🇷 韩国 75
-      - 🇩🇪 德国 12
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港 23
-      - 🇹🇼 台湾家宽 014
-      - 🇯🇵 日本 29
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 036
-      - 🇹🇼 台湾 094
-      - 🇹🇼 台湾 154
-      - 🇺🇸 美国 042
-      - 🇹🇼 台湾 069
-      - 🇹🇼 台湾家宽 143
-      - 🇹🇼 台湾 152
-      - 🇺🇸 美国 024
-      - 🇹🇼 台湾家宽 043
-      - 🇹🇼 台湾 111
-      - 🇹🇼 台湾家宽 064
-      - 🇹🇼 台湾 063
+      - 🇹🇼 台湾家宽 788
+      - 🇺🇸 美国 284
+      - 🇺🇸 美国 308
+      - 🇹🇼 台湾家宽 058
+      - 🇹🇼 台湾家宽 385
+      - 🇹🇼 台湾家宽 820
+      - 🇳🇱 荷兰 10
+      - 🇹🇼 台湾家宽 339
+      - 🇰🇷 韩国 46
       - 🇹🇼 台湾家宽 095
-      - 🇰🇷 韩国 23
-      - 🇹🇼 台湾 026
-      - 🇹🇼 台湾家宽 065
-      - 🇹🇼 台湾 085
-      - 🇯🇵 日本 24
-      - 🇺🇸 美国 033
-      - 🇹🇼 台湾 053
-      - 🇹🇼 台湾 045
-      - 🇺🇸 美国 090
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 26
-      - 🇹🇼 台湾 125
-      - 🇺🇸 美国 034
-      - 🇹🇼 台湾 121
-      - 🇹🇼 台湾家宽 018
-      - 🇹🇼 台湾 105
-      - 🇰🇷 韩国 33
-      - 🇰🇷 韩国 38
-      - 🇹🇼 台湾家宽 082
-      - 🇭🇰 香港 45
-      - 🇰🇷 韩国 55
-      - 🇹🇼 台湾家宽 055
-      - 🇺🇸 美国家宽 06
-      - 🇷🇺 俄罗斯 10
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾家宽 103
-      - 🇺🇸 美国 007
-      - 🇸🇬 新加坡 19
-      - 🇭🇰 香港家宽 20
-      - 🇹🇼 台湾家宽 157
-      - 🇷🇺 俄罗斯 15
-      - 🇹🇼 台湾家宽 042
-      - 🇰🇷 韩国 29
-      - 🇹🇼 台湾 035
-      - 🇹🇼 台湾 032
-      - 🇺🇸 美国 060
-      - 🇸🇬 新加坡 06
-      - 🇷🇺 俄罗斯 08
-      - 🇺🇸 美国 080
-      - 🇹🇼 台湾 011
-      - 🇰🇷 韩国 27
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国 085
-      - 🇹🇼 台湾家宽 011
-      - 🇹🇼 台湾 056
-      - 🇹🇼 台湾 068
-      - 🇹🇼 台湾 143
-      - 🇰🇷 韩国 30
-      - 🇭🇰 香港家宽 18
-      - 🇺🇸 美国家宽 10
-      - 🇹🇼 台湾 036
-      - 🇸🇬 新加坡 29
-      - 🇹🇼 台湾 064
-      - 🇹🇼 台湾家宽 129
-      - 🇺🇸 美国 003
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 124
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 037
-      - 🇹🇼 台湾家宽 108
-      - 🇹🇼 台湾 057
-      - 🇸🇬 新加坡 09
-      - 🇹🇼 台湾 084
-      - 🇹🇼 台湾 130
+      - 🇹🇼 台湾家宽 566
+      - 🇹🇼 台湾家宽 150
+      - 🇸🇬 新加坡 066
+      - 🇹🇼 台湾家宽 066
+      - 🇹🇼 台湾家宽 929
+      - 🇸🇬 新加坡 035
+      - 🇮🇳 印度 10
+      - 🇺🇸 美国 065
+      - 🇺🇸 美国家宽 05
+      - 🇹🇼 台湾家宽 267
+      - 🇹🇼 台湾家宽 130
       - 🇹🇼 台湾家宽 091
-      - 🇹🇼 台湾 116
-      - 🇷🇺 俄罗斯 14
-      - 🇩🇪 德国 06
-      - 🇩🇪 德国 33
-      - 🇸🇬 新加坡 21
+      - 🇹🇼 台湾家宽 724
+      - 🇺🇸 美国 092
+      - 🇻🇳 越南 77
+      - 🇨🇦 加拿大 09
+      - 🇹🇼 台湾家宽 648
+      - 🇹🇼 台湾家宽 868
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国家宽 04
+      - 🇹🇼 台湾家宽 598
+      - 🇩🇪 德国 023
+      - 🇨🇦 加拿大 12
+      - 🇹🇼 台湾家宽 290
+      - 🇺🇸 美国 095
+      - 🇭🇰 香港家宽 051
+      - 🇹🇼 台湾家宽 193
+      - 🇳🇱 荷兰 04
+      - 🇺🇸 美国 228
+      - 🇻🇳 越南 86
+      - 🇹🇼 台湾家宽 210
+      - 🇹🇼 台湾家宽 651
+      - 🇹🇼 台湾家宽 248
+      - 🇹🇼 台湾家宽 608
+      - 🇺🇸 美国 232
+      - 🇹🇼 台湾家宽 090
+      - 🇹🇼 台湾家宽 235
+      - 🇹🇼 台湾家宽 692
+      - 🇺🇸 美国 135
+      - 🇹🇼 台湾家宽 965
+      - 🇭🇰 香港 077
+      - 🇹🇼 台湾家宽 869
+      - 🇺🇸 美国 205
+      - 🇹🇼 台湾家宽 038
+      - 🇭🇰 香港家宽 082
+      - 🇻🇳 越南 78
+      - 🇹🇼 台湾家宽 117
       - 🇹🇼 台湾家宽 072
-      - 🇹🇼 台湾 145
-      - 🇹🇼 台湾家宽 136
-      - 🇩🇪 德国 19
-      - 🇻🇳 越南 01
-      - 🇹🇼 台湾 138
-      - 🇯🇵 日本 33
-      - 🇺🇸 美国 044
-      - 🇹🇼 台湾家宽 020
-      - 🇷🇺 俄罗斯 13
-      - 🇺🇸 美国 127
-      - 🇺🇸 美国 009
-      - 🇷🇺 俄罗斯 16
-      - 🇰🇷 韩国 15
-      - 🇺🇸 美国 125
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾家宽 134
-      - 🇰🇷 韩国 51
-      - 🇰🇷 韩国 72
-      - 🇹🇼 台湾 006
-      - 🇹🇼 台湾 102
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 020
-      - 🇹🇼 台湾家宽 139
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾家宽 100
-      - 🇹🇼 台湾 059
-      - 🇹🇼 台湾 016
-      - 🇷🇺 俄罗斯 04
-      - 🇹🇼 台湾家宽 135
-      - 🇹🇼 台湾 144
-      - 🇺🇸 美国 012
-      - 🇩🇪 德国 27
-      - 🇹🇼 台湾 018
-      - 🇹🇼 台湾家宽 029
-      - 🇹🇼 台湾家宽 017
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 26
-      - 🇹🇼 台湾家宽 151
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 126
-      - 🇸🇬 新加坡 12
-      - 🇹🇼 台湾家宽 075
+      - 🇩🇪 德国 078
+      - 🇹🇼 台湾家宽 274
+      - 🇯🇵 日本 34
+      - 🇹🇼 台湾家宽 398
+      - 🇸🇬 新加坡 052
+      - 🇹🇼 台湾家宽 466
+      - 🇭🇰 香港 018
+      - 🇹🇼 台湾家宽 536
+      - 🇭🇰 香港家宽 083
+      - 🇸🇬 新加坡 053
+      - 🇺🇸 美国 138
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 130
+      - 🇹🇼 台湾家宽 969
+      - 🇩🇪 德国 007
+      - 🇹🇼 台湾家宽 729
+      - 🇩🇪 德国 072
+      - 🇯🇵 日本 37
+      - 🇺🇸 美国 322
+      - 🇹🇼 台湾家宽 074
+      - 🇹🇼 台湾家宽 769
+      - 🇹🇼 台湾家宽 806
+      - 🇹🇼 台湾家宽 696
+      - 🇰🇷 韩国 36
+      - 🇹🇼 台湾家宽 395
+      - 🇹🇼 台湾家宽 377
+      - 🇹🇼 台湾家宽 766
+      - 🇹🇼 台湾家宽 787
+      - 🇸🇬 新加坡 099
+      - 🇹🇼 台湾家宽 819
+      - 🇹🇼 台湾家宽 711
+      - 🇹🇼 台湾家宽 873
+      - 🇹🇼 台湾家宽 320
+      - 🇭🇰 香港家宽 085
+      - 🇯🇵 日本 38
+      - 🇹🇼 台湾 06
+      - 🇹🇼 台湾家宽 749
+      - 🇺🇸 美国 311
+      - 🇺🇸 美国 239
+      - 🇹🇼 台湾家宽 032
+      - 🇹🇼 台湾家宽 166
+      - 🇺🇸 美国 202
+      - 🇹🇼 台湾家宽 192
+      - 🇹🇼 台湾家宽 045
+      - 🇻🇳 越南 53
+      - 🇹🇼 台湾家宽 635
+      - 🇺🇸 美国 074
+      - 🇹🇼 台湾家宽 767
+      - 🇹🇼 台湾家宽 943
+      - 🇹🇼 台湾家宽 914
+      - 🇹🇼 台湾家宽 159
+      - 🇩🇪 德国 052
+      - 🇺🇸 美国 164
+      - 🇭🇰 香港家宽 042
+      - 🇹🇼 台湾家宽 743
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 064
+      - 🇺🇸 美国 061
+      - 🇫🇮 芬兰 01
+      - 🇹🇼 台湾家宽 614
+      - 🇩🇪 德国 051
+      - 🇯🇵 日本 11
+      - 🇭🇰 香港 109
+      - 🇹🇼 台湾家宽 279
+      - 🇭🇰 香港家宽 130
+      - 🇹🇼 台湾家宽 932
+      - 🇺🇸 美国 241
+      - 🇺🇸 美国 281
+      - 🇯🇵 日本 49
+      - 🇭🇰 香港家宽 023
+      - 🇺🇸 美国 171
+      - 🇹🇼 台湾家宽 013
+      - 🇺🇸 美国 051
+      - 🇹🇼 台湾家宽 424
+      - 🇩🇪 德国 016
+      - 🇹🇼 台湾家宽 064
+      - 🇯🇵 日本 35
+      - 🇸🇬 新加坡 072
+      - 🇺🇸 美国 300
+      - 🇹🇼 台湾家宽 807
+      - 🇸🇬 新加坡 031
+      - 🇹🇼 台湾家宽 462
+      - 🇹🇼 台湾家宽 068
+      - 🇹🇼 台湾家宽 283
+      - 🇹🇼 台湾家宽 752
+      - 🇹🇼 台湾家宽 089
+      - 🇹🇼 台湾家宽 808
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 008
+      - 🇯🇵 日本 29
+      - 🇺🇸 美国 304
+      - 🇹🇼 台湾家宽 588
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1139,148 +1205,156 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 027
-      - 🇩🇪 德国 30
-      - 🇭🇰 香港 38
-      - 🇹🇼 台湾 066
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 022
-      - 🇭🇰 香港 06
-      - 🇺🇸 美国 002
-      - 🇰🇷 韩国 75
-      - 🇩🇪 德国 12
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港 23
-      - 🇹🇼 台湾家宽 014
-      - 🇯🇵 日本 29
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 036
-      - 🇹🇼 台湾 094
-      - 🇹🇼 台湾 154
-      - 🇺🇸 美国 042
-      - 🇹🇼 台湾 069
-      - 🇹🇼 台湾家宽 143
-      - 🇹🇼 台湾 152
-      - 🇺🇸 美国 024
-      - 🇹🇼 台湾家宽 043
-      - 🇹🇼 台湾 111
-      - 🇹🇼 台湾家宽 064
-      - 🇹🇼 台湾 063
+      - 🇹🇼 台湾家宽 788
+      - 🇺🇸 美国 284
+      - 🇺🇸 美国 308
+      - 🇹🇼 台湾家宽 058
+      - 🇹🇼 台湾家宽 385
+      - 🇹🇼 台湾家宽 820
+      - 🇳🇱 荷兰 10
+      - 🇹🇼 台湾家宽 339
+      - 🇰🇷 韩国 46
       - 🇹🇼 台湾家宽 095
-      - 🇰🇷 韩国 23
-      - 🇹🇼 台湾 026
-      - 🇹🇼 台湾家宽 065
-      - 🇹🇼 台湾 085
-      - 🇯🇵 日本 24
-      - 🇺🇸 美国 033
-      - 🇹🇼 台湾 053
-      - 🇹🇼 台湾 045
-      - 🇺🇸 美国 090
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 26
-      - 🇹🇼 台湾 125
-      - 🇺🇸 美国 034
-      - 🇹🇼 台湾 121
-      - 🇹🇼 台湾家宽 018
-      - 🇹🇼 台湾 105
-      - 🇰🇷 韩国 33
-      - 🇰🇷 韩国 38
-      - 🇹🇼 台湾家宽 082
-      - 🇭🇰 香港 45
-      - 🇰🇷 韩国 55
-      - 🇹🇼 台湾家宽 055
-      - 🇺🇸 美国家宽 06
-      - 🇷🇺 俄罗斯 10
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾家宽 103
-      - 🇺🇸 美国 007
-      - 🇸🇬 新加坡 19
-      - 🇭🇰 香港家宽 20
-      - 🇹🇼 台湾家宽 157
-      - 🇷🇺 俄罗斯 15
-      - 🇹🇼 台湾家宽 042
-      - 🇰🇷 韩国 29
-      - 🇹🇼 台湾 035
-      - 🇹🇼 台湾 032
-      - 🇺🇸 美国 060
-      - 🇸🇬 新加坡 06
-      - 🇷🇺 俄罗斯 08
-      - 🇺🇸 美国 080
-      - 🇹🇼 台湾 011
-      - 🇰🇷 韩国 27
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国 085
-      - 🇹🇼 台湾家宽 011
-      - 🇹🇼 台湾 056
-      - 🇹🇼 台湾 068
-      - 🇹🇼 台湾 143
-      - 🇰🇷 韩国 30
-      - 🇭🇰 香港家宽 18
-      - 🇺🇸 美国家宽 10
-      - 🇹🇼 台湾 036
-      - 🇸🇬 新加坡 29
-      - 🇹🇼 台湾 064
-      - 🇹🇼 台湾家宽 129
-      - 🇺🇸 美国 003
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 124
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 037
-      - 🇹🇼 台湾家宽 108
-      - 🇹🇼 台湾 057
-      - 🇸🇬 新加坡 09
-      - 🇹🇼 台湾 084
-      - 🇹🇼 台湾 130
+      - 🇹🇼 台湾家宽 566
+      - 🇹🇼 台湾家宽 150
+      - 🇸🇬 新加坡 066
+      - 🇹🇼 台湾家宽 066
+      - 🇹🇼 台湾家宽 929
+      - 🇸🇬 新加坡 035
+      - 🇮🇳 印度 10
+      - 🇺🇸 美国 065
+      - 🇺🇸 美国家宽 05
+      - 🇹🇼 台湾家宽 267
+      - 🇹🇼 台湾家宽 130
       - 🇹🇼 台湾家宽 091
-      - 🇹🇼 台湾 116
-      - 🇷🇺 俄罗斯 14
-      - 🇩🇪 德国 06
-      - 🇩🇪 德国 33
-      - 🇸🇬 新加坡 21
+      - 🇹🇼 台湾家宽 724
+      - 🇺🇸 美国 092
+      - 🇻🇳 越南 77
+      - 🇨🇦 加拿大 09
+      - 🇹🇼 台湾家宽 648
+      - 🇹🇼 台湾家宽 868
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国家宽 04
+      - 🇹🇼 台湾家宽 598
+      - 🇩🇪 德国 023
+      - 🇨🇦 加拿大 12
+      - 🇹🇼 台湾家宽 290
+      - 🇺🇸 美国 095
+      - 🇭🇰 香港家宽 051
+      - 🇹🇼 台湾家宽 193
+      - 🇳🇱 荷兰 04
+      - 🇺🇸 美国 228
+      - 🇻🇳 越南 86
+      - 🇹🇼 台湾家宽 210
+      - 🇹🇼 台湾家宽 651
+      - 🇹🇼 台湾家宽 248
+      - 🇹🇼 台湾家宽 608
+      - 🇺🇸 美国 232
+      - 🇹🇼 台湾家宽 090
+      - 🇹🇼 台湾家宽 235
+      - 🇹🇼 台湾家宽 692
+      - 🇺🇸 美国 135
+      - 🇹🇼 台湾家宽 965
+      - 🇭🇰 香港 077
+      - 🇹🇼 台湾家宽 869
+      - 🇺🇸 美国 205
+      - 🇹🇼 台湾家宽 038
+      - 🇭🇰 香港家宽 082
+      - 🇻🇳 越南 78
+      - 🇹🇼 台湾家宽 117
       - 🇹🇼 台湾家宽 072
-      - 🇹🇼 台湾 145
-      - 🇹🇼 台湾家宽 136
-      - 🇩🇪 德国 19
-      - 🇻🇳 越南 01
-      - 🇹🇼 台湾 138
-      - 🇯🇵 日本 33
-      - 🇺🇸 美国 044
-      - 🇹🇼 台湾家宽 020
-      - 🇷🇺 俄罗斯 13
-      - 🇺🇸 美国 127
-      - 🇺🇸 美国 009
-      - 🇷🇺 俄罗斯 16
-      - 🇰🇷 韩国 15
-      - 🇺🇸 美国 125
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾家宽 134
-      - 🇰🇷 韩国 51
-      - 🇰🇷 韩国 72
-      - 🇹🇼 台湾 006
-      - 🇹🇼 台湾 102
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 020
-      - 🇹🇼 台湾家宽 139
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾家宽 100
-      - 🇹🇼 台湾 059
-      - 🇹🇼 台湾 016
-      - 🇷🇺 俄罗斯 04
-      - 🇹🇼 台湾家宽 135
-      - 🇹🇼 台湾 144
-      - 🇺🇸 美国 012
-      - 🇩🇪 德国 27
-      - 🇹🇼 台湾 018
-      - 🇹🇼 台湾家宽 029
-      - 🇹🇼 台湾家宽 017
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 26
-      - 🇹🇼 台湾家宽 151
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 126
-      - 🇸🇬 新加坡 12
-      - 🇹🇼 台湾家宽 075
+      - 🇩🇪 德国 078
+      - 🇹🇼 台湾家宽 274
+      - 🇯🇵 日本 34
+      - 🇹🇼 台湾家宽 398
+      - 🇸🇬 新加坡 052
+      - 🇹🇼 台湾家宽 466
+      - 🇭🇰 香港 018
+      - 🇹🇼 台湾家宽 536
+      - 🇭🇰 香港家宽 083
+      - 🇸🇬 新加坡 053
+      - 🇺🇸 美国 138
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 130
+      - 🇹🇼 台湾家宽 969
+      - 🇩🇪 德国 007
+      - 🇹🇼 台湾家宽 729
+      - 🇩🇪 德国 072
+      - 🇯🇵 日本 37
+      - 🇺🇸 美国 322
+      - 🇹🇼 台湾家宽 074
+      - 🇹🇼 台湾家宽 769
+      - 🇹🇼 台湾家宽 806
+      - 🇹🇼 台湾家宽 696
+      - 🇰🇷 韩国 36
+      - 🇹🇼 台湾家宽 395
+      - 🇹🇼 台湾家宽 377
+      - 🇹🇼 台湾家宽 766
+      - 🇹🇼 台湾家宽 787
+      - 🇸🇬 新加坡 099
+      - 🇹🇼 台湾家宽 819
+      - 🇹🇼 台湾家宽 711
+      - 🇹🇼 台湾家宽 873
+      - 🇹🇼 台湾家宽 320
+      - 🇭🇰 香港家宽 085
+      - 🇯🇵 日本 38
+      - 🇹🇼 台湾 06
+      - 🇹🇼 台湾家宽 749
+      - 🇺🇸 美国 311
+      - 🇺🇸 美国 239
+      - 🇹🇼 台湾家宽 032
+      - 🇹🇼 台湾家宽 166
+      - 🇺🇸 美国 202
+      - 🇹🇼 台湾家宽 192
+      - 🇹🇼 台湾家宽 045
+      - 🇻🇳 越南 53
+      - 🇹🇼 台湾家宽 635
+      - 🇺🇸 美国 074
+      - 🇹🇼 台湾家宽 767
+      - 🇹🇼 台湾家宽 943
+      - 🇹🇼 台湾家宽 914
+      - 🇹🇼 台湾家宽 159
+      - 🇩🇪 德国 052
+      - 🇺🇸 美国 164
+      - 🇭🇰 香港家宽 042
+      - 🇹🇼 台湾家宽 743
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 064
+      - 🇺🇸 美国 061
+      - 🇫🇮 芬兰 01
+      - 🇹🇼 台湾家宽 614
+      - 🇩🇪 德国 051
+      - 🇯🇵 日本 11
+      - 🇭🇰 香港 109
+      - 🇹🇼 台湾家宽 279
+      - 🇭🇰 香港家宽 130
+      - 🇹🇼 台湾家宽 932
+      - 🇺🇸 美国 241
+      - 🇺🇸 美国 281
+      - 🇯🇵 日本 49
+      - 🇭🇰 香港家宽 023
+      - 🇺🇸 美国 171
+      - 🇹🇼 台湾家宽 013
+      - 🇺🇸 美国 051
+      - 🇹🇼 台湾家宽 424
+      - 🇩🇪 德国 016
+      - 🇹🇼 台湾家宽 064
+      - 🇯🇵 日本 35
+      - 🇸🇬 新加坡 072
+      - 🇺🇸 美国 300
+      - 🇹🇼 台湾家宽 807
+      - 🇸🇬 新加坡 031
+      - 🇹🇼 台湾家宽 462
+      - 🇹🇼 台湾家宽 068
+      - 🇹🇼 台湾家宽 283
+      - 🇹🇼 台湾家宽 752
+      - 🇹🇼 台湾家宽 089
+      - 🇹🇼 台湾家宽 808
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 008
+      - 🇯🇵 日本 29
+      - 🇺🇸 美国 304
+      - 🇹🇼 台湾家宽 588
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1297,148 +1371,156 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 027
-      - 🇩🇪 德国 30
-      - 🇭🇰 香港 38
-      - 🇹🇼 台湾 066
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 022
-      - 🇭🇰 香港 06
-      - 🇺🇸 美国 002
-      - 🇰🇷 韩国 75
-      - 🇩🇪 德国 12
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港 23
-      - 🇹🇼 台湾家宽 014
-      - 🇯🇵 日本 29
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 036
-      - 🇹🇼 台湾 094
-      - 🇹🇼 台湾 154
-      - 🇺🇸 美国 042
-      - 🇹🇼 台湾 069
-      - 🇹🇼 台湾家宽 143
-      - 🇹🇼 台湾 152
-      - 🇺🇸 美国 024
-      - 🇹🇼 台湾家宽 043
-      - 🇹🇼 台湾 111
-      - 🇹🇼 台湾家宽 064
-      - 🇹🇼 台湾 063
+      - 🇹🇼 台湾家宽 788
+      - 🇺🇸 美国 284
+      - 🇺🇸 美国 308
+      - 🇹🇼 台湾家宽 058
+      - 🇹🇼 台湾家宽 385
+      - 🇹🇼 台湾家宽 820
+      - 🇳🇱 荷兰 10
+      - 🇹🇼 台湾家宽 339
+      - 🇰🇷 韩国 46
       - 🇹🇼 台湾家宽 095
-      - 🇰🇷 韩国 23
-      - 🇹🇼 台湾 026
-      - 🇹🇼 台湾家宽 065
-      - 🇹🇼 台湾 085
-      - 🇯🇵 日本 24
-      - 🇺🇸 美国 033
-      - 🇹🇼 台湾 053
-      - 🇹🇼 台湾 045
-      - 🇺🇸 美国 090
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 26
-      - 🇹🇼 台湾 125
-      - 🇺🇸 美国 034
-      - 🇹🇼 台湾 121
-      - 🇹🇼 台湾家宽 018
-      - 🇹🇼 台湾 105
-      - 🇰🇷 韩国 33
-      - 🇰🇷 韩国 38
-      - 🇹🇼 台湾家宽 082
-      - 🇭🇰 香港 45
-      - 🇰🇷 韩国 55
-      - 🇹🇼 台湾家宽 055
-      - 🇺🇸 美国家宽 06
-      - 🇷🇺 俄罗斯 10
-      - 🇹🇼 台湾 004
-      - 🇹🇼 台湾家宽 103
-      - 🇺🇸 美国 007
-      - 🇸🇬 新加坡 19
-      - 🇭🇰 香港家宽 20
-      - 🇹🇼 台湾家宽 157
-      - 🇷🇺 俄罗斯 15
-      - 🇹🇼 台湾家宽 042
-      - 🇰🇷 韩国 29
-      - 🇹🇼 台湾 035
-      - 🇹🇼 台湾 032
-      - 🇺🇸 美国 060
-      - 🇸🇬 新加坡 06
-      - 🇷🇺 俄罗斯 08
-      - 🇺🇸 美国 080
-      - 🇹🇼 台湾 011
-      - 🇰🇷 韩国 27
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国 085
-      - 🇹🇼 台湾家宽 011
-      - 🇹🇼 台湾 056
-      - 🇹🇼 台湾 068
-      - 🇹🇼 台湾 143
-      - 🇰🇷 韩国 30
-      - 🇭🇰 香港家宽 18
-      - 🇺🇸 美国家宽 10
-      - 🇹🇼 台湾 036
-      - 🇸🇬 新加坡 29
-      - 🇹🇼 台湾 064
-      - 🇹🇼 台湾家宽 129
-      - 🇺🇸 美国 003
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 124
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 037
-      - 🇹🇼 台湾家宽 108
-      - 🇹🇼 台湾 057
-      - 🇸🇬 新加坡 09
-      - 🇹🇼 台湾 084
-      - 🇹🇼 台湾 130
+      - 🇹🇼 台湾家宽 566
+      - 🇹🇼 台湾家宽 150
+      - 🇸🇬 新加坡 066
+      - 🇹🇼 台湾家宽 066
+      - 🇹🇼 台湾家宽 929
+      - 🇸🇬 新加坡 035
+      - 🇮🇳 印度 10
+      - 🇺🇸 美国 065
+      - 🇺🇸 美国家宽 05
+      - 🇹🇼 台湾家宽 267
+      - 🇹🇼 台湾家宽 130
       - 🇹🇼 台湾家宽 091
-      - 🇹🇼 台湾 116
-      - 🇷🇺 俄罗斯 14
-      - 🇩🇪 德国 06
-      - 🇩🇪 德国 33
-      - 🇸🇬 新加坡 21
+      - 🇹🇼 台湾家宽 724
+      - 🇺🇸 美国 092
+      - 🇻🇳 越南 77
+      - 🇨🇦 加拿大 09
+      - 🇹🇼 台湾家宽 648
+      - 🇹🇼 台湾家宽 868
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国家宽 04
+      - 🇹🇼 台湾家宽 598
+      - 🇩🇪 德国 023
+      - 🇨🇦 加拿大 12
+      - 🇹🇼 台湾家宽 290
+      - 🇺🇸 美国 095
+      - 🇭🇰 香港家宽 051
+      - 🇹🇼 台湾家宽 193
+      - 🇳🇱 荷兰 04
+      - 🇺🇸 美国 228
+      - 🇻🇳 越南 86
+      - 🇹🇼 台湾家宽 210
+      - 🇹🇼 台湾家宽 651
+      - 🇹🇼 台湾家宽 248
+      - 🇹🇼 台湾家宽 608
+      - 🇺🇸 美国 232
+      - 🇹🇼 台湾家宽 090
+      - 🇹🇼 台湾家宽 235
+      - 🇹🇼 台湾家宽 692
+      - 🇺🇸 美国 135
+      - 🇹🇼 台湾家宽 965
+      - 🇭🇰 香港 077
+      - 🇹🇼 台湾家宽 869
+      - 🇺🇸 美国 205
+      - 🇹🇼 台湾家宽 038
+      - 🇭🇰 香港家宽 082
+      - 🇻🇳 越南 78
+      - 🇹🇼 台湾家宽 117
       - 🇹🇼 台湾家宽 072
-      - 🇹🇼 台湾 145
-      - 🇹🇼 台湾家宽 136
-      - 🇩🇪 德国 19
-      - 🇻🇳 越南 01
-      - 🇹🇼 台湾 138
-      - 🇯🇵 日本 33
-      - 🇺🇸 美国 044
-      - 🇹🇼 台湾家宽 020
-      - 🇷🇺 俄罗斯 13
-      - 🇺🇸 美国 127
-      - 🇺🇸 美国 009
-      - 🇷🇺 俄罗斯 16
-      - 🇰🇷 韩国 15
-      - 🇺🇸 美国 125
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾家宽 134
-      - 🇰🇷 韩国 51
-      - 🇰🇷 韩国 72
-      - 🇹🇼 台湾 006
-      - 🇹🇼 台湾 102
-      - 🇺🇸 美国 077
-      - 🇺🇸 美国 020
-      - 🇹🇼 台湾家宽 139
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾家宽 100
-      - 🇹🇼 台湾 059
-      - 🇹🇼 台湾 016
-      - 🇷🇺 俄罗斯 04
-      - 🇹🇼 台湾家宽 135
-      - 🇹🇼 台湾 144
-      - 🇺🇸 美国 012
-      - 🇩🇪 德国 27
-      - 🇹🇼 台湾 018
-      - 🇹🇼 台湾家宽 029
-      - 🇹🇼 台湾家宽 017
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 26
-      - 🇹🇼 台湾家宽 151
-      - 🇺🇸 美国 023
-      - 🇺🇸 美国 126
-      - 🇸🇬 新加坡 12
-      - 🇹🇼 台湾家宽 075
+      - 🇩🇪 德国 078
+      - 🇹🇼 台湾家宽 274
+      - 🇯🇵 日本 34
+      - 🇹🇼 台湾家宽 398
+      - 🇸🇬 新加坡 052
+      - 🇹🇼 台湾家宽 466
+      - 🇭🇰 香港 018
+      - 🇹🇼 台湾家宽 536
+      - 🇭🇰 香港家宽 083
+      - 🇸🇬 新加坡 053
+      - 🇺🇸 美国 138
+      - 🇺🇸 美国 036
+      - 🇺🇸 美国 130
+      - 🇹🇼 台湾家宽 969
+      - 🇩🇪 德国 007
+      - 🇹🇼 台湾家宽 729
+      - 🇩🇪 德国 072
+      - 🇯🇵 日本 37
+      - 🇺🇸 美国 322
+      - 🇹🇼 台湾家宽 074
+      - 🇹🇼 台湾家宽 769
+      - 🇹🇼 台湾家宽 806
+      - 🇹🇼 台湾家宽 696
+      - 🇰🇷 韩国 36
+      - 🇹🇼 台湾家宽 395
+      - 🇹🇼 台湾家宽 377
+      - 🇹🇼 台湾家宽 766
+      - 🇹🇼 台湾家宽 787
+      - 🇸🇬 新加坡 099
+      - 🇹🇼 台湾家宽 819
+      - 🇹🇼 台湾家宽 711
+      - 🇹🇼 台湾家宽 873
+      - 🇹🇼 台湾家宽 320
+      - 🇭🇰 香港家宽 085
+      - 🇯🇵 日本 38
+      - 🇹🇼 台湾 06
+      - 🇹🇼 台湾家宽 749
+      - 🇺🇸 美国 311
+      - 🇺🇸 美国 239
+      - 🇹🇼 台湾家宽 032
+      - 🇹🇼 台湾家宽 166
+      - 🇺🇸 美国 202
+      - 🇹🇼 台湾家宽 192
+      - 🇹🇼 台湾家宽 045
+      - 🇻🇳 越南 53
+      - 🇹🇼 台湾家宽 635
+      - 🇺🇸 美国 074
+      - 🇹🇼 台湾家宽 767
+      - 🇹🇼 台湾家宽 943
+      - 🇹🇼 台湾家宽 914
+      - 🇹🇼 台湾家宽 159
+      - 🇩🇪 德国 052
+      - 🇺🇸 美国 164
+      - 🇭🇰 香港家宽 042
+      - 🇹🇼 台湾家宽 743
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 064
+      - 🇺🇸 美国 061
+      - 🇫🇮 芬兰 01
+      - 🇹🇼 台湾家宽 614
+      - 🇩🇪 德国 051
+      - 🇯🇵 日本 11
+      - 🇭🇰 香港 109
+      - 🇹🇼 台湾家宽 279
+      - 🇭🇰 香港家宽 130
+      - 🇹🇼 台湾家宽 932
+      - 🇺🇸 美国 241
+      - 🇺🇸 美国 281
+      - 🇯🇵 日本 49
+      - 🇭🇰 香港家宽 023
+      - 🇺🇸 美国 171
+      - 🇹🇼 台湾家宽 013
+      - 🇺🇸 美国 051
+      - 🇹🇼 台湾家宽 424
+      - 🇩🇪 德国 016
+      - 🇹🇼 台湾家宽 064
+      - 🇯🇵 日本 35
+      - 🇸🇬 新加坡 072
+      - 🇺🇸 美国 300
+      - 🇹🇼 台湾家宽 807
+      - 🇸🇬 新加坡 031
+      - 🇹🇼 台湾家宽 462
+      - 🇹🇼 台湾家宽 068
+      - 🇹🇼 台湾家宽 283
+      - 🇹🇼 台湾家宽 752
+      - 🇹🇼 台湾家宽 089
+      - 🇹🇼 台湾家宽 808
+      - 🇺🇸 美国 002
+      - 🇺🇸 美国 008
+      - 🇯🇵 日本 29
+      - 🇺🇸 美国 304
+      - 🇹🇼 台湾家宽 588
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
