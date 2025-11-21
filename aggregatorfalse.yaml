@@ -6,74 +6,156 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇯🇵 日本 468, server: jp7.dexlos.com, port: 13879, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 081, server: jp10.dexlos.com, port: 19303, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度 01, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 655ed562-6bed-4494-87ae-a686fe76fd33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 330, server: jp3.dexlos.com, port: 5157, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 法国 18, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: ce256cee-e994-4a25-b7d4-47e623460f7f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 033, server: us6.dexlos.com, port: 11169, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us6.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳大利亚 02, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 015ffe49-9cd9-4a82-bb22-445c6c431286, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚 07, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 7a59df23-fb01-4eaa-9d2d-4b3c4966e9c9, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大 20, server: jnd.jgpyjc.top, port: 40000, type: hysteria2, password: 92a4ad06-6464-48b1-926e-dc9343d68277, auth: 92a4ad06-6464-48b1-926e-dc9343d68277, sni: jnd.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: NmZjOTM5ODJmMWIzNWRkOA==, ports: 40000-40050, udp: true}
-  - {name: 🇯🇵 日本 033, server: jp5.dexlos.com, port: 9585, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp5.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 224, server: jp10.dexlos.com, port: 19439, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 082, server: jp7.dexlos.com, port: 13902, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 02, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: ae803b0e-5240-4e4b-985d-b3694b3bd21d, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本 547, server: jp7.dexlos.com, port: 13457, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 12, server: 26a4deb2-t66sg0-t7kvg3-1mij.hk2.hyhuawei.com, port: 443, type: hysteria2, password: c2c634e8-ab9e-11ef-97e0-f23c9164ca5d, auth: c2c634e8-ab9e-11ef-97e0-f23c9164ca5d, ports: 30000-60000, udp: true}
-  - {name: 🇯🇵 日本 416, server: jp5.dexlos.com, port: 9284, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp5.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 21, server: cdnfire.xiaomispeed.com, port: 21104, type: trojan, password: 2c0abfcc-bb0a-44bf-a862-7620c062345c, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳大利亚 11, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: ce256cee-e994-4a25-b7d4-47e623460f7f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本 225, server: jp6.dexlos.com, port: 11466, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 591, server: jp3.dexlos.com, port: 5293, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 074, server: e4798ef2-t66sg0-tfj0we-u6bc.us.hyhuawei.com, port: 443, type: hysteria2, password: 21747146-3507-11ed-bb74-f23c9164ca5d, auth: 21747146-3507-11ed-bb74-f23c9164ca5d, ports: 30000-60000, udp: true}
-  - {name: 🇮🇳 印度 15, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 🇹🇼 台湾家宽 50, server: tw1.dexlos.com, port: 1999, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: tw1.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 304, server: jp3.dexlos.com, port: 5738, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 611, server: jp4.dexlos.com, port: 7570, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 07, server: dg.jgpyjc.top, port: 40000, type: hysteria2, password: 9f27d349-3278-4c21-9dfd-40a045972916, auth: 9f27d349-3278-4c21-9dfd-40a045972916, sni: dg.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, ports: 40000-40050, udp: true}
-  - {name: 🇹🇼 台湾家宽 16, server: tw2.dexlos.com, port: 3613, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: tw2.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 431, server: jp4.dexlos.com, port: 7034, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 624, server: jp2.dexlos.com, port: 3148, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 04, server: de7f7e8a-t66sg0-tfj0we-u6bc.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 21747146-3507-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇯🇵 日本 457, server: jp8.dexlos.com, port: 15003, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 302, server: jp8.dexlos.com, port: 15861, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 法国 15, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: ae803b0e-5240-4e4b-985d-b3694b3bd21d, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本 223, server: jp2.dexlos.com, port: 3276, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港家宽 03, server: 7ffaa08b-t66sg0-tfjz9x-1t5n1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇦🇺 澳大利亚 15, server: 192.9.165.40, port: 51000, type: hysteria2, password: f03c2b3b-4c2b-46ae-a99c-b079384c3b42, auth: f03c2b3b-4c2b-46ae-a99c-b079384c3b42, sni: cn.cremedelamer.com, skip-cert-verify: true, ports: 51000-53000, udp: true}
-  - {name: 🇯🇵 日本 453, server: jp3.dexlos.com, port: 5484, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 205, server: jp3.dexlos.com, port: 5245, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 566, server: jp2.dexlos.com, port: 3192, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 090, server: us10.dexlos.com, port: 19747, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us10.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 108, server: us8.dexlos.com, port: 15581, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us8.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 569, server: jp7.dexlos.com, port: 13934, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 050, server: us6.dexlos.com, port: 11883, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us6.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 203, server: jp4.dexlos.com, port: 7605, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 284, server: jp10.dexlos.com, port: 19408, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 030, server: us7.dexlos.com, port: 13088, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us7.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 324, server: jp5.dexlos.com, port: 9669, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp5.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇧🇷 巴西 03, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, udp: true}
-  - {name: 🇳🇱 荷兰 06, server: 51.159.226.1, port: 49003, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: 🇯🇵 日本 303, server: jp9.dexlos.com, port: 17494, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 097, server: us9.dexlos.com, port: 17894, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us9.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 494, server: jp3.dexlos.com, port: 5717, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国 24, server: lovetea1.dastur-amuzesh.ir, port: 3002, type: vless, uuid: 323e66b8-9214-487f-9499-8b5bcc68c3f4, tls: false, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 114, server: us10.dexlos.com, port: 19754, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us10.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾家宽 34, server: tw3.dexlos.com, port: 5817, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: tw3.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 11, server: dg.jgpyjc.top, port: 40000, type: hysteria2, password: 8e2b5009-f215-4341-a155-2a33f00f6c45, auth: 8e2b5009-f215-4341-a155-2a33f00f6c45, sni: dg.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, ports: 40000-40050, udp: true}
-  - {name: 🇯🇵 日本 166, server: jp2.dexlos.com, port: 3951, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国 21, server: dg.jgpyjc.top, port: 40000, type: hysteria2, password: e7c1a5d2-fbf0-4883-a5c7-790ea7679945, auth: e7c1a5d2-fbf0-4883-a5c7-790ea7679945, sni: dg.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, ports: 40000-40050, udp: true}
-  - {name: 🇺🇸 美国 037, server: us8.dexlos.com, port: 15592, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us8.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 478, server: jp8.dexlos.com, port: 15598, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 法国 04, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: f13701c7-cf70-491e-86fe-09380d13c7e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾家宽 44, server: tw2.dexlos.com, port: 3622, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: tw2.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 01, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 655ed562-6bed-4494-87ae-a686fe76fd33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 242, server: jp8.dexlos.com, port: 15039, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 20, server: cdnfire.xiaomispeed.com, port: 21104, type: trojan, password: ab4f3f53-e34c-4e3d-bcdd-a2aee9801ec3, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国 20, server: 34.22.190.30, port: 443, type: trojan, password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb, sni: joss.gpj1.web.id, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/34.22.190.30=443, headers: {Host: joss.gpj1.web.id}}, udp: true}
-  - {name: 🇯🇵 日本 176, server: jp2.dexlos.com, port: 3382, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 178, server: jp10.dexlos.com, port: 19145, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 349, server: jp5.dexlos.com, port: 9292, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp5.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 167, server: jp10.dexlos.com, port: 19568, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 490, server: jp4.dexlos.com, port: 7108, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 537, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: f13701c7-cf70-491e-86fe-09380d13c7e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 503, server: jp7.dexlos.com, port: 13569, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 375, server: jp9.dexlos.com, port: 17607, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 315, server: jp8.dexlos.com, port: 15612, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 042, server: us4.dexlos.com, port: 7699, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us4.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 160, server: jp2.dexlos.com, port: 3945, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 133, server: jp6.dexlos.com, port: 11426, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 078, server: us9.dexlos.com, port: 17053, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us9.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大 27, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 7a59df23-fb01-4eaa-9d2d-4b3c4966e9c9, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本 249, server: jp10.dexlos.com, port: 19612, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 311, server: jp4.dexlos.com, port: 7811, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 149, server: jp4.dexlos.com, port: 7715, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 448, server: jp6.dexlos.com, port: 11885, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 170, server: jp6.dexlos.com, port: 11477, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 241, server: jp8.dexlos.com, port: 15976, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 219, server: jp9.dexlos.com, port: 17814, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 210, server: jp5.dexlos.com, port: 9048, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp5.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 046, server: us6.dexlos.com, port: 11380, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us6.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度 11, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: f13701c7-cf70-491e-86fe-09380d13c7e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 022, server: jp9.dexlos.com, port: 17355, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 470, server: jp7.dexlos.com, port: 13232, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 545, server: jp10.dexlos.com, port: 19322, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 02, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 32753a3a-48a0-4721-b29a-ebf6aec16195, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度 12, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 655ed562-6bed-4494-87ae-a686fe76fd33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 130, server: jp7.dexlos.com, port: 13165, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 421, server: jp7.dexlos.com, port: 13306, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 275, server: jp8.dexlos.com, port: 15879, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 235, server: jp3.dexlos.com, port: 5362, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾家宽 33, server: tw8.dexlos.com, port: 15025, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: tw8.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 579, server: jp3.dexlos.com, port: 5660, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 422, server: jp8.dexlos.com, port: 15026, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 473, server: jp2.dexlos.com, port: 3223, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 616, server: jp3.dexlos.com, port: 5925, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 148, server: jp3.dexlos.com, port: 5685, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾家宽 29, server: tw1.dexlos.com, port: 1703, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: tw1.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 396, server: jp8.dexlos.com, port: 15912, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 239, server: jp8.dexlos.com, port: 15908, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 630, server: jp4.dexlos.com, port: 7174, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 280, server: jp7.dexlos.com, port: 13288, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 202, server: jp4.dexlos.com, port: 7215, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 626, server: jp3.dexlos.com, port: 5120, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 144, server: jp2.dexlos.com, port: 3566, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 073, server: f44e6c2e-t66sg0-t7luxf-tng5.us.hyhuawei.com, port: 443, type: hysteria2, password: 2ec58858-976b-11ea-82ef-f23c9164ca5d, auth: 2ec58858-976b-11ea-82ef-f23c9164ca5d, ports: 30000-60000, udp: true}
+  - {name: 🇯🇵 日本 601, server: jp4.dexlos.com, port: 7689, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 258, server: jp7.dexlos.com, port: 13762, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 509, server: jp9.dexlos.com, port: 17559, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大 02, server: jnd.jgpyjc.top, port: 40000, type: hysteria2, password: 65852730-7cfe-4aca-96f3-71e23e9ce7b5, auth: 65852730-7cfe-4aca-96f3-71e23e9ce7b5, sni: jnd.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: NmZjOTM5ODJmMWIzNWRkOA==, ports: 40000-40050, udp: true}
+  - {name: 🇯🇵 日本 361, server: jp9.dexlos.com, port: 17208, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 印度 07, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 015ffe49-9cd9-4a82-bb22-445c6c431286, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本 388, server: jp6.dexlos.com, port: 11180, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 02, server: cdnfire.xiaomispeed.com, port: 23301, type: trojan, password: 2c0abfcc-bb0a-44bf-a862-7620c062345c, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 408, server: jp3.dexlos.com, port: 5821, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 285, server: jp6.dexlos.com, port: 11075, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 580, server: jp9.dexlos.com, port: 17806, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 559, server: jp10.dexlos.com, port: 19278, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 092, server: us9.dexlos.com, port: 17598, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us9.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 586, server: jp3.dexlos.com, port: 5246, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 360, server: jp3.dexlos.com, port: 5810, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国 05, server: dg.jgpyjc.top, port: 40000, type: hysteria2, password: 8d2a560e-6b9b-4a2c-9fee-94b3bc50b517, auth: 8d2a560e-6b9b-4a2c-9fee-94b3bc50b517, sni: dg.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, ports: 40000-40050, udp: true}
+  - {name: 🇯🇵 日本 458, server: jp2.dexlos.com, port: 3665, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 543, server: jp6.dexlos.com, port: 11110, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 131, server: us5.dexlos.com, port: 9371, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us5.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 208, server: jp4.dexlos.com, port: 7426, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国 12, server: dg.jgpyjc.top, port: 40000, type: hysteria2, password: 08b74402-3ca6-4699-a097-18eb26db49b0, auth: 08b74402-3ca6-4699-a097-18eb26db49b0, sni: dg.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, ports: 40000-40050, udp: true}
+  - {name: 🇺🇸 美国 034, server: us3.dexlos.com, port: 5669, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us3.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 073, server: jp9.dexlos.com, port: 17731, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大 21, server: jnd.jgpyjc.top, port: 40000, type: hysteria2, password: 2cd2a0b6-0b87-423b-850a-e1fadda1aa56, auth: 2cd2a0b6-0b87-423b-850a-e1fadda1aa56, sni: jnd.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: NmZjOTM5ODJmMWIzNWRkOA==, ports: 40000-40050, udp: true}
+  - {name: 🇹🇼 台湾家宽 51, server: tw1.dexlos.com, port: 1747, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: tw1.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 12, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: f13701c7-cf70-491e-86fe-09380d13c7e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 069, server: us5.dexlos.com, port: 9148, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us5.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 141, server: jp10.dexlos.com, port: 19875, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 296, server: jp10.dexlos.com, port: 19895, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 095, server: jp4.dexlos.com, port: 7474, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 525, server: jp10.dexlos.com, port: 19187, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大 36, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 655ed562-6bed-4494-87ae-a686fe76fd33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 377, server: jp10.dexlos.com, port: 19888, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 533, server: jp10.dexlos.com, port: 19999, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, up: 40 Mbps, down: 500 Mbps, skip-cert-verify: false, ports: 19000-20000, udp: true}
+  - {name: 🇯🇵 日本 101, server: jp10.dexlos.com, port: 19369, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国家宽 02, server: 23.27.163.48, port: 29456, type: ss, cipher: 2022-blake3-aes-256-gcm, password: a2J+0Zh0ysvywVAYuChaKcYpAsmqepoUkhgCDtSE2LM=:RNcvT2ckPQVgqigT/CTSeUa7UvHg5zkm1GLDwemPK9o=, udp: true}
+  - {name: 🇭🇰 香港家宽 14, server: 9d3e3b59-t66sg0-tfjz9x-1t5n1.hk2.hyhuawei.com, port: 443, type: hysteria2, password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, auth: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇦🇺 澳大利亚 10, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 655ed562-6bed-4494-87ae-a686fe76fd33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 307, server: jp8.dexlos.com, port: 15012, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 157, server: jp4.dexlos.com, port: 7535, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 405, server: jp4.dexlos.com, port: 7835, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 316, server: jp4.dexlos.com, port: 7768, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国 14, server: dg.jgpyjc.top, port: 40000, type: hysteria2, password: 6dd9ad49-7a87-4763-b0c5-49359d1e3019, auth: 6dd9ad49-7a87-4763-b0c5-49359d1e3019, sni: dg.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, ports: 40000-40050, udp: true}
+  - {name: 🇯🇵 日本 530, server: jp6.dexlos.com, port: 11048, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, up: 40 Mbps, down: 500 Mbps, skip-cert-verify: false, ports: 11000-12000, udp: true}
+  - {name: 🇹🇼 台湾 03, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 32753a3a-48a0-4721-b29a-ebf6aec16195, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本 429, server: jp9.dexlos.com, port: 17030, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 445, server: jp9.dexlos.com, port: 17281, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 327, server: jp6.dexlos.com, port: 11233, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 575, server: jp8.dexlos.com, port: 15720, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 01, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: ae803b0e-5240-4e4b-985d-b3694b3bd21d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇷 土耳其 02, server: telegram-armanstore2.dynv6.net, port: 49361, type: vless, uuid: 86dbe182-c349-4aca-96dd-403172522feb, tls: true, alpn: [h2%2Chttp%2F1.1%2Ch3], servername: telegram-armanstore2.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----, headers: {Host: telegram-armanstore2.dynv6.net}}, udp: true}
+  - {name: 🇯🇵 日本 140, server: jp10.dexlos.com, port: 19517, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国 18, server: dg.jgpyjc.top, port: 40000, type: hysteria2, password: 8d6d848b-1388-4d3a-8d3d-a674efe0032a, auth: 8d6d848b-1388-4d3a-8d3d-a674efe0032a, sni: dg.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, ports: 40000-40050, udp: true}
+  - {name: 🇯🇵 日本 132, server: jp4.dexlos.com, port: 7834, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国 10, server: dg.jgpyjc.top, port: 40000, type: hysteria2, password: c914cb06-5e4b-4499-88f6-9524f6c4d9fc, auth: c914cb06-5e4b-4499-88f6-9524f6c4d9fc, sni: dg.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, ports: 40000-40050, udp: true}
+  - {name: 🇯🇵 日本 447, server: jp10.dexlos.com, port: 19708, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾家宽 10, server: tw1.dexlos.com, port: 1000, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: tw1.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 173, server: us6.dexlos.com, port: 11410, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us6.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 075, server: 73c2292f-t66sg0-tfjz9x-1t5n1.us.hyhuawei.com, port: 443, type: hysteria2, password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, auth: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇺🇸 美国 038, server: us8.dexlos.com, port: 15703, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us8.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇪🇸 西班牙 01, server: 45.159.251.8, port: 81, type: trojan, password: 6ead60c4-4321-45d5-81a9-ba4835f7c692, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.159.251.8=81, headers: {Host: joss.gpj1.web.id}}, udp: true}
+  - {name: 🇯🇵 日本 175, server: jp9.dexlos.com, port: 17898, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 201, server: jp3.dexlos.com, port: 5965, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 309, server: jp2.dexlos.com, port: 3575, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 043, server: us8.dexlos.com, port: 15677, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us8.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 119, server: us4.dexlos.com, port: 7256, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us4.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 374, server: jp7.dexlos.com, port: 13077, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 105, server: jp7.dexlos.com, port: 13249, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港家宽 18, server: 97ce23cd-t66sg0-t7kvg3-1mij.hk1.hyhuawei.com, port: 443, type: hysteria2, password: c2c634e8-ab9e-11ef-97e0-f23c9164ca5d, auth: c2c634e8-ab9e-11ef-97e0-f23c9164ca5d, ports: 30000-60000, udp: true}
+  - {name: 🇯🇵 日本 312, server: jp9.dexlos.com, port: 17586, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 240, server: jp7.dexlos.com, port: 13689, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 027, server: jp8.dexlos.com, port: 15729, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇿 捷克 01, server: 81.91.214.162, port: 443, type: trojan, password: f583143c-2cbe-47f5-804d-27efa55442a1, sni: joss.gpj1.web.id, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/81.91.214.162=443, headers: {Host: joss.gpj1.web.id}}, udp: true}
+  - {name: 🇨🇦 加拿大 07, server: jnd.jgpyjc.top, port: 40000, type: hysteria2, password: 6dd9ad49-7a87-4763-b0c5-49359d1e3019, auth: 6dd9ad49-7a87-4763-b0c5-49359d1e3019, sni: jnd.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: NmZjOTM5ODJmMWIzNWRkOA==, ports: 40000-40050, udp: true}
+  - {name: 🇺🇸 美国 150, server: us6.dexlos.com, port: 11085, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us6.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 259, server: jp4.dexlos.com, port: 7562, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp4.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 291, server: jp5.dexlos.com, port: 9793, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp5.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 002, server: jp2.dexlos.com, port: 3638, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 522, server: jp2.dexlos.com, port: 3696, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 110, server: jp9.dexlos.com, port: 17312, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp9.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 617, server: jp8.dexlos.com, port: 15011, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 079, server: jp10.dexlos.com, port: 19927, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 251, server: jp7.dexlos.com, port: 13499, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 384, server: jp3.dexlos.com, port: 5893, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 403, server: jp6.dexlos.com, port: 11429, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 615, server: jp10.dexlos.com, port: 19763, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 189, server: jp6.dexlos.com, port: 11471, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 170, server: us10.dexlos.com, port: 19672, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us10.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 020, server: jp8.dexlos.com, port: 15822, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp8.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 418, server: jp3.dexlos.com, port: 5882, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp3.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 523, server: jp10.dexlos.com, port: 19849, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 618, server: jp5.dexlos.com, port: 9876, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp5.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 272, server: jp10.dexlos.com, port: 19879, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp10.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 英国 03, server: 94.182.137.12, port: 20532, type: vless, uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee, tls: false, servername: Telewebion.com, network: http, http-opts: {method: GET, path: [/], headers: {Host: [Telewebion.com]}}, udp: true}
+  - {name: 🇹🇼 台湾家宽 22, server: tw3.dexlos.com, port: 5009, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: tw3.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 012, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: ce256cee-e994-4a25-b7d4-47e623460f7f, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本 479, server: jp7.dexlos.com, port: 13422, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp7.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 532, server: jp5.dexlos.com, port: 9749, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp5.dexlos.com, up: 40 Mbps, down: 500 Mbps, skip-cert-verify: false, ports: 9000-10000, udp: true}
+  - {name: 🇯🇵 日本 322, server: jp6.dexlos.com, port: 11822, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp6.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 060, server: us5.dexlos.com, port: 9124, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us5.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 501, server: jp5.dexlos.com, port: 9328, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp5.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大 30, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: ce256cee-e994-4a25-b7d4-47e623460f7f, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本 006, server: jp2.dexlos.com, port: 3450, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: jp2.dexlos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 065, server: us3.dexlos.com, port: 5720, type: hysteria2, password: D844AF30-5BCD-419E-94D5-3417C648366A, auth: D844AF30-5BCD-419E-94D5-3417C648366A, sni: us3.dexlos.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -81,148 +163,312 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇯🇵 日本 468
-      - 🇯🇵 日本 081
-      - 🇮🇳 印度 01
-      - 🇯🇵 日本 330
-      - 🇫🇷 法国 18
-      - 🇺🇸 美国 033
-      - 🇦🇺 澳大利亚 02
-      - 🇦🇺 澳大利亚 07
-      - 🇨🇦 加拿大 20
-      - 🇯🇵 日本 033
-      - 🇯🇵 日本 224
-      - 🇯🇵 日本 082
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 547
-      - 🇭🇰 香港家宽 12
-      - 🇯🇵 日本 416
-      - 🇭🇰 香港 21
-      - 🇦🇺 澳大利亚 11
-      - 🇯🇵 日本 225
-      - 🇯🇵 日本 591
-      - 🇺🇸 美国 074
-      - 🇮🇳 印度 15
-      - 🇹🇼 台湾家宽 50
-      - 🇯🇵 日本 304
-      - 🇯🇵 日本 611
-      - 🇩🇪 德国 07
-      - 🇹🇼 台湾家宽 16
-      - 🇯🇵 日本 431
-      - 🇯🇵 日本 624
-      - 🇭🇰 香港家宽 04
-      - 🇯🇵 日本 457
-      - 🇯🇵 日本 302
-      - 🇫🇷 法国 15
-      - 🇯🇵 日本 223
-      - 🇭🇰 香港家宽 03
-      - 🇦🇺 澳大利亚 15
-      - 🇯🇵 日本 453
-      - 🇯🇵 日本 205
-      - 🇯🇵 日本 566
-      - 🇺🇸 美国 090
-      - 🇺🇸 美国 108
-      - 🇯🇵 日本 569
-      - 🇺🇸 美国 050
-      - 🇯🇵 日本 203
-      - 🇯🇵 日本 284
-      - 🇺🇸 美国 030
-      - 🇯🇵 日本 324
-      - 🇧🇷 巴西 03
-      - 🇳🇱 荷兰 06
-      - 🇯🇵 日本 303
-      - 🇺🇸 美国 097
-      - 🇯🇵 日本 494
-      - 🇩🇪 德国 24
-      - 🇺🇸 美国 114
-      - 🇹🇼 台湾家宽 34
-      - 🇩🇪 德国 11
-      - 🇯🇵 日本 166
-      - 🇩🇪 德国 21
-      - 🇺🇸 美国 037
-      - 🇯🇵 日本 478
-      - 🇫🇷 法国 04
-      - 🇹🇼 台湾家宽 44
-      - 🇹🇼 台湾 01
-      - 🇯🇵 日本 242
-      - 🇭🇰 香港 20
-      - 🇫🇷 法国 20
-      - 🇯🇵 日本 176
-      - 🇯🇵 日本 178
+      - 🇯🇵 日本 349
+      - 🇯🇵 日本 167
+      - 🇯🇵 日本 490
+      - 🇯🇵 日本 537
+      - 🇯🇵 日本 503
+      - 🇯🇵 日本 375
+      - 🇯🇵 日本 315
+      - 🇺🇸 美国 042
+      - 🇯🇵 日本 160
+      - 🇯🇵 日本 133
+      - 🇺🇸 美国 078
+      - 🇨🇦 加拿大 27
+      - 🇯🇵 日本 249
+      - 🇯🇵 日本 311
+      - 🇯🇵 日本 149
+      - 🇯🇵 日本 448
+      - 🇯🇵 日本 170
+      - 🇯🇵 日本 241
+      - 🇯🇵 日本 219
+      - 🇯🇵 日本 210
+      - 🇺🇸 美国 046
+      - 🇮🇳 印度 11
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 470
+      - 🇯🇵 日本 545
+      - 🇹🇼 台湾 02
+      - 🇮🇳 印度 12
+      - 🇯🇵 日本 130
+      - 🇯🇵 日本 421
+      - 🇯🇵 日本 275
+      - 🇯🇵 日本 235
+      - 🇹🇼 台湾家宽 33
+      - 🇯🇵 日本 579
+      - 🇯🇵 日本 422
+      - 🇯🇵 日本 473
+      - 🇯🇵 日本 616
+      - 🇯🇵 日本 148
+      - 🇹🇼 台湾家宽 29
+      - 🇯🇵 日本 396
+      - 🇯🇵 日本 239
+      - 🇯🇵 日本 630
+      - 🇯🇵 日本 280
+      - 🇯🇵 日本 202
+      - 🇯🇵 日本 626
+      - 🇯🇵 日本 144
+      - 🇺🇸 美国 073
+      - 🇯🇵 日本 601
+      - 🇯🇵 日本 258
+      - 🇯🇵 日本 509
+      - 🇨🇦 加拿大 02
+      - 🇯🇵 日本 361
+      - 🇮🇳 印度 07
+      - 🇯🇵 日本 388
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 408
+      - 🇯🇵 日本 285
+      - 🇯🇵 日本 580
+      - 🇯🇵 日本 559
+      - 🇺🇸 美国 092
+      - 🇯🇵 日本 586
+      - 🇯🇵 日本 360
+      - 🇩🇪 德国 05
+      - 🇯🇵 日本 458
+      - 🇯🇵 日本 543
+      - 🇺🇸 美国 131
+      - 🇯🇵 日本 208
+      - 🇩🇪 德国 12
+      - 🇺🇸 美国 034
+      - 🇯🇵 日本 073
+      - 🇨🇦 加拿大 21
+      - 🇹🇼 台湾家宽 51
+      - 🇹🇼 台湾 12
+      - 🇺🇸 美国 069
+      - 🇯🇵 日本 141
+      - 🇯🇵 日本 296
+      - 🇯🇵 日本 095
+      - 🇯🇵 日本 525
+      - 🇨🇦 加拿大 36
+      - 🇯🇵 日本 377
+      - 🇯🇵 日本 533
+      - 🇯🇵 日本 101
+      - 🇺🇸 美国家宽 02
+      - 🇭🇰 香港家宽 14
+      - 🇦🇺 澳大利亚 10
+      - 🇯🇵 日本 307
+      - 🇯🇵 日本 157
+      - 🇯🇵 日本 405
+      - 🇯🇵 日本 316
+      - 🇩🇪 德国 14
+      - 🇯🇵 日本 530
+      - 🇹🇼 台湾 03
+      - 🇯🇵 日本 429
+      - 🇯🇵 日本 445
+      - 🇯🇵 日本 327
+      - 🇯🇵 日本 575
+      - 🇰🇷 韩国 01
+      - 🇹🇷 土耳其 02
+      - 🇯🇵 日本 140
+      - 🇩🇪 德国 18
+      - 🇯🇵 日本 132
+      - 🇩🇪 德国 10
+      - 🇯🇵 日本 447
+      - 🇹🇼 台湾家宽 10
+      - 🇺🇸 美国 173
+      - 🇺🇸 美国 075
+      - 🇺🇸 美国 038
+      - 🇪🇸 西班牙 01
+      - 🇯🇵 日本 175
+      - 🇯🇵 日本 201
+      - 🇯🇵 日本 309
+      - 🇺🇸 美国 043
+      - 🇺🇸 美国 119
+      - 🇯🇵 日本 374
+      - 🇯🇵 日本 105
+      - 🇭🇰 香港家宽 18
+      - 🇯🇵 日本 312
+      - 🇯🇵 日本 240
+      - 🇯🇵 日本 027
+      - 🇨🇿 捷克 01
+      - 🇨🇦 加拿大 07
+      - 🇺🇸 美国 150
+      - 🇯🇵 日本 259
+      - 🇯🇵 日本 291
+      - 🇯🇵 日本 002
+      - 🇯🇵 日本 522
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 617
+      - 🇯🇵 日本 079
+      - 🇯🇵 日本 251
+      - 🇯🇵 日本 384
+      - 🇯🇵 日本 403
+      - 🇯🇵 日本 615
+      - 🇯🇵 日本 189
+      - 🇺🇸 美国 170
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 418
+      - 🇯🇵 日本 523
+      - 🇯🇵 日本 618
+      - 🇯🇵 日本 272
+      - 🇬🇧 英国 03
+      - 🇹🇼 台湾家宽 22
+      - 🇺🇸 美国 012
+      - 🇯🇵 日本 479
+      - 🇯🇵 日本 532
+      - 🇯🇵 日本 322
+      - 🇺🇸 美国 060
+      - 🇯🇵 日本 501
+      - 🇨🇦 加拿大 30
+      - 🇯🇵 日本 006
+      - 🇺🇸 美国 065
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇯🇵 日本 468
-      - 🇯🇵 日本 081
-      - 🇮🇳 印度 01
-      - 🇯🇵 日本 330
-      - 🇫🇷 法国 18
-      - 🇺🇸 美国 033
-      - 🇦🇺 澳大利亚 02
-      - 🇦🇺 澳大利亚 07
-      - 🇨🇦 加拿大 20
-      - 🇯🇵 日本 033
-      - 🇯🇵 日本 224
-      - 🇯🇵 日本 082
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 547
-      - 🇭🇰 香港家宽 12
-      - 🇯🇵 日本 416
-      - 🇭🇰 香港 21
-      - 🇦🇺 澳大利亚 11
-      - 🇯🇵 日本 225
-      - 🇯🇵 日本 591
-      - 🇺🇸 美国 074
-      - 🇮🇳 印度 15
-      - 🇹🇼 台湾家宽 50
-      - 🇯🇵 日本 304
-      - 🇯🇵 日本 611
-      - 🇩🇪 德国 07
-      - 🇹🇼 台湾家宽 16
-      - 🇯🇵 日本 431
-      - 🇯🇵 日本 624
-      - 🇭🇰 香港家宽 04
-      - 🇯🇵 日本 457
-      - 🇯🇵 日本 302
-      - 🇫🇷 法国 15
-      - 🇯🇵 日本 223
-      - 🇭🇰 香港家宽 03
-      - 🇦🇺 澳大利亚 15
-      - 🇯🇵 日本 453
-      - 🇯🇵 日本 205
-      - 🇯🇵 日本 566
-      - 🇺🇸 美国 090
-      - 🇺🇸 美国 108
-      - 🇯🇵 日本 569
-      - 🇺🇸 美国 050
-      - 🇯🇵 日本 203
-      - 🇯🇵 日本 284
-      - 🇺🇸 美国 030
-      - 🇯🇵 日本 324
-      - 🇧🇷 巴西 03
-      - 🇳🇱 荷兰 06
-      - 🇯🇵 日本 303
-      - 🇺🇸 美国 097
-      - 🇯🇵 日本 494
-      - 🇩🇪 德国 24
-      - 🇺🇸 美国 114
-      - 🇹🇼 台湾家宽 34
-      - 🇩🇪 德国 11
-      - 🇯🇵 日本 166
-      - 🇩🇪 德国 21
-      - 🇺🇸 美国 037
-      - 🇯🇵 日本 478
-      - 🇫🇷 法国 04
-      - 🇹🇼 台湾家宽 44
-      - 🇹🇼 台湾 01
-      - 🇯🇵 日本 242
-      - 🇭🇰 香港 20
-      - 🇫🇷 法国 20
-      - 🇯🇵 日本 176
-      - 🇯🇵 日本 178
+      - 🇯🇵 日本 349
+      - 🇯🇵 日本 167
+      - 🇯🇵 日本 490
+      - 🇯🇵 日本 537
+      - 🇯🇵 日本 503
+      - 🇯🇵 日本 375
+      - 🇯🇵 日本 315
+      - 🇺🇸 美国 042
+      - 🇯🇵 日本 160
+      - 🇯🇵 日本 133
+      - 🇺🇸 美国 078
+      - 🇨🇦 加拿大 27
+      - 🇯🇵 日本 249
+      - 🇯🇵 日本 311
+      - 🇯🇵 日本 149
+      - 🇯🇵 日本 448
+      - 🇯🇵 日本 170
+      - 🇯🇵 日本 241
+      - 🇯🇵 日本 219
+      - 🇯🇵 日本 210
+      - 🇺🇸 美国 046
+      - 🇮🇳 印度 11
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 470
+      - 🇯🇵 日本 545
+      - 🇹🇼 台湾 02
+      - 🇮🇳 印度 12
+      - 🇯🇵 日本 130
+      - 🇯🇵 日本 421
+      - 🇯🇵 日本 275
+      - 🇯🇵 日本 235
+      - 🇹🇼 台湾家宽 33
+      - 🇯🇵 日本 579
+      - 🇯🇵 日本 422
+      - 🇯🇵 日本 473
+      - 🇯🇵 日本 616
+      - 🇯🇵 日本 148
+      - 🇹🇼 台湾家宽 29
+      - 🇯🇵 日本 396
+      - 🇯🇵 日本 239
+      - 🇯🇵 日本 630
+      - 🇯🇵 日本 280
+      - 🇯🇵 日本 202
+      - 🇯🇵 日本 626
+      - 🇯🇵 日本 144
+      - 🇺🇸 美国 073
+      - 🇯🇵 日本 601
+      - 🇯🇵 日本 258
+      - 🇯🇵 日本 509
+      - 🇨🇦 加拿大 02
+      - 🇯🇵 日本 361
+      - 🇮🇳 印度 07
+      - 🇯🇵 日本 388
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 408
+      - 🇯🇵 日本 285
+      - 🇯🇵 日本 580
+      - 🇯🇵 日本 559
+      - 🇺🇸 美国 092
+      - 🇯🇵 日本 586
+      - 🇯🇵 日本 360
+      - 🇩🇪 德国 05
+      - 🇯🇵 日本 458
+      - 🇯🇵 日本 543
+      - 🇺🇸 美国 131
+      - 🇯🇵 日本 208
+      - 🇩🇪 德国 12
+      - 🇺🇸 美国 034
+      - 🇯🇵 日本 073
+      - 🇨🇦 加拿大 21
+      - 🇹🇼 台湾家宽 51
+      - 🇹🇼 台湾 12
+      - 🇺🇸 美国 069
+      - 🇯🇵 日本 141
+      - 🇯🇵 日本 296
+      - 🇯🇵 日本 095
+      - 🇯🇵 日本 525
+      - 🇨🇦 加拿大 36
+      - 🇯🇵 日本 377
+      - 🇯🇵 日本 533
+      - 🇯🇵 日本 101
+      - 🇺🇸 美国家宽 02
+      - 🇭🇰 香港家宽 14
+      - 🇦🇺 澳大利亚 10
+      - 🇯🇵 日本 307
+      - 🇯🇵 日本 157
+      - 🇯🇵 日本 405
+      - 🇯🇵 日本 316
+      - 🇩🇪 德国 14
+      - 🇯🇵 日本 530
+      - 🇹🇼 台湾 03
+      - 🇯🇵 日本 429
+      - 🇯🇵 日本 445
+      - 🇯🇵 日本 327
+      - 🇯🇵 日本 575
+      - 🇰🇷 韩国 01
+      - 🇹🇷 土耳其 02
+      - 🇯🇵 日本 140
+      - 🇩🇪 德国 18
+      - 🇯🇵 日本 132
+      - 🇩🇪 德国 10
+      - 🇯🇵 日本 447
+      - 🇹🇼 台湾家宽 10
+      - 🇺🇸 美国 173
+      - 🇺🇸 美国 075
+      - 🇺🇸 美国 038
+      - 🇪🇸 西班牙 01
+      - 🇯🇵 日本 175
+      - 🇯🇵 日本 201
+      - 🇯🇵 日本 309
+      - 🇺🇸 美国 043
+      - 🇺🇸 美国 119
+      - 🇯🇵 日本 374
+      - 🇯🇵 日本 105
+      - 🇭🇰 香港家宽 18
+      - 🇯🇵 日本 312
+      - 🇯🇵 日本 240
+      - 🇯🇵 日本 027
+      - 🇨🇿 捷克 01
+      - 🇨🇦 加拿大 07
+      - 🇺🇸 美国 150
+      - 🇯🇵 日本 259
+      - 🇯🇵 日本 291
+      - 🇯🇵 日本 002
+      - 🇯🇵 日本 522
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 617
+      - 🇯🇵 日本 079
+      - 🇯🇵 日本 251
+      - 🇯🇵 日本 384
+      - 🇯🇵 日本 403
+      - 🇯🇵 日本 615
+      - 🇯🇵 日本 189
+      - 🇺🇸 美国 170
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 418
+      - 🇯🇵 日本 523
+      - 🇯🇵 日本 618
+      - 🇯🇵 日本 272
+      - 🇬🇧 英国 03
+      - 🇹🇼 台湾家宽 22
+      - 🇺🇸 美国 012
+      - 🇯🇵 日本 479
+      - 🇯🇵 日本 532
+      - 🇯🇵 日本 322
+      - 🇺🇸 美国 060
+      - 🇯🇵 日本 501
+      - 🇨🇦 加拿大 30
+      - 🇯🇵 日本 006
+      - 🇺🇸 美国 065
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -230,74 +476,156 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇯🇵 日本 468
-      - 🇯🇵 日本 081
-      - 🇮🇳 印度 01
-      - 🇯🇵 日本 330
-      - 🇫🇷 法国 18
-      - 🇺🇸 美国 033
-      - 🇦🇺 澳大利亚 02
-      - 🇦🇺 澳大利亚 07
-      - 🇨🇦 加拿大 20
-      - 🇯🇵 日本 033
-      - 🇯🇵 日本 224
-      - 🇯🇵 日本 082
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 547
-      - 🇭🇰 香港家宽 12
-      - 🇯🇵 日本 416
-      - 🇭🇰 香港 21
-      - 🇦🇺 澳大利亚 11
-      - 🇯🇵 日本 225
-      - 🇯🇵 日本 591
-      - 🇺🇸 美国 074
-      - 🇮🇳 印度 15
-      - 🇹🇼 台湾家宽 50
-      - 🇯🇵 日本 304
-      - 🇯🇵 日本 611
-      - 🇩🇪 德国 07
-      - 🇹🇼 台湾家宽 16
-      - 🇯🇵 日本 431
-      - 🇯🇵 日本 624
-      - 🇭🇰 香港家宽 04
-      - 🇯🇵 日本 457
-      - 🇯🇵 日本 302
-      - 🇫🇷 法国 15
-      - 🇯🇵 日本 223
-      - 🇭🇰 香港家宽 03
-      - 🇦🇺 澳大利亚 15
-      - 🇯🇵 日本 453
-      - 🇯🇵 日本 205
-      - 🇯🇵 日本 566
-      - 🇺🇸 美国 090
-      - 🇺🇸 美国 108
-      - 🇯🇵 日本 569
-      - 🇺🇸 美国 050
-      - 🇯🇵 日本 203
-      - 🇯🇵 日本 284
-      - 🇺🇸 美国 030
-      - 🇯🇵 日本 324
-      - 🇧🇷 巴西 03
-      - 🇳🇱 荷兰 06
-      - 🇯🇵 日本 303
-      - 🇺🇸 美国 097
-      - 🇯🇵 日本 494
-      - 🇩🇪 德国 24
-      - 🇺🇸 美国 114
-      - 🇹🇼 台湾家宽 34
-      - 🇩🇪 德国 11
-      - 🇯🇵 日本 166
-      - 🇩🇪 德国 21
-      - 🇺🇸 美国 037
-      - 🇯🇵 日本 478
-      - 🇫🇷 法国 04
-      - 🇹🇼 台湾家宽 44
-      - 🇹🇼 台湾 01
-      - 🇯🇵 日本 242
-      - 🇭🇰 香港 20
-      - 🇫🇷 法国 20
-      - 🇯🇵 日本 176
-      - 🇯🇵 日本 178
+      - 🇯🇵 日本 349
+      - 🇯🇵 日本 167
+      - 🇯🇵 日本 490
+      - 🇯🇵 日本 537
+      - 🇯🇵 日本 503
+      - 🇯🇵 日本 375
+      - 🇯🇵 日本 315
+      - 🇺🇸 美国 042
+      - 🇯🇵 日本 160
+      - 🇯🇵 日本 133
+      - 🇺🇸 美国 078
+      - 🇨🇦 加拿大 27
+      - 🇯🇵 日本 249
+      - 🇯🇵 日本 311
+      - 🇯🇵 日本 149
+      - 🇯🇵 日本 448
+      - 🇯🇵 日本 170
+      - 🇯🇵 日本 241
+      - 🇯🇵 日本 219
+      - 🇯🇵 日本 210
+      - 🇺🇸 美国 046
+      - 🇮🇳 印度 11
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 470
+      - 🇯🇵 日本 545
+      - 🇹🇼 台湾 02
+      - 🇮🇳 印度 12
+      - 🇯🇵 日本 130
+      - 🇯🇵 日本 421
+      - 🇯🇵 日本 275
+      - 🇯🇵 日本 235
+      - 🇹🇼 台湾家宽 33
+      - 🇯🇵 日本 579
+      - 🇯🇵 日本 422
+      - 🇯🇵 日本 473
+      - 🇯🇵 日本 616
+      - 🇯🇵 日本 148
+      - 🇹🇼 台湾家宽 29
+      - 🇯🇵 日本 396
+      - 🇯🇵 日本 239
+      - 🇯🇵 日本 630
+      - 🇯🇵 日本 280
+      - 🇯🇵 日本 202
+      - 🇯🇵 日本 626
+      - 🇯🇵 日本 144
+      - 🇺🇸 美国 073
+      - 🇯🇵 日本 601
+      - 🇯🇵 日本 258
+      - 🇯🇵 日本 509
+      - 🇨🇦 加拿大 02
+      - 🇯🇵 日本 361
+      - 🇮🇳 印度 07
+      - 🇯🇵 日本 388
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 408
+      - 🇯🇵 日本 285
+      - 🇯🇵 日本 580
+      - 🇯🇵 日本 559
+      - 🇺🇸 美国 092
+      - 🇯🇵 日本 586
+      - 🇯🇵 日本 360
+      - 🇩🇪 德国 05
+      - 🇯🇵 日本 458
+      - 🇯🇵 日本 543
+      - 🇺🇸 美国 131
+      - 🇯🇵 日本 208
+      - 🇩🇪 德国 12
+      - 🇺🇸 美国 034
+      - 🇯🇵 日本 073
+      - 🇨🇦 加拿大 21
+      - 🇹🇼 台湾家宽 51
+      - 🇹🇼 台湾 12
+      - 🇺🇸 美国 069
+      - 🇯🇵 日本 141
+      - 🇯🇵 日本 296
+      - 🇯🇵 日本 095
+      - 🇯🇵 日本 525
+      - 🇨🇦 加拿大 36
+      - 🇯🇵 日本 377
+      - 🇯🇵 日本 533
+      - 🇯🇵 日本 101
+      - 🇺🇸 美国家宽 02
+      - 🇭🇰 香港家宽 14
+      - 🇦🇺 澳大利亚 10
+      - 🇯🇵 日本 307
+      - 🇯🇵 日本 157
+      - 🇯🇵 日本 405
+      - 🇯🇵 日本 316
+      - 🇩🇪 德国 14
+      - 🇯🇵 日本 530
+      - 🇹🇼 台湾 03
+      - 🇯🇵 日本 429
+      - 🇯🇵 日本 445
+      - 🇯🇵 日本 327
+      - 🇯🇵 日本 575
+      - 🇰🇷 韩国 01
+      - 🇹🇷 土耳其 02
+      - 🇯🇵 日本 140
+      - 🇩🇪 德国 18
+      - 🇯🇵 日本 132
+      - 🇩🇪 德国 10
+      - 🇯🇵 日本 447
+      - 🇹🇼 台湾家宽 10
+      - 🇺🇸 美国 173
+      - 🇺🇸 美国 075
+      - 🇺🇸 美国 038
+      - 🇪🇸 西班牙 01
+      - 🇯🇵 日本 175
+      - 🇯🇵 日本 201
+      - 🇯🇵 日本 309
+      - 🇺🇸 美国 043
+      - 🇺🇸 美国 119
+      - 🇯🇵 日本 374
+      - 🇯🇵 日本 105
+      - 🇭🇰 香港家宽 18
+      - 🇯🇵 日本 312
+      - 🇯🇵 日本 240
+      - 🇯🇵 日本 027
+      - 🇨🇿 捷克 01
+      - 🇨🇦 加拿大 07
+      - 🇺🇸 美国 150
+      - 🇯🇵 日本 259
+      - 🇯🇵 日本 291
+      - 🇯🇵 日本 002
+      - 🇯🇵 日本 522
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 617
+      - 🇯🇵 日本 079
+      - 🇯🇵 日本 251
+      - 🇯🇵 日本 384
+      - 🇯🇵 日本 403
+      - 🇯🇵 日本 615
+      - 🇯🇵 日本 189
+      - 🇺🇸 美国 170
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 418
+      - 🇯🇵 日本 523
+      - 🇯🇵 日本 618
+      - 🇯🇵 日本 272
+      - 🇬🇧 英国 03
+      - 🇹🇼 台湾家宽 22
+      - 🇺🇸 美国 012
+      - 🇯🇵 日本 479
+      - 🇯🇵 日本 532
+      - 🇯🇵 日本 322
+      - 🇺🇸 美国 060
+      - 🇯🇵 日本 501
+      - 🇨🇦 加拿大 30
+      - 🇯🇵 日本 006
+      - 🇺🇸 美国 065
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -317,89 +645,170 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇯🇵 日本 468
-      - 🇯🇵 日本 081
-      - 🇮🇳 印度 01
-      - 🇯🇵 日本 330
-      - 🇫🇷 法国 18
-      - 🇺🇸 美国 033
-      - 🇦🇺 澳大利亚 02
-      - 🇦🇺 澳大利亚 07
-      - 🇨🇦 加拿大 20
-      - 🇯🇵 日本 033
-      - 🇯🇵 日本 224
-      - 🇯🇵 日本 082
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 547
-      - 🇭🇰 香港家宽 12
-      - 🇯🇵 日本 416
-      - 🇭🇰 香港 21
-      - 🇦🇺 澳大利亚 11
-      - 🇯🇵 日本 225
-      - 🇯🇵 日本 591
-      - 🇺🇸 美国 074
-      - 🇮🇳 印度 15
-      - 🇹🇼 台湾家宽 50
-      - 🇯🇵 日本 304
-      - 🇯🇵 日本 611
-      - 🇩🇪 德国 07
-      - 🇹🇼 台湾家宽 16
-      - 🇯🇵 日本 431
-      - 🇯🇵 日本 624
-      - 🇭🇰 香港家宽 04
-      - 🇯🇵 日本 457
-      - 🇯🇵 日本 302
-      - 🇫🇷 法国 15
-      - 🇯🇵 日本 223
-      - 🇭🇰 香港家宽 03
-      - 🇦🇺 澳大利亚 15
-      - 🇯🇵 日本 453
-      - 🇯🇵 日本 205
-      - 🇯🇵 日本 566
-      - 🇺🇸 美国 090
-      - 🇺🇸 美国 108
-      - 🇯🇵 日本 569
-      - 🇺🇸 美国 050
-      - 🇯🇵 日本 203
-      - 🇯🇵 日本 284
-      - 🇺🇸 美国 030
-      - 🇯🇵 日本 324
-      - 🇧🇷 巴西 03
-      - 🇳🇱 荷兰 06
-      - 🇯🇵 日本 303
-      - 🇺🇸 美国 097
-      - 🇯🇵 日本 494
-      - 🇩🇪 德国 24
-      - 🇺🇸 美国 114
-      - 🇹🇼 台湾家宽 34
-      - 🇩🇪 德国 11
-      - 🇯🇵 日本 166
-      - 🇩🇪 德国 21
-      - 🇺🇸 美国 037
-      - 🇯🇵 日本 478
-      - 🇫🇷 法国 04
-      - 🇹🇼 台湾家宽 44
-      - 🇹🇼 台湾 01
-      - 🇯🇵 日本 242
-      - 🇭🇰 香港 20
-      - 🇫🇷 法国 20
-      - 🇯🇵 日本 176
-      - 🇯🇵 日本 178
+      - 🇯🇵 日本 349
+      - 🇯🇵 日本 167
+      - 🇯🇵 日本 490
+      - 🇯🇵 日本 537
+      - 🇯🇵 日本 503
+      - 🇯🇵 日本 375
+      - 🇯🇵 日本 315
+      - 🇺🇸 美国 042
+      - 🇯🇵 日本 160
+      - 🇯🇵 日本 133
+      - 🇺🇸 美国 078
+      - 🇨🇦 加拿大 27
+      - 🇯🇵 日本 249
+      - 🇯🇵 日本 311
+      - 🇯🇵 日本 149
+      - 🇯🇵 日本 448
+      - 🇯🇵 日本 170
+      - 🇯🇵 日本 241
+      - 🇯🇵 日本 219
+      - 🇯🇵 日本 210
+      - 🇺🇸 美国 046
+      - 🇮🇳 印度 11
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 470
+      - 🇯🇵 日本 545
+      - 🇹🇼 台湾 02
+      - 🇮🇳 印度 12
+      - 🇯🇵 日本 130
+      - 🇯🇵 日本 421
+      - 🇯🇵 日本 275
+      - 🇯🇵 日本 235
+      - 🇹🇼 台湾家宽 33
+      - 🇯🇵 日本 579
+      - 🇯🇵 日本 422
+      - 🇯🇵 日本 473
+      - 🇯🇵 日本 616
+      - 🇯🇵 日本 148
+      - 🇹🇼 台湾家宽 29
+      - 🇯🇵 日本 396
+      - 🇯🇵 日本 239
+      - 🇯🇵 日本 630
+      - 🇯🇵 日本 280
+      - 🇯🇵 日本 202
+      - 🇯🇵 日本 626
+      - 🇯🇵 日本 144
+      - 🇺🇸 美国 073
+      - 🇯🇵 日本 601
+      - 🇯🇵 日本 258
+      - 🇯🇵 日本 509
+      - 🇨🇦 加拿大 02
+      - 🇯🇵 日本 361
+      - 🇮🇳 印度 07
+      - 🇯🇵 日本 388
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 408
+      - 🇯🇵 日本 285
+      - 🇯🇵 日本 580
+      - 🇯🇵 日本 559
+      - 🇺🇸 美国 092
+      - 🇯🇵 日本 586
+      - 🇯🇵 日本 360
+      - 🇩🇪 德国 05
+      - 🇯🇵 日本 458
+      - 🇯🇵 日本 543
+      - 🇺🇸 美国 131
+      - 🇯🇵 日本 208
+      - 🇩🇪 德国 12
+      - 🇺🇸 美国 034
+      - 🇯🇵 日本 073
+      - 🇨🇦 加拿大 21
+      - 🇹🇼 台湾家宽 51
+      - 🇹🇼 台湾 12
+      - 🇺🇸 美国 069
+      - 🇯🇵 日本 141
+      - 🇯🇵 日本 296
+      - 🇯🇵 日本 095
+      - 🇯🇵 日本 525
+      - 🇨🇦 加拿大 36
+      - 🇯🇵 日本 377
+      - 🇯🇵 日本 533
+      - 🇯🇵 日本 101
+      - 🇺🇸 美国家宽 02
+      - 🇭🇰 香港家宽 14
+      - 🇦🇺 澳大利亚 10
+      - 🇯🇵 日本 307
+      - 🇯🇵 日本 157
+      - 🇯🇵 日本 405
+      - 🇯🇵 日本 316
+      - 🇩🇪 德国 14
+      - 🇯🇵 日本 530
+      - 🇹🇼 台湾 03
+      - 🇯🇵 日本 429
+      - 🇯🇵 日本 445
+      - 🇯🇵 日本 327
+      - 🇯🇵 日本 575
+      - 🇰🇷 韩国 01
+      - 🇹🇷 土耳其 02
+      - 🇯🇵 日本 140
+      - 🇩🇪 德国 18
+      - 🇯🇵 日本 132
+      - 🇩🇪 德国 10
+      - 🇯🇵 日本 447
+      - 🇹🇼 台湾家宽 10
+      - 🇺🇸 美国 173
+      - 🇺🇸 美国 075
+      - 🇺🇸 美国 038
+      - 🇪🇸 西班牙 01
+      - 🇯🇵 日本 175
+      - 🇯🇵 日本 201
+      - 🇯🇵 日本 309
+      - 🇺🇸 美国 043
+      - 🇺🇸 美国 119
+      - 🇯🇵 日本 374
+      - 🇯🇵 日本 105
+      - 🇭🇰 香港家宽 18
+      - 🇯🇵 日本 312
+      - 🇯🇵 日本 240
+      - 🇯🇵 日本 027
+      - 🇨🇿 捷克 01
+      - 🇨🇦 加拿大 07
+      - 🇺🇸 美国 150
+      - 🇯🇵 日本 259
+      - 🇯🇵 日本 291
+      - 🇯🇵 日本 002
+      - 🇯🇵 日本 522
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 617
+      - 🇯🇵 日本 079
+      - 🇯🇵 日本 251
+      - 🇯🇵 日本 384
+      - 🇯🇵 日本 403
+      - 🇯🇵 日本 615
+      - 🇯🇵 日本 189
+      - 🇺🇸 美国 170
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 418
+      - 🇯🇵 日本 523
+      - 🇯🇵 日本 618
+      - 🇯🇵 日本 272
+      - 🇬🇧 英国 03
+      - 🇹🇼 台湾家宽 22
+      - 🇺🇸 美国 012
+      - 🇯🇵 日本 479
+      - 🇯🇵 日本 532
+      - 🇯🇵 日本 322
+      - 🇺🇸 美国 060
+      - 🇯🇵 日本 501
+      - 🇨🇦 加拿大 30
+      - 🇯🇵 日本 006
+      - 🇺🇸 美国 065
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港家宽 12
-      - 🇭🇰 香港 21
-      - 🇹🇼 台湾家宽 50
-      - 🇹🇼 台湾家宽 16
-      - 🇭🇰 香港家宽 04
-      - 🇭🇰 香港家宽 03
-      - 🇹🇼 台湾家宽 34
-      - 🇹🇼 台湾家宽 44
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 20
+      - 🇹🇼 台湾 02
+      - 🇹🇼 台湾家宽 33
+      - 🇹🇼 台湾家宽 29
+      - 🇹🇼 台湾家宽 51
+      - 🇹🇼 台湾 12
+      - 🇭🇰 香港家宽 14
+      - 🇹🇼 台湾 03
+      - 🇹🇼 台湾家宽 10
+      - 🇭🇰 香港家宽 18
+      - 🇹🇼 台湾家宽 22
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -407,148 +816,312 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇯🇵 日本 468
-      - 🇯🇵 日本 081
-      - 🇮🇳 印度 01
-      - 🇯🇵 日本 330
-      - 🇫🇷 法国 18
-      - 🇺🇸 美国 033
-      - 🇦🇺 澳大利亚 02
-      - 🇦🇺 澳大利亚 07
-      - 🇨🇦 加拿大 20
-      - 🇯🇵 日本 033
-      - 🇯🇵 日本 224
-      - 🇯🇵 日本 082
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 547
-      - 🇭🇰 香港家宽 12
-      - 🇯🇵 日本 416
-      - 🇭🇰 香港 21
-      - 🇦🇺 澳大利亚 11
-      - 🇯🇵 日本 225
-      - 🇯🇵 日本 591
-      - 🇺🇸 美国 074
-      - 🇮🇳 印度 15
-      - 🇹🇼 台湾家宽 50
-      - 🇯🇵 日本 304
-      - 🇯🇵 日本 611
-      - 🇩🇪 德国 07
-      - 🇹🇼 台湾家宽 16
-      - 🇯🇵 日本 431
-      - 🇯🇵 日本 624
-      - 🇭🇰 香港家宽 04
-      - 🇯🇵 日本 457
-      - 🇯🇵 日本 302
-      - 🇫🇷 法国 15
-      - 🇯🇵 日本 223
-      - 🇭🇰 香港家宽 03
-      - 🇦🇺 澳大利亚 15
-      - 🇯🇵 日本 453
-      - 🇯🇵 日本 205
-      - 🇯🇵 日本 566
-      - 🇺🇸 美国 090
-      - 🇺🇸 美国 108
-      - 🇯🇵 日本 569
-      - 🇺🇸 美国 050
-      - 🇯🇵 日本 203
-      - 🇯🇵 日本 284
-      - 🇺🇸 美国 030
-      - 🇯🇵 日本 324
-      - 🇧🇷 巴西 03
-      - 🇳🇱 荷兰 06
-      - 🇯🇵 日本 303
-      - 🇺🇸 美国 097
-      - 🇯🇵 日本 494
-      - 🇩🇪 德国 24
-      - 🇺🇸 美国 114
-      - 🇹🇼 台湾家宽 34
-      - 🇩🇪 德国 11
-      - 🇯🇵 日本 166
-      - 🇩🇪 德国 21
-      - 🇺🇸 美国 037
-      - 🇯🇵 日本 478
-      - 🇫🇷 法国 04
-      - 🇹🇼 台湾家宽 44
-      - 🇹🇼 台湾 01
-      - 🇯🇵 日本 242
-      - 🇭🇰 香港 20
-      - 🇫🇷 法国 20
-      - 🇯🇵 日本 176
-      - 🇯🇵 日本 178
+      - 🇯🇵 日本 349
+      - 🇯🇵 日本 167
+      - 🇯🇵 日本 490
+      - 🇯🇵 日本 537
+      - 🇯🇵 日本 503
+      - 🇯🇵 日本 375
+      - 🇯🇵 日本 315
+      - 🇺🇸 美国 042
+      - 🇯🇵 日本 160
+      - 🇯🇵 日本 133
+      - 🇺🇸 美国 078
+      - 🇨🇦 加拿大 27
+      - 🇯🇵 日本 249
+      - 🇯🇵 日本 311
+      - 🇯🇵 日本 149
+      - 🇯🇵 日本 448
+      - 🇯🇵 日本 170
+      - 🇯🇵 日本 241
+      - 🇯🇵 日本 219
+      - 🇯🇵 日本 210
+      - 🇺🇸 美国 046
+      - 🇮🇳 印度 11
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 470
+      - 🇯🇵 日本 545
+      - 🇹🇼 台湾 02
+      - 🇮🇳 印度 12
+      - 🇯🇵 日本 130
+      - 🇯🇵 日本 421
+      - 🇯🇵 日本 275
+      - 🇯🇵 日本 235
+      - 🇹🇼 台湾家宽 33
+      - 🇯🇵 日本 579
+      - 🇯🇵 日本 422
+      - 🇯🇵 日本 473
+      - 🇯🇵 日本 616
+      - 🇯🇵 日本 148
+      - 🇹🇼 台湾家宽 29
+      - 🇯🇵 日本 396
+      - 🇯🇵 日本 239
+      - 🇯🇵 日本 630
+      - 🇯🇵 日本 280
+      - 🇯🇵 日本 202
+      - 🇯🇵 日本 626
+      - 🇯🇵 日本 144
+      - 🇺🇸 美国 073
+      - 🇯🇵 日本 601
+      - 🇯🇵 日本 258
+      - 🇯🇵 日本 509
+      - 🇨🇦 加拿大 02
+      - 🇯🇵 日本 361
+      - 🇮🇳 印度 07
+      - 🇯🇵 日本 388
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 408
+      - 🇯🇵 日本 285
+      - 🇯🇵 日本 580
+      - 🇯🇵 日本 559
+      - 🇺🇸 美国 092
+      - 🇯🇵 日本 586
+      - 🇯🇵 日本 360
+      - 🇩🇪 德国 05
+      - 🇯🇵 日本 458
+      - 🇯🇵 日本 543
+      - 🇺🇸 美国 131
+      - 🇯🇵 日本 208
+      - 🇩🇪 德国 12
+      - 🇺🇸 美国 034
+      - 🇯🇵 日本 073
+      - 🇨🇦 加拿大 21
+      - 🇹🇼 台湾家宽 51
+      - 🇹🇼 台湾 12
+      - 🇺🇸 美国 069
+      - 🇯🇵 日本 141
+      - 🇯🇵 日本 296
+      - 🇯🇵 日本 095
+      - 🇯🇵 日本 525
+      - 🇨🇦 加拿大 36
+      - 🇯🇵 日本 377
+      - 🇯🇵 日本 533
+      - 🇯🇵 日本 101
+      - 🇺🇸 美国家宽 02
+      - 🇭🇰 香港家宽 14
+      - 🇦🇺 澳大利亚 10
+      - 🇯🇵 日本 307
+      - 🇯🇵 日本 157
+      - 🇯🇵 日本 405
+      - 🇯🇵 日本 316
+      - 🇩🇪 德国 14
+      - 🇯🇵 日本 530
+      - 🇹🇼 台湾 03
+      - 🇯🇵 日本 429
+      - 🇯🇵 日本 445
+      - 🇯🇵 日本 327
+      - 🇯🇵 日本 575
+      - 🇰🇷 韩国 01
+      - 🇹🇷 土耳其 02
+      - 🇯🇵 日本 140
+      - 🇩🇪 德国 18
+      - 🇯🇵 日本 132
+      - 🇩🇪 德国 10
+      - 🇯🇵 日本 447
+      - 🇹🇼 台湾家宽 10
+      - 🇺🇸 美国 173
+      - 🇺🇸 美国 075
+      - 🇺🇸 美国 038
+      - 🇪🇸 西班牙 01
+      - 🇯🇵 日本 175
+      - 🇯🇵 日本 201
+      - 🇯🇵 日本 309
+      - 🇺🇸 美国 043
+      - 🇺🇸 美国 119
+      - 🇯🇵 日本 374
+      - 🇯🇵 日本 105
+      - 🇭🇰 香港家宽 18
+      - 🇯🇵 日本 312
+      - 🇯🇵 日本 240
+      - 🇯🇵 日本 027
+      - 🇨🇿 捷克 01
+      - 🇨🇦 加拿大 07
+      - 🇺🇸 美国 150
+      - 🇯🇵 日本 259
+      - 🇯🇵 日本 291
+      - 🇯🇵 日本 002
+      - 🇯🇵 日本 522
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 617
+      - 🇯🇵 日本 079
+      - 🇯🇵 日本 251
+      - 🇯🇵 日本 384
+      - 🇯🇵 日本 403
+      - 🇯🇵 日本 615
+      - 🇯🇵 日本 189
+      - 🇺🇸 美国 170
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 418
+      - 🇯🇵 日本 523
+      - 🇯🇵 日本 618
+      - 🇯🇵 日本 272
+      - 🇬🇧 英国 03
+      - 🇹🇼 台湾家宽 22
+      - 🇺🇸 美国 012
+      - 🇯🇵 日本 479
+      - 🇯🇵 日本 532
+      - 🇯🇵 日本 322
+      - 🇺🇸 美国 060
+      - 🇯🇵 日本 501
+      - 🇨🇦 加拿大 30
+      - 🇯🇵 日本 006
+      - 🇺🇸 美国 065
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇯🇵 日本 468
-      - 🇯🇵 日本 081
-      - 🇮🇳 印度 01
-      - 🇯🇵 日本 330
-      - 🇫🇷 法国 18
-      - 🇺🇸 美国 033
-      - 🇦🇺 澳大利亚 02
-      - 🇦🇺 澳大利亚 07
-      - 🇨🇦 加拿大 20
-      - 🇯🇵 日本 033
-      - 🇯🇵 日本 224
-      - 🇯🇵 日本 082
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 547
-      - 🇭🇰 香港家宽 12
-      - 🇯🇵 日本 416
-      - 🇭🇰 香港 21
-      - 🇦🇺 澳大利亚 11
-      - 🇯🇵 日本 225
-      - 🇯🇵 日本 591
-      - 🇺🇸 美国 074
-      - 🇮🇳 印度 15
-      - 🇹🇼 台湾家宽 50
-      - 🇯🇵 日本 304
-      - 🇯🇵 日本 611
-      - 🇩🇪 德国 07
-      - 🇹🇼 台湾家宽 16
-      - 🇯🇵 日本 431
-      - 🇯🇵 日本 624
-      - 🇭🇰 香港家宽 04
-      - 🇯🇵 日本 457
-      - 🇯🇵 日本 302
-      - 🇫🇷 法国 15
-      - 🇯🇵 日本 223
-      - 🇭🇰 香港家宽 03
-      - 🇦🇺 澳大利亚 15
-      - 🇯🇵 日本 453
-      - 🇯🇵 日本 205
-      - 🇯🇵 日本 566
-      - 🇺🇸 美国 090
-      - 🇺🇸 美国 108
-      - 🇯🇵 日本 569
-      - 🇺🇸 美国 050
-      - 🇯🇵 日本 203
-      - 🇯🇵 日本 284
-      - 🇺🇸 美国 030
-      - 🇯🇵 日本 324
-      - 🇧🇷 巴西 03
-      - 🇳🇱 荷兰 06
-      - 🇯🇵 日本 303
-      - 🇺🇸 美国 097
-      - 🇯🇵 日本 494
-      - 🇩🇪 德国 24
-      - 🇺🇸 美国 114
-      - 🇹🇼 台湾家宽 34
-      - 🇩🇪 德国 11
-      - 🇯🇵 日本 166
-      - 🇩🇪 德国 21
-      - 🇺🇸 美国 037
-      - 🇯🇵 日本 478
-      - 🇫🇷 法国 04
-      - 🇹🇼 台湾家宽 44
-      - 🇹🇼 台湾 01
-      - 🇯🇵 日本 242
-      - 🇭🇰 香港 20
-      - 🇫🇷 法国 20
-      - 🇯🇵 日本 176
-      - 🇯🇵 日本 178
+      - 🇯🇵 日本 349
+      - 🇯🇵 日本 167
+      - 🇯🇵 日本 490
+      - 🇯🇵 日本 537
+      - 🇯🇵 日本 503
+      - 🇯🇵 日本 375
+      - 🇯🇵 日本 315
+      - 🇺🇸 美国 042
+      - 🇯🇵 日本 160
+      - 🇯🇵 日本 133
+      - 🇺🇸 美国 078
+      - 🇨🇦 加拿大 27
+      - 🇯🇵 日本 249
+      - 🇯🇵 日本 311
+      - 🇯🇵 日本 149
+      - 🇯🇵 日本 448
+      - 🇯🇵 日本 170
+      - 🇯🇵 日本 241
+      - 🇯🇵 日本 219
+      - 🇯🇵 日本 210
+      - 🇺🇸 美国 046
+      - 🇮🇳 印度 11
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 470
+      - 🇯🇵 日本 545
+      - 🇹🇼 台湾 02
+      - 🇮🇳 印度 12
+      - 🇯🇵 日本 130
+      - 🇯🇵 日本 421
+      - 🇯🇵 日本 275
+      - 🇯🇵 日本 235
+      - 🇹🇼 台湾家宽 33
+      - 🇯🇵 日本 579
+      - 🇯🇵 日本 422
+      - 🇯🇵 日本 473
+      - 🇯🇵 日本 616
+      - 🇯🇵 日本 148
+      - 🇹🇼 台湾家宽 29
+      - 🇯🇵 日本 396
+      - 🇯🇵 日本 239
+      - 🇯🇵 日本 630
+      - 🇯🇵 日本 280
+      - 🇯🇵 日本 202
+      - 🇯🇵 日本 626
+      - 🇯🇵 日本 144
+      - 🇺🇸 美国 073
+      - 🇯🇵 日本 601
+      - 🇯🇵 日本 258
+      - 🇯🇵 日本 509
+      - 🇨🇦 加拿大 02
+      - 🇯🇵 日本 361
+      - 🇮🇳 印度 07
+      - 🇯🇵 日本 388
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 408
+      - 🇯🇵 日本 285
+      - 🇯🇵 日本 580
+      - 🇯🇵 日本 559
+      - 🇺🇸 美国 092
+      - 🇯🇵 日本 586
+      - 🇯🇵 日本 360
+      - 🇩🇪 德国 05
+      - 🇯🇵 日本 458
+      - 🇯🇵 日本 543
+      - 🇺🇸 美国 131
+      - 🇯🇵 日本 208
+      - 🇩🇪 德国 12
+      - 🇺🇸 美国 034
+      - 🇯🇵 日本 073
+      - 🇨🇦 加拿大 21
+      - 🇹🇼 台湾家宽 51
+      - 🇹🇼 台湾 12
+      - 🇺🇸 美国 069
+      - 🇯🇵 日本 141
+      - 🇯🇵 日本 296
+      - 🇯🇵 日本 095
+      - 🇯🇵 日本 525
+      - 🇨🇦 加拿大 36
+      - 🇯🇵 日本 377
+      - 🇯🇵 日本 533
+      - 🇯🇵 日本 101
+      - 🇺🇸 美国家宽 02
+      - 🇭🇰 香港家宽 14
+      - 🇦🇺 澳大利亚 10
+      - 🇯🇵 日本 307
+      - 🇯🇵 日本 157
+      - 🇯🇵 日本 405
+      - 🇯🇵 日本 316
+      - 🇩🇪 德国 14
+      - 🇯🇵 日本 530
+      - 🇹🇼 台湾 03
+      - 🇯🇵 日本 429
+      - 🇯🇵 日本 445
+      - 🇯🇵 日本 327
+      - 🇯🇵 日本 575
+      - 🇰🇷 韩国 01
+      - 🇹🇷 土耳其 02
+      - 🇯🇵 日本 140
+      - 🇩🇪 德国 18
+      - 🇯🇵 日本 132
+      - 🇩🇪 德国 10
+      - 🇯🇵 日本 447
+      - 🇹🇼 台湾家宽 10
+      - 🇺🇸 美国 173
+      - 🇺🇸 美国 075
+      - 🇺🇸 美国 038
+      - 🇪🇸 西班牙 01
+      - 🇯🇵 日本 175
+      - 🇯🇵 日本 201
+      - 🇯🇵 日本 309
+      - 🇺🇸 美国 043
+      - 🇺🇸 美国 119
+      - 🇯🇵 日本 374
+      - 🇯🇵 日本 105
+      - 🇭🇰 香港家宽 18
+      - 🇯🇵 日本 312
+      - 🇯🇵 日本 240
+      - 🇯🇵 日本 027
+      - 🇨🇿 捷克 01
+      - 🇨🇦 加拿大 07
+      - 🇺🇸 美国 150
+      - 🇯🇵 日本 259
+      - 🇯🇵 日本 291
+      - 🇯🇵 日本 002
+      - 🇯🇵 日本 522
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 617
+      - 🇯🇵 日本 079
+      - 🇯🇵 日本 251
+      - 🇯🇵 日本 384
+      - 🇯🇵 日本 403
+      - 🇯🇵 日本 615
+      - 🇯🇵 日本 189
+      - 🇺🇸 美国 170
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 418
+      - 🇯🇵 日本 523
+      - 🇯🇵 日本 618
+      - 🇯🇵 日本 272
+      - 🇬🇧 英国 03
+      - 🇹🇼 台湾家宽 22
+      - 🇺🇸 美国 012
+      - 🇯🇵 日本 479
+      - 🇯🇵 日本 532
+      - 🇯🇵 日本 322
+      - 🇺🇸 美国 060
+      - 🇯🇵 日本 501
+      - 🇨🇦 加拿大 30
+      - 🇯🇵 日本 006
+      - 🇺🇸 美国 065
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -556,74 +1129,156 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇯🇵 日本 468
-      - 🇯🇵 日本 081
-      - 🇮🇳 印度 01
-      - 🇯🇵 日本 330
-      - 🇫🇷 法国 18
-      - 🇺🇸 美国 033
-      - 🇦🇺 澳大利亚 02
-      - 🇦🇺 澳大利亚 07
-      - 🇨🇦 加拿大 20
-      - 🇯🇵 日本 033
-      - 🇯🇵 日本 224
-      - 🇯🇵 日本 082
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 547
-      - 🇭🇰 香港家宽 12
-      - 🇯🇵 日本 416
-      - 🇭🇰 香港 21
-      - 🇦🇺 澳大利亚 11
-      - 🇯🇵 日本 225
-      - 🇯🇵 日本 591
-      - 🇺🇸 美国 074
-      - 🇮🇳 印度 15
-      - 🇹🇼 台湾家宽 50
-      - 🇯🇵 日本 304
-      - 🇯🇵 日本 611
-      - 🇩🇪 德国 07
-      - 🇹🇼 台湾家宽 16
-      - 🇯🇵 日本 431
-      - 🇯🇵 日本 624
-      - 🇭🇰 香港家宽 04
-      - 🇯🇵 日本 457
-      - 🇯🇵 日本 302
-      - 🇫🇷 法国 15
-      - 🇯🇵 日本 223
-      - 🇭🇰 香港家宽 03
-      - 🇦🇺 澳大利亚 15
-      - 🇯🇵 日本 453
-      - 🇯🇵 日本 205
-      - 🇯🇵 日本 566
-      - 🇺🇸 美国 090
-      - 🇺🇸 美国 108
-      - 🇯🇵 日本 569
-      - 🇺🇸 美国 050
-      - 🇯🇵 日本 203
-      - 🇯🇵 日本 284
-      - 🇺🇸 美国 030
-      - 🇯🇵 日本 324
-      - 🇧🇷 巴西 03
-      - 🇳🇱 荷兰 06
-      - 🇯🇵 日本 303
-      - 🇺🇸 美国 097
-      - 🇯🇵 日本 494
-      - 🇩🇪 德国 24
-      - 🇺🇸 美国 114
-      - 🇹🇼 台湾家宽 34
-      - 🇩🇪 德国 11
-      - 🇯🇵 日本 166
-      - 🇩🇪 德国 21
-      - 🇺🇸 美国 037
-      - 🇯🇵 日本 478
-      - 🇫🇷 法国 04
-      - 🇹🇼 台湾家宽 44
-      - 🇹🇼 台湾 01
-      - 🇯🇵 日本 242
-      - 🇭🇰 香港 20
-      - 🇫🇷 法国 20
-      - 🇯🇵 日本 176
-      - 🇯🇵 日本 178
+      - 🇯🇵 日本 349
+      - 🇯🇵 日本 167
+      - 🇯🇵 日本 490
+      - 🇯🇵 日本 537
+      - 🇯🇵 日本 503
+      - 🇯🇵 日本 375
+      - 🇯🇵 日本 315
+      - 🇺🇸 美国 042
+      - 🇯🇵 日本 160
+      - 🇯🇵 日本 133
+      - 🇺🇸 美国 078
+      - 🇨🇦 加拿大 27
+      - 🇯🇵 日本 249
+      - 🇯🇵 日本 311
+      - 🇯🇵 日本 149
+      - 🇯🇵 日本 448
+      - 🇯🇵 日本 170
+      - 🇯🇵 日本 241
+      - 🇯🇵 日本 219
+      - 🇯🇵 日本 210
+      - 🇺🇸 美国 046
+      - 🇮🇳 印度 11
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 470
+      - 🇯🇵 日本 545
+      - 🇹🇼 台湾 02
+      - 🇮🇳 印度 12
+      - 🇯🇵 日本 130
+      - 🇯🇵 日本 421
+      - 🇯🇵 日本 275
+      - 🇯🇵 日本 235
+      - 🇹🇼 台湾家宽 33
+      - 🇯🇵 日本 579
+      - 🇯🇵 日本 422
+      - 🇯🇵 日本 473
+      - 🇯🇵 日本 616
+      - 🇯🇵 日本 148
+      - 🇹🇼 台湾家宽 29
+      - 🇯🇵 日本 396
+      - 🇯🇵 日本 239
+      - 🇯🇵 日本 630
+      - 🇯🇵 日本 280
+      - 🇯🇵 日本 202
+      - 🇯🇵 日本 626
+      - 🇯🇵 日本 144
+      - 🇺🇸 美国 073
+      - 🇯🇵 日本 601
+      - 🇯🇵 日本 258
+      - 🇯🇵 日本 509
+      - 🇨🇦 加拿大 02
+      - 🇯🇵 日本 361
+      - 🇮🇳 印度 07
+      - 🇯🇵 日本 388
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 408
+      - 🇯🇵 日本 285
+      - 🇯🇵 日本 580
+      - 🇯🇵 日本 559
+      - 🇺🇸 美国 092
+      - 🇯🇵 日本 586
+      - 🇯🇵 日本 360
+      - 🇩🇪 德国 05
+      - 🇯🇵 日本 458
+      - 🇯🇵 日本 543
+      - 🇺🇸 美国 131
+      - 🇯🇵 日本 208
+      - 🇩🇪 德国 12
+      - 🇺🇸 美国 034
+      - 🇯🇵 日本 073
+      - 🇨🇦 加拿大 21
+      - 🇹🇼 台湾家宽 51
+      - 🇹🇼 台湾 12
+      - 🇺🇸 美国 069
+      - 🇯🇵 日本 141
+      - 🇯🇵 日本 296
+      - 🇯🇵 日本 095
+      - 🇯🇵 日本 525
+      - 🇨🇦 加拿大 36
+      - 🇯🇵 日本 377
+      - 🇯🇵 日本 533
+      - 🇯🇵 日本 101
+      - 🇺🇸 美国家宽 02
+      - 🇭🇰 香港家宽 14
+      - 🇦🇺 澳大利亚 10
+      - 🇯🇵 日本 307
+      - 🇯🇵 日本 157
+      - 🇯🇵 日本 405
+      - 🇯🇵 日本 316
+      - 🇩🇪 德国 14
+      - 🇯🇵 日本 530
+      - 🇹🇼 台湾 03
+      - 🇯🇵 日本 429
+      - 🇯🇵 日本 445
+      - 🇯🇵 日本 327
+      - 🇯🇵 日本 575
+      - 🇰🇷 韩国 01
+      - 🇹🇷 土耳其 02
+      - 🇯🇵 日本 140
+      - 🇩🇪 德国 18
+      - 🇯🇵 日本 132
+      - 🇩🇪 德国 10
+      - 🇯🇵 日本 447
+      - 🇹🇼 台湾家宽 10
+      - 🇺🇸 美国 173
+      - 🇺🇸 美国 075
+      - 🇺🇸 美国 038
+      - 🇪🇸 西班牙 01
+      - 🇯🇵 日本 175
+      - 🇯🇵 日本 201
+      - 🇯🇵 日本 309
+      - 🇺🇸 美国 043
+      - 🇺🇸 美国 119
+      - 🇯🇵 日本 374
+      - 🇯🇵 日本 105
+      - 🇭🇰 香港家宽 18
+      - 🇯🇵 日本 312
+      - 🇯🇵 日本 240
+      - 🇯🇵 日本 027
+      - 🇨🇿 捷克 01
+      - 🇨🇦 加拿大 07
+      - 🇺🇸 美国 150
+      - 🇯🇵 日本 259
+      - 🇯🇵 日本 291
+      - 🇯🇵 日本 002
+      - 🇯🇵 日本 522
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 617
+      - 🇯🇵 日本 079
+      - 🇯🇵 日本 251
+      - 🇯🇵 日本 384
+      - 🇯🇵 日本 403
+      - 🇯🇵 日本 615
+      - 🇯🇵 日本 189
+      - 🇺🇸 美国 170
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 418
+      - 🇯🇵 日本 523
+      - 🇯🇵 日本 618
+      - 🇯🇵 日本 272
+      - 🇬🇧 英国 03
+      - 🇹🇼 台湾家宽 22
+      - 🇺🇸 美国 012
+      - 🇯🇵 日本 479
+      - 🇯🇵 日本 532
+      - 🇯🇵 日本 322
+      - 🇺🇸 美国 060
+      - 🇯🇵 日本 501
+      - 🇨🇦 加拿大 30
+      - 🇯🇵 日本 006
+      - 🇺🇸 美国 065
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -640,74 +1295,156 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇯🇵 日本 468
-      - 🇯🇵 日本 081
-      - 🇮🇳 印度 01
-      - 🇯🇵 日本 330
-      - 🇫🇷 法国 18
-      - 🇺🇸 美国 033
-      - 🇦🇺 澳大利亚 02
-      - 🇦🇺 澳大利亚 07
-      - 🇨🇦 加拿大 20
-      - 🇯🇵 日本 033
-      - 🇯🇵 日本 224
-      - 🇯🇵 日本 082
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 547
-      - 🇭🇰 香港家宽 12
-      - 🇯🇵 日本 416
-      - 🇭🇰 香港 21
-      - 🇦🇺 澳大利亚 11
-      - 🇯🇵 日本 225
-      - 🇯🇵 日本 591
-      - 🇺🇸 美国 074
-      - 🇮🇳 印度 15
-      - 🇹🇼 台湾家宽 50
-      - 🇯🇵 日本 304
-      - 🇯🇵 日本 611
-      - 🇩🇪 德国 07
-      - 🇹🇼 台湾家宽 16
-      - 🇯🇵 日本 431
-      - 🇯🇵 日本 624
-      - 🇭🇰 香港家宽 04
-      - 🇯🇵 日本 457
-      - 🇯🇵 日本 302
-      - 🇫🇷 法国 15
-      - 🇯🇵 日本 223
-      - 🇭🇰 香港家宽 03
-      - 🇦🇺 澳大利亚 15
-      - 🇯🇵 日本 453
-      - 🇯🇵 日本 205
-      - 🇯🇵 日本 566
-      - 🇺🇸 美国 090
-      - 🇺🇸 美国 108
-      - 🇯🇵 日本 569
-      - 🇺🇸 美国 050
-      - 🇯🇵 日本 203
-      - 🇯🇵 日本 284
-      - 🇺🇸 美国 030
-      - 🇯🇵 日本 324
-      - 🇧🇷 巴西 03
-      - 🇳🇱 荷兰 06
-      - 🇯🇵 日本 303
-      - 🇺🇸 美国 097
-      - 🇯🇵 日本 494
-      - 🇩🇪 德国 24
-      - 🇺🇸 美国 114
-      - 🇹🇼 台湾家宽 34
-      - 🇩🇪 德国 11
-      - 🇯🇵 日本 166
-      - 🇩🇪 德国 21
-      - 🇺🇸 美国 037
-      - 🇯🇵 日本 478
-      - 🇫🇷 法国 04
-      - 🇹🇼 台湾家宽 44
-      - 🇹🇼 台湾 01
-      - 🇯🇵 日本 242
-      - 🇭🇰 香港 20
-      - 🇫🇷 法国 20
-      - 🇯🇵 日本 176
-      - 🇯🇵 日本 178
+      - 🇯🇵 日本 349
+      - 🇯🇵 日本 167
+      - 🇯🇵 日本 490
+      - 🇯🇵 日本 537
+      - 🇯🇵 日本 503
+      - 🇯🇵 日本 375
+      - 🇯🇵 日本 315
+      - 🇺🇸 美国 042
+      - 🇯🇵 日本 160
+      - 🇯🇵 日本 133
+      - 🇺🇸 美国 078
+      - 🇨🇦 加拿大 27
+      - 🇯🇵 日本 249
+      - 🇯🇵 日本 311
+      - 🇯🇵 日本 149
+      - 🇯🇵 日本 448
+      - 🇯🇵 日本 170
+      - 🇯🇵 日本 241
+      - 🇯🇵 日本 219
+      - 🇯🇵 日本 210
+      - 🇺🇸 美国 046
+      - 🇮🇳 印度 11
+      - 🇯🇵 日本 022
+      - 🇯🇵 日本 470
+      - 🇯🇵 日本 545
+      - 🇹🇼 台湾 02
+      - 🇮🇳 印度 12
+      - 🇯🇵 日本 130
+      - 🇯🇵 日本 421
+      - 🇯🇵 日本 275
+      - 🇯🇵 日本 235
+      - 🇹🇼 台湾家宽 33
+      - 🇯🇵 日本 579
+      - 🇯🇵 日本 422
+      - 🇯🇵 日本 473
+      - 🇯🇵 日本 616
+      - 🇯🇵 日本 148
+      - 🇹🇼 台湾家宽 29
+      - 🇯🇵 日本 396
+      - 🇯🇵 日本 239
+      - 🇯🇵 日本 630
+      - 🇯🇵 日本 280
+      - 🇯🇵 日本 202
+      - 🇯🇵 日本 626
+      - 🇯🇵 日本 144
+      - 🇺🇸 美国 073
+      - 🇯🇵 日本 601
+      - 🇯🇵 日本 258
+      - 🇯🇵 日本 509
+      - 🇨🇦 加拿大 02
+      - 🇯🇵 日本 361
+      - 🇮🇳 印度 07
+      - 🇯🇵 日本 388
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 408
+      - 🇯🇵 日本 285
+      - 🇯🇵 日本 580
+      - 🇯🇵 日本 559
+      - 🇺🇸 美国 092
+      - 🇯🇵 日本 586
+      - 🇯🇵 日本 360
+      - 🇩🇪 德国 05
+      - 🇯🇵 日本 458
+      - 🇯🇵 日本 543
+      - 🇺🇸 美国 131
+      - 🇯🇵 日本 208
+      - 🇩🇪 德国 12
+      - 🇺🇸 美国 034
+      - 🇯🇵 日本 073
+      - 🇨🇦 加拿大 21
+      - 🇹🇼 台湾家宽 51
+      - 🇹🇼 台湾 12
+      - 🇺🇸 美国 069
+      - 🇯🇵 日本 141
+      - 🇯🇵 日本 296
+      - 🇯🇵 日本 095
+      - 🇯🇵 日本 525
+      - 🇨🇦 加拿大 36
+      - 🇯🇵 日本 377
+      - 🇯🇵 日本 533
+      - 🇯🇵 日本 101
+      - 🇺🇸 美国家宽 02
+      - 🇭🇰 香港家宽 14
+      - 🇦🇺 澳大利亚 10
+      - 🇯🇵 日本 307
+      - 🇯🇵 日本 157
+      - 🇯🇵 日本 405
+      - 🇯🇵 日本 316
+      - 🇩🇪 德国 14
+      - 🇯🇵 日本 530
+      - 🇹🇼 台湾 03
+      - 🇯🇵 日本 429
+      - 🇯🇵 日本 445
+      - 🇯🇵 日本 327
+      - 🇯🇵 日本 575
+      - 🇰🇷 韩国 01
+      - 🇹🇷 土耳其 02
+      - 🇯🇵 日本 140
+      - 🇩🇪 德国 18
+      - 🇯🇵 日本 132
+      - 🇩🇪 德国 10
+      - 🇯🇵 日本 447
+      - 🇹🇼 台湾家宽 10
+      - 🇺🇸 美国 173
+      - 🇺🇸 美国 075
+      - 🇺🇸 美国 038
+      - 🇪🇸 西班牙 01
+      - 🇯🇵 日本 175
+      - 🇯🇵 日本 201
+      - 🇯🇵 日本 309
+      - 🇺🇸 美国 043
+      - 🇺🇸 美国 119
+      - 🇯🇵 日本 374
+      - 🇯🇵 日本 105
+      - 🇭🇰 香港家宽 18
+      - 🇯🇵 日本 312
+      - 🇯🇵 日本 240
+      - 🇯🇵 日本 027
+      - 🇨🇿 捷克 01
+      - 🇨🇦 加拿大 07
+      - 🇺🇸 美国 150
+      - 🇯🇵 日本 259
+      - 🇯🇵 日本 291
+      - 🇯🇵 日本 002
+      - 🇯🇵 日本 522
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 617
+      - 🇯🇵 日本 079
+      - 🇯🇵 日本 251
+      - 🇯🇵 日本 384
+      - 🇯🇵 日本 403
+      - 🇯🇵 日本 615
+      - 🇯🇵 日本 189
+      - 🇺🇸 美国 170
+      - 🇯🇵 日本 020
+      - 🇯🇵 日本 418
+      - 🇯🇵 日本 523
+      - 🇯🇵 日本 618
+      - 🇯🇵 日本 272
+      - 🇬🇧 英国 03
+      - 🇹🇼 台湾家宽 22
+      - 🇺🇸 美国 012
+      - 🇯🇵 日本 479
+      - 🇯🇵 日本 532
+      - 🇯🇵 日本 322
+      - 🇺🇸 美国 060
+      - 🇯🇵 日本 501
+      - 🇨🇦 加拿大 30
+      - 🇯🇵 日本 006
+      - 🇺🇸 美国 065
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
